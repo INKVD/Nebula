@@ -1,18 +1,31 @@
 /obj/turbolift_map_holder/fairpoint
 	depth = 2
-	lift_size_x = 3
-	lift_size_y = 3
+	lift_size_x = 4
+	lift_size_y = 4
 
 // POLICE STATION
 /obj/turbolift_map_holder/fairpoint/sec
 	name = "Fairpoint turbolift map placeholder - Security"
-	dir = EAST
+	dir = SOUTH
 
 	areas_to_use = list(
 		/area/turbolift/pd_ground,
 		/area/turbolift/pd_top
 		)
 
+// MINI-MALL
+/obj/turbolift_map_holder/fairpoint/mall
+	name = "Fairpoint turbolift map placeholder - Mall"
+	dir = EAST
+	lift_size_x = 3
+	lift_size_y = 3
+
+	areas_to_use = list(
+		/area/turbolift/mall_ground,
+		/area/turbolift/mall_top
+		)
+
+// HOSPITAL
 /obj/turbolift_map_holder/fairpoint/hospital
 	name = "Fairpoint turbolift map placeholder - Hospital"
 	dir = NORTH
@@ -44,7 +57,7 @@
 // METRO
 /obj/turbolift_map_holder/fairpoint/metro
 	name = "Fairpoint turbolift map placeholder - Metro Entrance"
-	dir = WEST
+	dir = EAST
 
 	areas_to_use = list(
 		/area/turbolift/metro_maintenance,

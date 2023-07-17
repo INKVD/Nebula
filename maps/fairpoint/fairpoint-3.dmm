@@ -74,11 +74,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/turbolift/pd_top)
-"aS" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/exterior/open,
-/area/fairpoint/street)
+/area/fairpoint/police)
 "aX" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/filingcabinet/filingcabinet,
@@ -104,8 +100,7 @@
 /area/fairpoint/police)
 "bg" = (
 /obj/machinery/door/airlock/security{
-	name = "Detective";
-	req_access = list(4)
+	name = "Detective"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/fairpoint/police/detectives_office)
@@ -129,11 +124,6 @@
 /obj/structure/window/reinforced/polarized/full,
 /turf/simulated/floor/wood,
 /area/fairpoint/medical/psych)
-"bv" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/exterior/wall,
-/area/fairpoint/street)
 "by" = (
 /turf/simulated/wall/r_wall,
 /area/fairpoint/turret_protected/ai_server_room)
@@ -266,6 +256,8 @@
 	dir = 9
 	},
 /obj/item/storage/laundry_basket,
+/obj/item/clothing/suit/storage/toggle/brown_jacket/police,
+/obj/item/clothing/suit/storage/toggle/brown_jacket/police,
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/vacantoffice)
 "cy" = (
@@ -335,7 +327,6 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{
 	dir = 1
 	},
-/obj/effect/wingrille_spawn/reinforced_borosilicate,
 /turf/simulated/floor,
 /area/fairpoint/turret_protected/ai_server_room)
 "di" = (
@@ -345,10 +336,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_wing)
-"dj" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/reinforced,
-/area/fairpoint/street)
 "dn" = (
 /obj/effect/floor_decal/carpet/blue2,
 /obj/effect/floor_decal/carpet/blue2{
@@ -428,6 +415,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "ef" = (
@@ -513,7 +502,8 @@
 /area/fairpoint/police/prison)
 "eC" = (
 /obj/structure/ladder,
-/turf/simulated/floor/tiled,
+/obj/structure/lattice,
+/turf/simulated/open,
 /area/fairpoint/cityhall)
 "eE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
@@ -536,8 +526,7 @@
 "eK" = (
 /obj/machinery/door/airlock/command{
 	id_tag = "captaindoor";
-	name = "Mayor's Car Park";
-	req_access = list(20)
+	name = "Mayor's Car Park"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/fairpoint/cityhall)
@@ -621,8 +610,7 @@
 /obj/item/storage/box/ammo/beanbags,
 /obj/item/storage/box/ammo/beanbags,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
@@ -658,8 +646,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/cop)
 "fO" = (
-/obj/machinery/door/blast/shutters/open,
 /obj/effect/wingrille_spawn/reinforced,
+/obj/machinery/door/blast/shutters/open,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/cop)
 "fQ" = (
@@ -728,8 +716,7 @@
 /area/fairpoint/police/main)
 "gu" = (
 /obj/machinery/door/window/brigdoor/southleft{
-	name = "Chief of Police";
-	req_access = list(58)
+	name = "Chief of Police"
 	},
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/police/cop)
@@ -755,7 +742,7 @@
 /area/fairpoint/medical/biostorage)
 "gy" = (
 /obj/machinery/porta_turret,
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/police/prison)
 "gA" = (
 /obj/machinery/recharger/wallcharger,
@@ -802,12 +789,10 @@
 /area/fairpoint/police/warden)
 "gN" = (
 /obj/effect/floor_decal/corner/paleblue{
-	dir = 8
+	dir = 1
 	},
-/obj/effect/floor_decal/industrial/warning/dust,
-/obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/white,
-/area/turbolift/hospital_top)
+/area/fairpoint/medical/medbay)
 "gP" = (
 /turf/simulated/floor/tiled/monotile,
 /area/fairpoint/street)
@@ -824,7 +809,6 @@
 /turf/simulated/floor/greengrid,
 /area/fairpoint/turret_protected/ai_server_room)
 "gX" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/glass/security,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/prison/dorm)
@@ -933,7 +917,7 @@
 /turf/simulated/wall/prepainted{
 	color = "FFFEFD"
 	},
-/area/turbolift/hospital_top)
+/area/fairpoint/medical/medbay)
 "hW" = (
 /turf/simulated/wall/r_wall,
 /area/fairpoint/police/vacantoffice)
@@ -944,6 +928,12 @@
 /area/fairpoint/medical/cmo)
 "ia" = (
 /obj/structure/bookcase/manuals/medical,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
 "ie" = (
@@ -1082,8 +1072,7 @@
 "jh" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -1111,8 +1100,7 @@
 /area/fairpoint/police)
 "js" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Secure Armoury Section";
-	req_access = list(3)
+	name = "Secure Armoury Section"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
@@ -1151,8 +1139,7 @@
 /area/fairpoint/police/vacantoffice)
 "jG" = (
 /obj/machinery/door/window/southright{
-	name = "private area access";
-	req_access = list(20)
+	name = "private area access"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/cityhall)
@@ -1201,7 +1188,7 @@
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Prison Courtyard West"
 	},
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/police/prison)
 "jX" = (
 /obj/effect/wingrille_spawn/reinforced,
@@ -1282,11 +1269,8 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
 	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
 /turf/simulated/floor/tiled/dark,
-/area/turbolift/pd_top)
+/area/fairpoint/police)
 "kN" = (
 /turf/simulated/wall/r_wall,
 /area/fairpoint/maintenance/telecomms)
@@ -1348,11 +1332,6 @@
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/prison)
 "lm" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
 /obj/structure/filingcabinet,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/warden)
@@ -1397,9 +1376,7 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cmo)
 "lx" = (
-/obj/machinery/door/airlock/hatch{
-	req_access = list(53)
-	},
+/obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/greengrid,
 /area/fairpoint/maintenance/telecomms)
 "lB" = (
@@ -1414,8 +1391,7 @@
 	},
 /obj/machinery/door/window/brigdoor/southleft{
 	dir = 1;
-	name = "Laser Armor";
-	req_access = list(1)
+	name = "Laser Armor"
 	},
 /obj/structure/rack,
 /obj/item/clothing/head/helmet/ablative,
@@ -1431,6 +1407,9 @@
 "lH" = (
 /obj/structure/bookcase{
 	name = "bookcase (Fiction)"
+	},
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
@@ -1449,7 +1428,7 @@
 /obj/item/rig/ce/equipped,
 /obj/item/clothing/mask/gas/half,
 /obj/item/tank/oxygen/yellow,
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/engineering/ce)
 "lX" = (
 /obj/structure/bed/sofa,
@@ -1542,15 +1521,6 @@
 /obj/machinery/telecomms/server/presets/science,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/maintenance/telecomms)
-"mz" = (
-/obj/effect/floor_decal/corner/blue/diagonal,
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/fairpoint/police/brig/interrogation)
 "mA" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 10
@@ -1637,14 +1607,6 @@
 /obj/item/taperecorder,
 /turf/simulated/floor/carpet/blue2,
 /area/fairpoint/police/cop)
-"nn" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled/dark,
-/area/fairpoint/police/prison)
 "np" = (
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/grey{
@@ -1684,9 +1646,7 @@
 /area/fairpoint/police/detectives_office)
 "nD" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/westleft{
-	req_access = list(39)
-	},
+/obj/machinery/door/window/westleft,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_a)
 "nE" = (
@@ -1708,6 +1668,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "nG" = (
@@ -1748,7 +1710,7 @@
 "oj" = (
 /obj/structure/sign/warning/fall,
 /turf/simulated/wall/elevator,
-/area/turbolift/pd_top)
+/area/fairpoint/police)
 "ok" = (
 /obj/structure/table/woodentable/maple,
 /turf/simulated/floor/wood/bamboo,
@@ -1796,10 +1758,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/vacantoffice)
-"ox" = (
-/obj/structure/sign/warning/fall,
-/turf/simulated/wall/walnut,
-/area/fairpoint/street/outskirts)
 "oy" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/machinery/hologram/holopad,
@@ -1815,9 +1773,7 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
 "oI" = (
-/obj/machinery/door/airlock/security{
-	req_access = list(1)
-	},
+/obj/machinery/door/airlock/security,
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/detectives_office)
 "oK" = (
@@ -1949,13 +1905,6 @@
 /obj/machinery/smartfridge/secure/medbay,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/biostorage)
-"qb" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet{
-	name = "Evidence Closet"
-	},
-/turf/simulated/floor/reinforced,
-/area/fairpoint/police/cop)
 "qe" = (
 /obj/structure/table/reinforced,
 /obj/item/taperecorder,
@@ -1985,6 +1934,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "qi" = (
@@ -2016,8 +1967,7 @@
 /area/fairpoint/police/detectives_office)
 "qv" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Secure Armoury Section";
-	req_access = list(3)
+	name = "Secure Armoury Section"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/tactical)
@@ -2057,12 +2007,10 @@
 "qH" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/eastleft{
-	name = "Warden's Desk";
-	req_access = list(1)
+	name = "Warden's Desk"
 	},
 /obj/machinery/door/window/westright{
-	name = "Warden's Desk";
-	req_access = list(1)
+	name = "Warden's Desk"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/warden)
@@ -2087,17 +2035,12 @@
 "qT" = (
 /obj/structure/window/borosilicate_reinforced,
 /obj/structure/sealant_injector,
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/engineering/ce)
 "qU" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Prison Courtyard East";
 	dir = 9
-	},
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
 	},
 /obj/structure/table/reinforced,
 /obj/item/storage/box/gloves,
@@ -2151,8 +2094,7 @@
 /obj/item/storage/box/ammo/shotgunammo,
 /obj/item/storage/box/ammo/shotgunammo,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
@@ -2177,8 +2119,7 @@
 	dir = 8
 	},
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /obj/item/ammo_casing/rifle,
 /obj/item/ammo_casing/rifle,
@@ -2253,11 +2194,6 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/detectives_office)
 "rX" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
 /obj/structure/window/reinforced{
 	dir = 1;
 	health = 1e+006
@@ -2277,11 +2213,13 @@
 /obj/item/storage/box/teargas,
 /obj/item/storage/box/teargas,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Weapons locker";
-	req_access = list(2)
+	name = "Weapons locker"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/tactical)
+"sg" = (
+/turf/simulated/wall/elevator,
+/area/fairpoint/police)
 "sh" = (
 /obj/structure/window/reinforced{
 	health = 1e+006
@@ -2291,8 +2229,7 @@
 /obj/item/storage/box/ammo/shotgunshells,
 /obj/item/storage/box/ammo/shotgunshells,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
@@ -2301,16 +2238,8 @@
 /turf/simulated/floor,
 /area/fairpoint/medical/medbay)
 "sr" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/machinery/door/airlock/glass/engineering,
 /obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/turret_protected/ai_server_room)
 "st" = (
@@ -2325,6 +2254,12 @@
 /obj/machinery/network/relay/long_range,
 /turf/simulated/floor/bluegrid,
 /area/fairpoint/maintenance/telecomms)
+"sL" = (
+/obj/effect/floor_decal/corner/paleblue,
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "sM" = (
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/tiled/dark,
@@ -2346,17 +2281,8 @@
 /obj/item/clothing/mask/muzzle,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/prison)
-"tl" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/reinforced,
-/area/fairpoint/police/cop)
 "tq" = (
 /obj/effect/wallframe_spawn/reinforced,
-/obj/effect/wingrille_spawn/reinforced_borosilicate,
 /turf/simulated/floor,
 /area/fairpoint/turret_protected/ai_server_room)
 "tr" = (
@@ -2393,6 +2319,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "tB" = (
@@ -2409,8 +2337,11 @@
 /obj/item/storage/toolbox/mechanical,
 /obj/item/storage/toolbox/electrical,
 /obj/structure/table/reinforced,
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/engineering/ce)
+"tG" = (
+/turf/simulated/open,
+/area/fairpoint/crew_quarters/bar)
 "tL" = (
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/street)
@@ -2485,16 +2416,9 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_b)
-"uu" = (
-/obj/machinery/power/apc{
-	name = "south bump";
-	pixel_y = -24
-	},
-/turf/simulated/floor/wood/ebony,
-/area/fairpoint/police/cop)
 "uA" = (
 /obj/machinery/porta_turret,
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/police/armoury)
 "uB" = (
 /obj/effect/floor_decal/corner/red{
@@ -2516,7 +2440,6 @@
 "uE" = (
 /obj/structure/closet/secure_closet/detective,
 /obj/item/clothing/accessory/badge,
-/obj/item/clothing/accessory/badge,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
@@ -2528,6 +2451,10 @@
 /obj/item/clothing/suit/armor/pcarrier/detective,
 /obj/item/clothing/accessory/armor/plate/medium,
 /obj/item/clothing/head/helmet,
+/obj/item/clothing/under/security/pddetective,
+/obj/item/clothing/head/soft/sec/policedetective,
+/obj/item/clothing/head/soft/sec/police/detectiveballcap,
+/obj/item/clothing/head/soft/sec/policedetective,
 /turf/simulated/floor/carpet,
 /area/fairpoint/police/detectives_office)
 "uF" = (
@@ -2616,11 +2543,6 @@
 /area/fairpoint/police)
 "vy" = (
 /obj/structure/table/reinforced,
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/detectives_office)
 "vA" = (
@@ -2643,7 +2565,7 @@
 /area/fairpoint/police/vacantoffice)
 "vN" = (
 /obj/structure/window/borosilicate_reinforced,
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/engineering/ce)
 "vP" = (
 /turf/simulated/floor/tiled/dark,
@@ -2676,10 +2598,13 @@
 /area/fairpoint/police)
 "vW" = (
 /obj/structure/coatrack,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
 "vX" = (
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/police/armoury)
 "wa" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -2693,8 +2618,7 @@
 	},
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/closet/wardrobe/tactical,
 /turf/simulated/floor/tiled/techfloor,
@@ -2712,7 +2636,7 @@
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Prison Courtyard West"
 	},
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/police/cop)
 "wl" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
@@ -2731,7 +2655,7 @@
 "wr" = (
 /obj/structure/sign/warning,
 /turf/simulated/wall/elevator,
-/area/turbolift/pd_top)
+/area/fairpoint/police)
 "wv" = (
 /obj/machinery/computer/modular/preset/engineering,
 /turf/simulated/floor/tiled/steel_grid,
@@ -2841,11 +2765,6 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cmo)
 "xb" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -2950,22 +2869,20 @@
 /area/fairpoint/police/vacantoffice)
 "xL" = (
 /obj/machinery/door/airlock/security{
-	name = "Interrogation Observation";
-	req_access = list(63)
+	name = "Interrogation Observation"
 	},
 /obj/effect/floor_decal/corner/blue/diagonal,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/fairpoint/police/brig/interrogation)
 "xM" = (
 /obj/machinery/door/window/southleft,
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/engineering/ce)
 "xP" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 10
+/obj/structure/sign/warning/fall,
+/turf/simulated/wall/prepainted{
+	color = "FFFEFD"
 	},
-/obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
 "xS" = (
 /obj/structure/table/woodentable/walnut,
@@ -3075,6 +2992,12 @@
 	},
 /turf/simulated/floor/carpet/blue,
 /area/fairpoint/police/detectives_office)
+"zk" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "zm" = (
 /turf/simulated/wall/concrete,
 /area/fairpoint/police/detectives_office)
@@ -3131,7 +3054,6 @@
 "zL" = (
 /obj/structure/closet/secure_closet/detective,
 /obj/item/clothing/accessory/badge,
-/obj/item/clothing/accessory/badge,
 /obj/structure/window/reinforced{
 	dir = 8;
 	health = 1e+006
@@ -3144,6 +3066,10 @@
 /obj/item/clothing/suit/armor/pcarrier/detective,
 /obj/item/clothing/accessory/armor/plate/medium,
 /obj/item/clothing/head/helmet,
+/obj/item/clothing/under/security/pddetective,
+/obj/item/clothing/head/soft/sec/policedetective,
+/obj/item/clothing/head/soft/sec/police/detectiveballcap,
+/obj/item/clothing/head/soft/sec/policedetective,
 /turf/simulated/floor/carpet,
 /area/fairpoint/police/detectives_office)
 "zM" = (
@@ -3176,12 +3102,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/turret_protected/ai_server_room)
-"zY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/padded,
-/obj/structure/curtain/open/bed,
-/turf/simulated/floor/tiled/dark,
-/area/fairpoint/police/prison/dorm)
 "zZ" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -3268,7 +3188,7 @@
 /area/fairpoint/maintenance/telecomms)
 "AV" = (
 /obj/machinery/porta_turret,
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/police/cop)
 "AW" = (
 /obj/effect/floor_decal/corner/grey{
@@ -3309,7 +3229,7 @@
 /turf/simulated/floor/carpet/blue2,
 /area/fairpoint/police/cop)
 "Bi" = (
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/police/prison)
 "Bj" = (
 /obj/structure/table/reinforced,
@@ -3353,8 +3273,7 @@
 "BD" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -3377,8 +3296,7 @@
 /area/fairpoint/medical/biostorage)
 "BH" = (
 /obj/machinery/door/airlock/security{
-	name = "Interrogation Room";
-	req_access = list(1)
+	name = "Interrogation Room"
 	},
 /obj/effect/floor_decal/corner/blue/diagonal,
 /turf/simulated/floor/tiled/techfloor,
@@ -3481,7 +3399,7 @@
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/police/cop)
 "Cp" = (
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/engineering/ce)
 "Cq" = (
 /obj/machinery/door/blast/shutters{
@@ -3543,7 +3461,7 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/psych)
 "CM" = (
-/turf/simulated/open,
+/turf/unsimulated/mask,
 /area/turbolift/pd_top)
 "CQ" = (
 /turf/simulated/floor/tiled/steel_ridged,
@@ -3570,6 +3488,13 @@
 "Dh" = (
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_c)
+"Dm" = (
+/obj/abstract/map_data{
+	height = 3
+	},
+/obj/abstract/level_data/main_level,
+/turf/simulated/wall/concrete,
+/area/fairpoint/street/outskirts)
 "Dn" = (
 /obj/structure/sign/warning/secure_area,
 /turf/simulated/wall/r_wall,
@@ -3582,6 +3507,14 @@
 /obj/structure/noticeboard,
 /turf/simulated/wall/r_wall,
 /area/fairpoint/police/cop)
+"Dz" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "DC" = (
 /obj/structure/table/reinforced,
 /obj/machinery/photocopier/faxmachine,
@@ -3659,10 +3592,25 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/exam_room)
+"Ee" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "Ef" = (
 /obj/machinery/telecomms/bus/preset_two,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/maintenance/telecomms)
+"Er" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "Es" = (
 /obj/structure/window/reinforced{
 	health = 1e+006
@@ -3691,10 +3639,6 @@
 /obj/item/storage/firstaid,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/biostorage)
-"Ez" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/reinforced,
-/area/fairpoint/police/cop)
 "EA" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
@@ -3703,14 +3647,6 @@
 /obj/structure/hygiene/shower,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/vacantoffice)
-"EC" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/fairpoint/police/armoury)
 "ED" = (
 /obj/machinery/network/mainframe/software,
 /turf/simulated/floor/blackgrid,
@@ -3721,8 +3657,7 @@
 "EF" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -3800,11 +3735,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/fairpoint/police/main)
 "Fo" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
 /obj/structure/table/reinforced,
 /obj/item/clothing/accessory/armor/helmcover/blue,
 /obj/item/clothing/accessory/armor/helmcover/blue,
@@ -3836,8 +3766,7 @@
 	},
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/rack,
 /obj/item/gun/projectile/shotgun/pump,
@@ -4011,8 +3940,7 @@
 /obj/item/storage/box/ammo/stunshells,
 /obj/item/storage/box/ammo/stunshells,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /obj/item/ammo_magazine/shotholder/stun,
 /obj/item/ammo_magazine/shotholder/stun,
@@ -4087,7 +4015,7 @@
 /area/fairpoint/police/cop)
 "Hl" = (
 /obj/machinery/door/window/southright,
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/engineering/ce)
 "Hm" = (
 /obj/effect/floor_decal/corner/paleblue/full{
@@ -4108,7 +4036,7 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cmo)
 "Hp" = (
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/police/cop)
 "Hs" = (
 /obj/structure/window/reinforced{
@@ -4127,9 +4055,6 @@
 "HG" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
 /turf/simulated/floor,
 /area/fairpoint/turret_protected/ai_server_room)
 "HN" = (
@@ -4194,11 +4119,6 @@
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Brig Starboard";
 	dir = 9
-	},
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
@@ -4321,14 +4241,6 @@
 /obj/item/storage/box/armband/med,
 /turf/simulated/floor/tiled,
 /area/fairpoint/medical/biostorage)
-"Ji" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/wall/elevator,
-/area/turbolift/pd_top)
 "Jj" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -4362,8 +4274,7 @@
 	dir = 8
 	},
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /obj/item/ammo_magazine/smg,
 /obj/item/ammo_magazine/smg,
@@ -4399,6 +4310,9 @@
 /obj/item/clothing/accessory/armor/plate/medium,
 /obj/item/clothing/accessory/armor/tag/hos,
 /obj/item/clothing/suit/armor/pcarrier/tactical,
+/obj/item/clothing/under/head_of_security/pdchief,
+/obj/item/clothing/head/soft/sec/police/chiefballcap,
+/obj/item/clothing/head/soft/sec/policechief,
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/police/cop)
 "JO" = (
@@ -4421,6 +4335,9 @@
 /obj/item/clothing/accessory/armor/plate/tactical,
 /obj/item/clothing/accessory/armor/tag,
 /obj/item/telebaton,
+/obj/item/clothing/under/warden/pdsergeant,
+/obj/item/clothing/head/soft/sec/police/sergeantballcap,
+/obj/item/clothing/head/soft/sec/policesergeant,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/warden)
 "JS" = (
@@ -4449,10 +4366,6 @@
 	},
 /turf/simulated/floor/lino,
 /area/fairpoint/police/detectives_office)
-"JY" = (
-/obj/effect/floor_decal/industrial/warning/dust,
-/turf/simulated/floor/tiled/white,
-/area/turbolift/hospital_top)
 "Ka" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 1
@@ -4684,18 +4597,11 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/prison/dorm)
 "Mo" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/reinforced,
-/area/fairpoint/street)
+/turf/unsimulated/mask,
+/area/turbolift/mall_top)
 "Mr" = (
 /obj/structure/bed/chair/office/light{
 	tag = "icon-officechair_white (WEST)";
@@ -4908,24 +4814,12 @@
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/lino,
 /area/fairpoint/police/detectives_office)
-"NZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/exterior/open,
-/area/fairpoint/street)
 "Om" = (
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/vacantoffice)
 "Oo" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 5
-	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/obj/structure/lift/button/standalone,
-/turf/simulated/floor/tiled/dark,
-/area/turbolift/pd_top)
+/turf/simulated/wall/elevator,
+/area/fairpoint/police/cop)
 "Or" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/monotile,
@@ -4935,10 +4829,6 @@
 /obj/item/sticky_pad/random,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/warden)
-"OF" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/exterior/wall,
-/area/fairpoint/street)
 "OG" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -5026,7 +4916,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/fairpoint/engineering/sysadmin)
 "Pw" = (
-/turf/simulated/open,
+/turf/unsimulated/mask,
 /area/turbolift/hospital_top)
 "Py" = (
 /turf/simulated/floor/tiled/white,
@@ -5055,6 +4945,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "PD" = (
@@ -5078,11 +4970,8 @@
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
 	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
 /turf/simulated/floor/tiled/dark,
-/area/turbolift/pd_top)
+/area/fairpoint/police)
 "PL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 9
@@ -5123,8 +5012,7 @@
 "Qg" = (
 /obj/machinery/door/window/southright{
 	dir = 1;
-	name = "Virology Isolation Room Three";
-	req_access = list(39)
+	name = "Virology Isolation Room Three"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_wing)
@@ -5163,16 +5051,18 @@
 /turf/simulated/floor/carpet/blue2,
 /area/fairpoint/police/cop)
 "QJ" = (
-/obj/structure/sign/warning/fall,
-/turf/simulated/wall/prepainted{
-	color = "FFFEFD"
-	},
-/area/fairpoint/medical/exam_room)
+/obj/effect/floor_decal/industrial/warning/dust,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "QL" = (
 /turf/simulated/wall/prepainted{
 	color = "FFFEFD"
 	},
 /area/fairpoint/medical/patient_wing)
+"QN" = (
+/obj/effect/floor_decal/corner/paleblue,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "QO" = (
 /obj/effect/floor_decal/carpet/blue2{
 	dir = 4
@@ -5260,6 +5150,13 @@
 "Rv" = (
 /turf/simulated/wall/r_wall,
 /area/fairpoint/police/prison/dorm)
+"Rx" = (
+/obj/effect/floor_decal/corner/paleblue{
+	tag = "icon-corner_white (NORTH)";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "RA" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
@@ -5279,6 +5176,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "RC" = (
@@ -5315,7 +5214,7 @@
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/detectives_office)
 "RT" = (
-/turf/exterior/open,
+/turf/simulated/open,
 /area/fairpoint/medical/medbay)
 "RW" = (
 /obj/structure/bed/chair/armchair/lime{
@@ -5342,9 +5241,6 @@
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cmo)
-"Sq" = (
-/turf/space,
-/area/fairpoint/street/outskirts)
 "Sv" = (
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/concrete,
@@ -5382,9 +5278,6 @@
 /obj/machinery/power/terminal{
 	dir = 8
 	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/turret_protected/ai_server_room)
@@ -5397,19 +5290,10 @@
 /area/fairpoint/crew_quarters/bar)
 "SP" = (
 /obj/machinery/door/airlock/command{
-	name = "CMO's Office";
-	req_access = list(40)
+	name = "CMO's Office"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cmo)
-"SQ" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled/white,
-/area/fairpoint/police/detectives_office)
 "SR" = (
 /obj/structure/bed/sofa{
 	dir = 10
@@ -5444,6 +5328,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "SY" = (
@@ -5465,8 +5351,7 @@
 "Tk" = (
 /obj/machinery/door/airlock/command{
 	id_tag = "HoSdoor";
-	name = "Chief of Police";
-	req_access = list(58)
+	name = "Chief of Police"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/cop)
@@ -5532,11 +5417,8 @@
 /turf/simulated/floor/carpet/blue2,
 /area/fairpoint/medical/medbay)
 "TQ" = (
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/fairpoint/turret_protected/ai_server_room)
+/turf/simulated/floor/wood/walnut,
+/area/turbolift/mall_top)
 "TR" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
@@ -5556,6 +5438,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "TU" = (
@@ -5612,8 +5496,8 @@
 /turf/simulated/floor/carpet/blue,
 /area/fairpoint/police/detectives_office)
 "Ud" = (
-/turf/simulated/wall/elevator,
-/area/turbolift/pd_top)
+/turf/simulated/wall/walnut,
+/area/turbolift/mall_top)
 "Uf" = (
 /obj/effect/floor_decal/carpet/blue2,
 /obj/effect/floor_decal/carpet/blue2{
@@ -5649,8 +5533,7 @@
 	},
 /obj/machinery/door/window/brigdoor/southleft{
 	dir = 1;
-	name = "Bullet Armor";
-	req_access = list(1)
+	name = "Bullet Armor"
 	},
 /obj/structure/rack,
 /obj/item/clothing/suit/armor/bulletproof,
@@ -5691,9 +5574,6 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/vacantoffice)
 "Uq" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/light_switch/on{
 	dir = 1;
 	pixel_y = -18
@@ -5726,6 +5606,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "UB" = (
@@ -5762,8 +5644,7 @@
 "UR" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -5818,11 +5699,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
-"Vy" = (
-/turf/simulated/wall/prepainted{
-	color = "FFFEFD"
-	},
-/area/turbolift/hospital_top)
 "VE" = (
 /obj/structure/curtain{
 	color = "#72AFED";
@@ -5900,7 +5776,7 @@
 /obj/structure/sealant_rack,
 /obj/item/gun/launcher/sealant,
 /obj/machinery/camera/network/engineering,
-/turf/simulated/floor/tiled/monofloor,
+/turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/engineering/ce)
 "Wr" = (
 /obj/structure/door/walnut{
@@ -5945,12 +5821,6 @@
 /obj/machinery/portable_atmospherics/canister/nitrogen/prechilled,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/turret_protected/ai_server_room)
-"WG" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/reinforced,
-/area/fairpoint/street)
 "WH" = (
 /obj/structure/bed/sofa{
 	dir = 4
@@ -5964,9 +5834,7 @@
 /turf/simulated/floor/tiled,
 /area/fairpoint/medical/psych)
 "WO" = (
-/obj/machinery/door/window/southright{
-	req_access = list(39)
-	},
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_a)
 "WR" = (
@@ -6058,11 +5926,14 @@
 /turf/simulated/floor/reinforced,
 /area/fairpoint/panicroom)
 "XL" = (
-/obj/effect/floor_decal/corner/paleblue,
-/obj/effect/floor_decal/industrial/warning/dust,
-/obj/structure/railing/mapped,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/white,
-/area/turbolift/hospital_top)
+/area/fairpoint/medical/medbay)
 "XO" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/gloves/latex,
@@ -6097,8 +5968,7 @@
 "Yj" = (
 /obj/machinery/door/window/southright{
 	dir = 1;
-	name = "Virology Isolation Room Three";
-	req_access = list(39)
+	name = "Virology Isolation Room Three"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_c)
@@ -6241,8 +6111,7 @@
 /obj/item/telebaton,
 /obj/item/telebaton,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Weapons locker";
-	req_access = list(2)
+	name = "Weapons locker"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/tactical)
@@ -6323,16 +6192,19 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "ZZ" = (
 /obj/effect/floor_decal/corner/paleblue{
-	dir = 10
+	dir = 5
 	},
-/obj/structure/railing/mapped,
-/obj/structure/lift/button/standalone,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/white,
-/area/turbolift/hospital_top)
+/area/fairpoint/medical/medbay)
 
 (1,1,1) = {"
 gi
@@ -6491,7 +6363,7 @@ gi
 gi
 gi
 yC
-Sq
+Dm
 "}
 (2,1,1) = {"
 mS
@@ -6650,7 +6522,7 @@ gi
 gi
 gi
 yC
-Sq
+yC
 "}
 (3,1,1) = {"
 mS
@@ -6809,7 +6681,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (4,1,1) = {"
 mS
@@ -6968,7 +6840,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (5,1,1) = {"
 mS
@@ -7127,7 +6999,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (6,1,1) = {"
 mS
@@ -7286,7 +7158,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (7,1,1) = {"
 mS
@@ -7445,7 +7317,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (8,1,1) = {"
 mS
@@ -7604,7 +7476,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (9,1,1) = {"
 mS
@@ -7763,7 +7635,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (10,1,1) = {"
 mS
@@ -7922,7 +7794,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (11,1,1) = {"
 mS
@@ -8081,7 +7953,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (12,1,1) = {"
 mS
@@ -8240,7 +8112,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (13,1,1) = {"
 mS
@@ -8399,7 +8271,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (14,1,1) = {"
 mS
@@ -8558,7 +8430,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (15,1,1) = {"
 mS
@@ -8717,7 +8589,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (16,1,1) = {"
 mS
@@ -8876,7 +8748,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (17,1,1) = {"
 mS
@@ -9035,7 +8907,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (18,1,1) = {"
 mS
@@ -9194,7 +9066,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (19,1,1) = {"
 mS
@@ -9353,7 +9225,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (20,1,1) = {"
 mS
@@ -9512,7 +9384,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (21,1,1) = {"
 mS
@@ -9671,7 +9543,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (22,1,1) = {"
 mS
@@ -9830,7 +9702,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (23,1,1) = {"
 mS
@@ -9989,7 +9861,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (24,1,1) = {"
 mS
@@ -10148,7 +10020,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (25,1,1) = {"
 mS
@@ -10307,7 +10179,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (26,1,1) = {"
 mS
@@ -10466,7 +10338,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (27,1,1) = {"
 mS
@@ -10625,7 +10497,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (28,1,1) = {"
 mS
@@ -10784,7 +10656,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (29,1,1) = {"
 mS
@@ -10943,7 +10815,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (30,1,1) = {"
 mS
@@ -11102,7 +10974,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (31,1,1) = {"
 mS
@@ -11261,7 +11133,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (32,1,1) = {"
 mS
@@ -11420,7 +11292,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (33,1,1) = {"
 mS
@@ -11579,7 +11451,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (34,1,1) = {"
 mS
@@ -11738,7 +11610,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (35,1,1) = {"
 mS
@@ -11897,7 +11769,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (36,1,1) = {"
 mS
@@ -12056,7 +11928,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (37,1,1) = {"
 mS
@@ -12215,7 +12087,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (38,1,1) = {"
 mS
@@ -12374,7 +12246,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (39,1,1) = {"
 mS
@@ -12533,7 +12405,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (40,1,1) = {"
 mS
@@ -12692,7 +12564,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (41,1,1) = {"
 mS
@@ -12851,7 +12723,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (42,1,1) = {"
 mS
@@ -13010,7 +12882,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (43,1,1) = {"
 mS
@@ -13169,7 +13041,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (44,1,1) = {"
 mS
@@ -13328,7 +13200,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (45,1,1) = {"
 mS
@@ -13487,7 +13359,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (46,1,1) = {"
 mS
@@ -13646,7 +13518,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (47,1,1) = {"
 mS
@@ -13805,7 +13677,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (48,1,1) = {"
 mS
@@ -13964,7 +13836,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (49,1,1) = {"
 mS
@@ -14123,7 +13995,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (50,1,1) = {"
 mS
@@ -14282,7 +14154,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (51,1,1) = {"
 mS
@@ -14441,7 +14313,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (52,1,1) = {"
 mS
@@ -14600,7 +14472,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (53,1,1) = {"
 mS
@@ -14759,7 +14631,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (54,1,1) = {"
 mS
@@ -14918,7 +14790,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (55,1,1) = {"
 mS
@@ -15077,7 +14949,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (56,1,1) = {"
 mS
@@ -15236,7 +15108,7 @@ mS
 mS
 mS
 yC
-Sq
+yC
 "}
 (57,1,1) = {"
 mS
@@ -15395,7 +15267,7 @@ mS
 mS
 mS
 yC
-Sq
+yC
 "}
 (58,1,1) = {"
 mS
@@ -15406,7 +15278,7 @@ UB
 mT
 GV
 JO
-Ez
+tB
 GV
 mT
 HZ
@@ -15554,7 +15426,7 @@ mS
 mS
 mS
 yC
-Sq
+yC
 "}
 (59,1,1) = {"
 mS
@@ -15563,9 +15435,9 @@ mS
 UB
 UB
 mT
-qb
+GV
 tB
-Ez
+tB
 GV
 mT
 ev
@@ -15713,7 +15585,7 @@ mS
 mS
 mS
 yC
-Sq
+yC
 "}
 (60,1,1) = {"
 mS
@@ -15872,7 +15744,7 @@ mS
 mS
 mS
 yC
-Sq
+yC
 "}
 (61,1,1) = {"
 mS
@@ -15882,7 +15754,7 @@ UB
 UB
 mT
 TZ
-Ez
+tB
 tB
 TZ
 mT
@@ -16031,7 +15903,7 @@ mS
 mS
 mS
 yC
-Sq
+yC
 "}
 (62,1,1) = {"
 mS
@@ -16041,8 +15913,8 @@ UB
 UB
 mT
 TZ
-Ez
-Ez
+tB
+tB
 TZ
 mT
 LR
@@ -16190,7 +16062,7 @@ mS
 mS
 mS
 yC
-Sq
+yC
 "}
 (63,1,1) = {"
 mS
@@ -16201,7 +16073,7 @@ UB
 mT
 TZ
 tB
-Ez
+tB
 TZ
 Jm
 Fe
@@ -16349,7 +16221,7 @@ mS
 mS
 mS
 yC
-Sq
+yC
 "}
 (64,1,1) = {"
 mS
@@ -16358,7 +16230,7 @@ mS
 UB
 UB
 ce
-Ez
+tB
 tB
 tB
 tB
@@ -16508,7 +16380,7 @@ mS
 mS
 mS
 yC
-Sq
+yC
 "}
 (65,1,1) = {"
 mS
@@ -16518,7 +16390,7 @@ UB
 UB
 mT
 tB
-tl
+tB
 tB
 tB
 Dn
@@ -16573,7 +16445,7 @@ Iv
 jz
 Xb
 SJ
-TQ
+SJ
 sr
 kK
 kK
@@ -16667,7 +16539,7 @@ mS
 mS
 mS
 yC
-Sq
+yC
 "}
 (66,1,1) = {"
 mS
@@ -16826,7 +16698,7 @@ UB
 UB
 UB
 yC
-Sq
+yC
 "}
 (67,1,1) = {"
 mS
@@ -16985,7 +16857,7 @@ UB
 UB
 mS
 yC
-Sq
+yC
 "}
 (68,1,1) = {"
 mS
@@ -17025,7 +16897,7 @@ Fy
 bg
 zm
 zm
-SQ
+yX
 yX
 yX
 yX
@@ -17321,7 +17193,7 @@ zs
 gm
 fX
 Hh
-uu
+Hh
 mT
 LK
 LK
@@ -18591,14 +18463,14 @@ cy
 cy
 cy
 cy
-cy
-Ud
-Ud
-Ud
-Ud
-Ud
-oj
 Oo
+sg
+sg
+sg
+sg
+sg
+oj
+PK
 yH
 Zl
 hl
@@ -18750,18 +18622,18 @@ cy
 cy
 cy
 cy
-cy
-Ud
+Oo
 CM
 CM
 CM
 CM
 CM
+sg
 kL
 yH
 Zl
 hl
-mz
+JL
 JL
 JL
 SD
@@ -18909,13 +18781,13 @@ cy
 cy
 cy
 cy
-cy
-Ud
+Oo
 CM
 CM
 CM
 CM
 CM
+yH
 aG
 yH
 Zl
@@ -19052,7 +18924,7 @@ UG
 UG
 Tj
 yC
-Sq
+yC
 "}
 (81,1,1) = {"
 mS
@@ -19068,13 +18940,13 @@ cy
 cy
 cy
 cy
-cy
-Ud
+Oo
 CM
 CM
 CM
 CM
 CM
+yH
 aG
 yH
 hz
@@ -19211,7 +19083,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (82,1,1) = {"
 mS
@@ -19227,13 +19099,13 @@ cy
 cy
 cy
 cy
-cy
-Ud
+Oo
 CM
 CM
 CM
 CM
 CM
+yH
 aG
 yH
 fL
@@ -19342,7 +19214,7 @@ MH
 MH
 MH
 yj
-ny
+qA
 ny
 ny
 ny
@@ -19370,7 +19242,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (83,1,1) = {"
 mS
@@ -19386,13 +19258,13 @@ cy
 cy
 cy
 cy
-cy
-Ud
+Oo
 CM
 CM
 CM
 CM
 CM
+sg
 kL
 yH
 Zl
@@ -19501,7 +19373,7 @@ wQ
 xV
 xV
 sA
-ny
+Rx
 ny
 ny
 ny
@@ -19529,7 +19401,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (84,1,1) = {"
 mS
@@ -19545,12 +19417,12 @@ JT
 JT
 JT
 JT
-JT
-Ud
-Ji
-Ud
-Ud
-Ud
+sg
+sg
+sg
+sg
+sg
+sg
 wr
 PK
 ot
@@ -19660,7 +19532,7 @@ wQ
 xV
 xV
 xV
-ny
+Ee
 ny
 ny
 zK
@@ -19688,7 +19560,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (85,1,1) = {"
 mS
@@ -19819,7 +19691,7 @@ VS
 VS
 VS
 gA
-ny
+qA
 ny
 ny
 uh
@@ -19847,7 +19719,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (86,1,1) = {"
 mS
@@ -19978,7 +19850,7 @@ gj
 RP
 RP
 gA
-ny
+qA
 ny
 ny
 BS
@@ -20006,7 +19878,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (87,1,1) = {"
 mS
@@ -20137,7 +20009,7 @@ mN
 yj
 yj
 yj
-ny
+qA
 ny
 ny
 ny
@@ -20165,7 +20037,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (88,1,1) = {"
 mS
@@ -20293,15 +20165,15 @@ DX
 mN
 mN
 mN
+ZZ
+UX
+UX
+gN
 ny
 ny
 ny
 ny
-ny
-ny
-ny
-ny
-ny
+mA
 mM
 ny
 ny
@@ -20324,7 +20196,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (89,1,1) = {"
 mS
@@ -20452,11 +20324,11 @@ pe
 Ir
 ok
 mN
+qA
 ny
 ny
 ny
-ny
-ny
+QN
 vW
 vW
 lH
@@ -20483,7 +20355,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (90,1,1) = {"
 mS
@@ -20611,11 +20483,11 @@ gq
 an
 Cc
 mN
+qA
 ny
 ny
 ny
-ny
-ny
+mA
 QL
 QL
 QL
@@ -20642,7 +20514,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (91,1,1) = {"
 mS
@@ -20770,11 +20642,11 @@ gq
 an
 Cc
 mN
+qA
 ny
 ny
 ny
-ny
-ny
+mA
 QL
 Iu
 Iu
@@ -20801,7 +20673,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (92,1,1) = {"
 mS
@@ -20929,11 +20801,11 @@ dn
 Lv
 KW
 mN
+qA
 ny
 ny
 ny
-ny
-ny
+mA
 QL
 Iu
 Iu
@@ -20960,7 +20832,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (93,1,1) = {"
 mS
@@ -21088,11 +20960,11 @@ UC
 bi
 bi
 mN
+qA
 ny
 ny
 ny
-ny
-ny
+mA
 QL
 Iu
 Iu
@@ -21119,7 +20991,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (94,1,1) = {"
 mS
@@ -21243,11 +21115,11 @@ mN
 Wr
 mN
 mN
-qA
 ny
-ny
-ny
-ny
+zk
+UX
+UX
+gN
 ny
 ny
 ny
@@ -21278,7 +21150,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (95,1,1) = {"
 mS
@@ -21402,15 +21274,15 @@ iD
 EE
 um
 mN
-qA
+Ee
 ny
 ny
 ny
-ny
-ny
-ny
-ny
-ny
+QN
+vg
+vg
+vg
+XL
 QL
 Iu
 Iu
@@ -21437,7 +21309,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (96,1,1) = {"
 mS
@@ -21565,7 +21437,7 @@ qA
 ny
 ny
 ny
-ny
+mA
 qi
 qi
 qi
@@ -21596,7 +21468,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (97,1,1) = {"
 mS
@@ -21607,7 +21479,7 @@ mS
 lB
 wX
 CG
-nn
+uM
 uM
 uM
 uM
@@ -21724,7 +21596,7 @@ qA
 ny
 ny
 ny
-ny
+mA
 qi
 qL
 gd
@@ -21755,7 +21627,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (98,1,1) = {"
 mS
@@ -21883,7 +21755,7 @@ qA
 ny
 ny
 ny
-ny
+mA
 qi
 qL
 EU
@@ -21914,7 +21786,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (99,1,1) = {"
 mS
@@ -22040,9 +21912,9 @@ qQ
 qQ
 qA
 ny
-ny
-ny
-ny
+QN
+vg
+XL
 qi
 gJ
 KL
@@ -22073,7 +21945,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (100,1,1) = {"
 mS
@@ -22199,13 +22071,13 @@ uJ
 qQ
 ji
 ny
-ny
-ZZ
+mA
 hT
-Vy
-Vy
-Vy
-Vy
+Gb
+Gb
+Gb
+Gb
+Gb
 ct
 Iu
 Iu
@@ -22232,7 +22104,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (101,1,1) = {"
 mS
@@ -22244,7 +22116,7 @@ lB
 Bi
 Bi
 Rv
-zY
+An
 vP
 HQ
 Ui
@@ -22358,8 +22230,8 @@ pm
 SP
 ny
 ny
-ny
-gN
+Dz
+Gb
 Pw
 Pw
 Pw
@@ -22391,7 +22263,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (102,1,1) = {"
 mS
@@ -22517,8 +22389,8 @@ So
 qQ
 fd
 ny
+QJ
 ny
-JY
 Pw
 Pw
 Pw
@@ -22550,7 +22422,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (103,1,1) = {"
 mS
@@ -22676,8 +22548,8 @@ So
 SF
 qA
 ny
+QJ
 ny
-JY
 Pw
 Pw
 Pw
@@ -22709,7 +22581,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (104,1,1) = {"
 mS
@@ -22743,7 +22615,7 @@ SG
 Nr
 Zo
 Xa
-EC
+vH
 GE
 jh
 vH
@@ -22835,8 +22707,8 @@ So
 SF
 qA
 ny
+QJ
 ny
-JY
 Pw
 Pw
 Pw
@@ -22868,7 +22740,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (105,1,1) = {"
 mS
@@ -22994,8 +22866,8 @@ So
 qQ
 gH
 ny
-ny
-XL
+sL
+Gb
 Pw
 Pw
 Pw
@@ -23027,7 +22899,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (106,1,1) = {"
 mS
@@ -23153,9 +23025,9 @@ aX
 qQ
 qA
 ny
-ny
+mA
 xP
-QJ
+Tg
 Tg
 Tg
 Tg
@@ -23186,7 +23058,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (107,1,1) = {"
 mS
@@ -23312,8 +23184,8 @@ qQ
 Mj
 ES
 ny
-ny
-mA
+zk
+Er
 Tg
 ey
 Zr
@@ -23345,7 +23217,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (108,1,1) = {"
 mS
@@ -23504,7 +23376,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (109,1,1) = {"
 mS
@@ -23663,7 +23535,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (110,1,1) = {"
 mS
@@ -23822,7 +23694,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (111,1,1) = {"
 mS
@@ -23981,7 +23853,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (112,1,1) = {"
 mS
@@ -24140,7 +24012,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (113,1,1) = {"
 mS
@@ -24299,7 +24171,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (114,1,1) = {"
 mS
@@ -24458,7 +24330,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (115,1,1) = {"
 mS
@@ -24617,7 +24489,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (116,1,1) = {"
 mS
@@ -24776,7 +24648,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (117,1,1) = {"
 mS
@@ -24935,7 +24807,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (118,1,1) = {"
 mS
@@ -25094,7 +24966,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (119,1,1) = {"
 mS
@@ -25253,7 +25125,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (120,1,1) = {"
 mS
@@ -25412,7 +25284,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (121,1,1) = {"
 mS
@@ -25571,7 +25443,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (122,1,1) = {"
 mS
@@ -25730,7 +25602,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (123,1,1) = {"
 mS
@@ -25889,7 +25761,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (124,1,1) = {"
 VV
@@ -26048,7 +25920,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (125,1,1) = {"
 VV
@@ -26207,7 +26079,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (126,1,1) = {"
 VV
@@ -26366,7 +26238,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (127,1,1) = {"
 VV
@@ -26470,13 +26342,13 @@ nB
 nB
 nB
 Yg
-SN
-SN
-SN
-SN
-SN
-SN
-SN
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 Yg
 Yg
 Yg
@@ -26525,7 +26397,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (128,1,1) = {"
 VV
@@ -26629,26 +26501,26 @@ nB
 nB
 nB
 Yg
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 Yg
 UB
 UB
 UB
 UG
 ET
-UG
-UG
-UG
-UG
-UG
+Mo
+Mo
+Mo
+Mo
+ET
 ET
 De
 De
@@ -26684,7 +26556,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (129,1,1) = {"
 VV
@@ -26788,26 +26660,26 @@ nB
 nB
 nB
 Yg
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 Yg
 UB
 UB
 UB
 UG
 ET
-UG
-UG
-UG
-UG
-UG
+Mo
+Mo
+Mo
+Mo
+ET
 ET
 De
 De
@@ -26843,7 +26715,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (130,1,1) = {"
 VV
@@ -26859,10 +26731,10 @@ VV
 VV
 VV
 VV
-OF
 VV
-OF
-OF
+VV
+VV
+VV
 VV
 VV
 VV
@@ -26947,26 +26819,26 @@ nB
 nB
 nB
 Yg
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 Yg
 UB
 UB
 UB
 UG
 ET
-UG
-UG
-UG
-UG
-UG
+Mo
+Mo
+Mo
+Mo
+ET
 ET
 De
 De
@@ -27002,7 +26874,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (131,1,1) = {"
 VV
@@ -27020,7 +26892,6 @@ VV
 VV
 VV
 VV
-OF
 VV
 VV
 VV
@@ -27028,6 +26899,7 @@ VV
 VV
 VV
 VV
+VV
 mS
 mS
 mS
@@ -27106,26 +26978,26 @@ Yg
 Yg
 Yg
 Yg
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 Yg
 UB
 UB
 UB
 UG
 ET
-UG
-UG
-UG
-UG
-UG
+Mo
+Mo
+Mo
+Mo
+ET
 ET
 De
 De
@@ -27161,7 +27033,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (132,1,1) = {"
 VV
@@ -27179,8 +27051,8 @@ VV
 VV
 VV
 VV
-OF
-OF
+VV
+VV
 VV
 VV
 VV
@@ -27265,26 +27137,26 @@ wS
 wS
 wS
 BI
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 Yg
 UB
 UB
 UB
 UG
 ET
-UG
-UG
-UG
-UG
-UG
+Ud
+TQ
+TQ
+Ud
+ET
 ET
 De
 De
@@ -27320,7 +27192,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (133,1,1) = {"
 VV
@@ -27424,22 +27296,22 @@ wS
 wS
 wS
 BI
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 Yg
 UB
 UB
 UB
 UG
 ET
-ox
+nh
 nh
 nh
 nh
@@ -27479,7 +27351,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (134,1,1) = {"
 VV
@@ -27497,7 +27369,7 @@ VV
 VV
 VV
 VV
-OF
+VV
 VV
 VV
 VV
@@ -27583,15 +27455,15 @@ wS
 wS
 wS
 BI
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 Yg
 UB
 UB
@@ -27638,7 +27510,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (135,1,1) = {"
 VV
@@ -27742,15 +27614,15 @@ wS
 wS
 wS
 BI
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 Yg
 UB
 UB
@@ -27797,7 +27669,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (136,1,1) = {"
 VV
@@ -27901,15 +27773,15 @@ wS
 wS
 wS
 BI
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 Yg
 UB
 UB
@@ -27956,7 +27828,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (137,1,1) = {"
 VV
@@ -28060,15 +27932,15 @@ Qr
 Qr
 Qr
 BI
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
-SN
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
+tG
 Yg
 UB
 UB
@@ -28115,7 +27987,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (138,1,1) = {"
 VV
@@ -28274,7 +28146,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (139,1,1) = {"
 VV
@@ -28433,7 +28305,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (140,1,1) = {"
 VV
@@ -28592,7 +28464,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (141,1,1) = {"
 VV
@@ -28751,7 +28623,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (142,1,1) = {"
 VV
@@ -28910,7 +28782,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (143,1,1) = {"
 VV
@@ -29069,7 +28941,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (144,1,1) = {"
 VV
@@ -29228,7 +29100,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (145,1,1) = {"
 VV
@@ -29387,7 +29259,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (146,1,1) = {"
 VV
@@ -29546,7 +29418,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (147,1,1) = {"
 VV
@@ -29705,7 +29577,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (148,1,1) = {"
 VV
@@ -29864,7 +29736,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (149,1,1) = {"
 VV
@@ -30023,7 +29895,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (150,1,1) = {"
 VV
@@ -30182,7 +30054,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (151,1,1) = {"
 VV
@@ -30341,7 +30213,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (152,1,1) = {"
 VV
@@ -30500,7 +30372,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (153,1,1) = {"
 VV
@@ -30659,7 +30531,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (154,1,1) = {"
 VV
@@ -30818,7 +30690,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (155,1,1) = {"
 VV
@@ -30977,7 +30849,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (156,1,1) = {"
 VV
@@ -31136,7 +31008,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (157,1,1) = {"
 VV
@@ -31295,7 +31167,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (158,1,1) = {"
 VV
@@ -31454,7 +31326,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (159,1,1) = {"
 VV
@@ -31613,7 +31485,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (160,1,1) = {"
 VV
@@ -31772,7 +31644,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (161,1,1) = {"
 VV
@@ -31931,7 +31803,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (162,1,1) = {"
 VV
@@ -32090,7 +31962,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (163,1,1) = {"
 VV
@@ -32249,7 +32121,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (164,1,1) = {"
 VV
@@ -32257,9 +32129,9 @@ VV
 VV
 VV
 VV
-OF
 VV
-OF
+VV
+VV
 VV
 VV
 VV
@@ -32408,20 +32280,20 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (165,1,1) = {"
 VV
 VV
 VV
 VV
-OF
-OF
 VV
 VV
 VV
 VV
-OF
+VV
+VV
+VV
 VV
 VV
 VV
@@ -32567,7 +32439,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (166,1,1) = {"
 VV
@@ -32575,11 +32447,11 @@ VV
 VV
 VV
 VV
-OF
 VV
 VV
 VV
-OF
+VV
+VV
 VV
 VV
 VV
@@ -32726,7 +32598,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (167,1,1) = {"
 VV
@@ -32736,7 +32608,7 @@ VV
 VV
 VV
 VV
-OF
+VV
 VV
 VV
 VV
@@ -32885,19 +32757,19 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (168,1,1) = {"
 VV
 VV
 VV
 VV
-OF
 VV
 VV
 VV
 VV
-OF
+VV
+VV
 VV
 VV
 VV
@@ -33044,19 +32916,19 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (169,1,1) = {"
 VV
 VV
 VV
 VV
-OF
-OF
-OF
 VV
-OF
-OF
+VV
+VV
+VV
+VV
+VV
 VV
 VV
 VV
@@ -33203,7 +33075,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (170,1,1) = {"
 VV
@@ -33211,8 +33083,8 @@ VV
 VV
 VV
 VV
-OF
-OF
+VV
+VV
 VV
 VV
 VV
@@ -33362,7 +33234,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (171,1,1) = {"
 VV
@@ -33382,15 +33254,15 @@ VV
 VV
 VV
 VV
-OF
-VV
-OF
 VV
 VV
 VV
-dj
+VV
+VV
+VV
 mS
-dj
+mS
+mS
 mS
 UB
 UB
@@ -33521,7 +33393,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (172,1,1) = {"
 VV
@@ -33540,20 +33412,17 @@ VV
 VV
 VV
 VV
-OF
-OF
 VV
 VV
 VV
 VV
-OF
-dj
+VV
+VV
+VV
 mS
 mS
 mS
-UB
-aS
-aS
+mS
 UB
 UB
 UB
@@ -33562,9 +33431,12 @@ UB
 UB
 UB
 UB
-aS
-aS
-aS
+UB
+UB
+UB
+UB
+UB
+UB
 UB
 UB
 UB
@@ -33680,7 +33552,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (173,1,1) = {"
 VV
@@ -33688,7 +33560,6 @@ VV
 VV
 VV
 VV
-OF
 VV
 VV
 VV
@@ -33700,30 +33571,31 @@ VV
 VV
 VV
 VV
-OF
 VV
 VV
 VV
-OF
 VV
-dj
+VV
+VV
+VV
 mS
 mS
 mS
-aS
-UB
-aS
+mS
 UB
 UB
 UB
 UB
 UB
-aS
-aS
-aS
-aS
-aS
-aS
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
 UB
 UB
 UB
@@ -33839,20 +33711,20 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (174,1,1) = {"
 VV
 VV
 VV
 VV
-OF
-OF
 VV
 VV
 VV
 VV
-OF
+VV
+VV
+VV
 VV
 VV
 VV
@@ -33867,22 +33739,22 @@ VV
 VV
 mS
 mS
-dj
+mS
 mS
 UB
 UB
-aS
 UB
 UB
 UB
 UB
 UB
-aS
-aS
-aS
-aS
-aS
-aS
+UB
+UB
+UB
+UB
+UB
+UB
+UB
 UB
 UB
 UB
@@ -33998,7 +33870,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (175,1,1) = {"
 VV
@@ -34006,42 +33878,42 @@ VV
 VV
 VV
 VV
-OF
-VV
-VV
-VV
-OF
 VV
 VV
 VV
 VV
-OF
-OF
-OF
-OF
 VV
 VV
-OF
 VV
-OF
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
 mS
 mS
 mS
 mS
-aS
-UB
-aS
 UB
 UB
 UB
 UB
 UB
-aS
-aS
-aS
-aS
-aS
-aS
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
 UB
 UB
 UB
@@ -34157,7 +34029,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (176,1,1) = {"
 VV
@@ -34167,40 +34039,40 @@ VV
 VV
 VV
 VV
-OF
 VV
 VV
 VV
 VV
 VV
-OF
-OF
-OF
-OF
-OF
 VV
-OF
-OF
 VV
-OF
-dj
-dj
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
 mS
-dj
-aS
-UB
-aS
-UB
+mS
+mS
+mS
 UB
 UB
 UB
 UB
-aS
-aS
-aS
-aS
-aS
-aS
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
 UB
 UB
 UB
@@ -34316,19 +34188,13 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (177,1,1) = {"
 VV
 VV
 VV
 VV
-OF
-VV
-VV
-VV
-VV
-OF
 VV
 VV
 VV
@@ -34342,24 +34208,30 @@ VV
 VV
 VV
 VV
-dj
-dj
+VV
+VV
+VV
+VV
+VV
+VV
+mS
+mS
 mS
 mS
 UB
 UB
-aS
 UB
 UB
 UB
 UB
 UB
-aS
-aS
-aS
-aS
-aS
-aS
+UB
+UB
+UB
+UB
+UB
+UB
+UB
 UB
 UB
 UB
@@ -34475,19 +34347,19 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (178,1,1) = {"
 VV
 VV
 VV
 VV
-OF
-OF
-OF
 VV
-OF
-OF
+VV
+VV
+VV
+VV
+VV
 VV
 VV
 VV
@@ -34507,7 +34379,7 @@ mS
 mS
 UB
 UB
-aS
+UB
 UB
 UB
 UB
@@ -34634,7 +34506,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (179,1,1) = {"
 VV
@@ -34642,8 +34514,8 @@ VV
 VV
 VV
 VV
-OF
-OF
+VV
+VV
 VV
 VV
 VV
@@ -34667,18 +34539,18 @@ mS
 UB
 UB
 UB
-aS
-aS
-aS
-aS
-aS
-aS
-aS
 UB
 UB
-aS
-aS
-aS
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
+UB
 UB
 UB
 UB
@@ -34793,7 +34665,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (180,1,1) = {"
 VV
@@ -34952,7 +34824,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (181,1,1) = {"
 VV
@@ -35111,7 +34983,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (182,1,1) = {"
 VV
@@ -35119,9 +34991,9 @@ VV
 VV
 VV
 VV
-OF
 VV
-OF
+VV
+VV
 VV
 VV
 VV
@@ -35270,20 +35142,13 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (183,1,1) = {"
 VV
 VV
 VV
 VV
-OF
-OF
-VV
-VV
-VV
-VV
-OF
 VV
 VV
 VV
@@ -35294,7 +35159,14 @@ VV
 VV
 VV
 VV
-OF
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
 VV
 mS
 mS
@@ -35429,7 +35301,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (184,1,1) = {"
 VV
@@ -35437,11 +35309,11 @@ VV
 VV
 VV
 VV
-OF
 VV
 VV
 VV
-OF
+VV
+VV
 VV
 VV
 VV
@@ -35588,7 +35460,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (185,1,1) = {"
 VV
@@ -35598,7 +35470,6 @@ VV
 VV
 VV
 VV
-OF
 VV
 VV
 VV
@@ -35612,26 +35483,27 @@ VV
 VV
 VV
 VV
-OF
-OF
-mS
-dj
-mS
-WG
-NZ
-mS
-dj
-Mo
-Mo
-dj
-Mo
-Mo
-mS
-dj
-dj
+VV
+VV
+VV
 mS
 mS
-dj
+mS
+mS
+UB
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 mS
 mS
 mS
@@ -35747,50 +35619,50 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (186,1,1) = {"
 VV
 VV
 VV
 VV
-OF
 VV
 VV
 VV
 VV
-OF
 VV
 VV
 VV
 VV
-OF
-OF
-OF
-OF
-OF
-OF
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
 VV
 VV
 VV
 mS
 mS
 mS
-dj
-aS
 mS
-dj
+UB
 mS
 mS
-dj
 mS
 mS
-dj
-dj
 mS
-dj
 mS
-Mo
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 mS
 mS
 mS
@@ -35906,30 +35778,30 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (187,1,1) = {"
-OF
 VV
 VV
 VV
-OF
-OF
-OF
-VV
-OF
-OF
 VV
 VV
 VV
-OF
-OF
-OF
-OF
 VV
-OF
 VV
-OF
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
 VV
 VV
 mS
@@ -35939,7 +35811,7 @@ mS
 UB
 mS
 mS
-dj
+mS
 mS
 mS
 mS
@@ -36065,10 +35937,9 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (188,1,1) = {"
-OF
 VV
 VV
 VV
@@ -36088,7 +35959,8 @@ VV
 VV
 VV
 VV
-OF
+VV
+VV
 VV
 VV
 mS
@@ -36224,17 +36096,9 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (189,1,1) = {"
-OF
-VV
-VV
-VV
-VV
-OF
-VV
-OF
 VV
 VV
 VV
@@ -36247,7 +36111,15 @@ VV
 VV
 VV
 VV
-OF
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
 VV
 VV
 mS
@@ -36258,7 +36130,7 @@ UB
 mS
 mS
 mS
-dj
+mS
 mS
 mS
 mS
@@ -36383,20 +36255,9 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (190,1,1) = {"
-OF
-VV
-VV
-VV
-OF
-OF
-VV
-VV
-VV
-VV
-OF
 VV
 VV
 VV
@@ -36406,7 +36267,18 @@ VV
 VV
 VV
 VV
-OF
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
 VV
 VV
 mS
@@ -36542,19 +36414,9 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (191,1,1) = {"
-OF
-VV
-VV
-VV
-VV
-OF
-VV
-VV
-VV
-OF
 VV
 VV
 VV
@@ -36565,7 +36427,17 @@ VV
 VV
 VV
 VV
-OF
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
 VV
 VV
 mS
@@ -36701,7 +36573,7 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (192,1,1) = {"
 VV
@@ -36711,7 +36583,6 @@ VV
 VV
 VV
 VV
-OF
 VV
 VV
 VV
@@ -36725,7 +36596,8 @@ VV
 VV
 VV
 VV
-OF
+VV
+VV
 VV
 mS
 mS
@@ -36860,19 +36732,9 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (193,1,1) = {"
-OF
-VV
-VV
-VV
-OF
-VV
-VV
-VV
-VV
-OF
 VV
 VV
 VV
@@ -36883,8 +36745,18 @@ VV
 VV
 VV
 VV
-OF
-OF
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
 VV
 mS
 mS
@@ -37019,19 +36891,9 @@ UG
 UG
 UG
 yC
-Sq
+yC
 "}
 (194,1,1) = {"
-OF
-VV
-VV
-VV
-OF
-OF
-OF
-VV
-OF
-OF
 VV
 VV
 VV
@@ -37042,8 +36904,18 @@ VV
 VV
 VV
 VV
-OF
-OF
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
+VV
 VV
 mS
 mS
@@ -37181,13 +37053,13 @@ pC
 yC
 "}
 (195,1,1) = {"
-bv
-bv
 VV
 VV
 VV
-OF
-OF
+VV
+VV
+VV
+VV
 VV
 VV
 VV
@@ -37340,7 +37212,6 @@ pC
 yC
 "}
 (196,1,1) = {"
-OF
 VV
 VV
 VV
@@ -37360,8 +37231,9 @@ VV
 VV
 VV
 VV
-OF
-OF
+VV
+VV
+VV
 VV
 mS
 mS
@@ -37512,15 +37384,15 @@ VV
 VV
 VV
 VV
-OF
-bv
-VV
-OF
-OF
-OF
 VV
 VV
-OF
+VV
+VV
+VV
+VV
+VV
+VV
+VV
 VV
 mS
 mS
@@ -37670,16 +37542,16 @@ VV
 VV
 VV
 VV
-OF
 VV
 VV
 VV
-OF
-OF
 VV
 VV
 VV
-OF
+VV
+VV
+VV
+VV
 VV
 mS
 mS
