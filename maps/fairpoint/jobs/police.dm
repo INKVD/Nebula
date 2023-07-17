@@ -196,7 +196,7 @@
 	spawn_positions = 2
 	supervisors = "the chief of police"
 	selection_color = "#601c1c"
-	alt_titles = list("Senior Detective", "Police Desk Officer", "Senior Field Training Officer", "Police Sergeant", "Police Detective" = /decl/hierarchy/outfit/job/security/detective , "Investigator" = /decl/hierarchy/outfit/job/security/detective , "Forensics Specialist" = /decl/hierarchy/outfit/job/security/detective/forensic)
+	alt_titles = list("Senior Detective", "Police Desk Officer", "Senior Field Training Officer", "Police Sergeant", "Police Detective" = /decl/hierarchy/outfit/job/security/detective/senior , "Investigator" = /decl/hierarchy/outfit/job/security/detective/senior , "Forensics Specialist" = /decl/hierarchy/outfit/job/security/detective/forensic)
 	economic_power = 5
 	access = list(
 		access_security,
@@ -245,23 +245,20 @@
 	economic_power = 4
 	access = list(
 		access_security,
-		access_eva,
 		access_sec_doors,
 		access_brig,
 		access_maint_tunnels,
-		access_morgue,
 		access_external_airlocks
 	)
 	minimal_access = list(
 		access_security,
-		access_eva,
 		access_sec_doors,
 		access_brig,
 		access_maint_tunnels,
 		access_external_airlocks
 	)
 	minimal_player_age = 7
-	outfit_type = /decl/hierarchy/outfit/job/security/officer
+	outfit_type = /decl/hierarchy/outfit/job/security/cadet
 	guestbanned = 1
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_BASIC,
