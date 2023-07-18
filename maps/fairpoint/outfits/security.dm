@@ -11,22 +11,24 @@
 	BACKPACK_OVERRIDE_SECURITY
 
 /decl/hierarchy/outfit/job/security/hos
-	name = "Job - Head of security"
+	name = "Job - Police Chief"
 	l_ear = /obj/item/radio/headset/heads/hos
-	uniform = /obj/item/clothing/under/head_of_security
+	head = /obj/item/clothing/head/soft/sec/policechief
+	uniform = /obj/item/clothing/under/head_of_security/pdchief
 	id_type = /obj/item/card/id/security/head
 	pda_type = /obj/item/modular_computer/pda/heads
 	backpack_contents = list(/obj/item/handcuffs = 1)
 
 /decl/hierarchy/outfit/job/security/warden
-	name = "Job - Warden"
-	uniform = /obj/item/clothing/under/warden
+	name = "Job - Watch Officer"
+	head = /obj/item/clothing/head/soft/sec/policesergeant
+	uniform = /obj/item/clothing/under/warden/pdsergeant
 	l_pocket = /obj/item/flash
 	id_type = /obj/item/card/id/security
 	pda_type = /obj/item/modular_computer/pda
 
 /decl/hierarchy/outfit/job/security/detective
-	name = "Job - Detective"
+	name = "Job - Police Detective"
 	head = /obj/item/clothing/head/det
 	uniform = /obj/item/clothing/under/det
 	suit = /obj/item/clothing/suit/storage/det_trench
@@ -46,9 +48,26 @@
 	head = null
 	suit = /obj/item/clothing/suit/storage/forensics/blue
 
+/decl/hierarchy/outfit/job/security/detective/senior
+	name = "Job - Senior Detective"
+	head = /obj/item/clothing/head/soft/sec/policedetective
+	uniform = /obj/item/clothing/under/security/pddetective
+
+
 /decl/hierarchy/outfit/job/security/officer
-	name = "Job - Security Officer"
-	uniform = /obj/item/clothing/under/security
+	name = "Job - Police Officer"
+	head = /obj/item/clothing/head/soft/sec/policesenior
+	uniform = /obj/item/clothing/under/security/pdofficer
+	l_pocket = /obj/item/flash
+	r_pocket = /obj/item/handcuffs
+	id_type = /obj/item/card/id/security
+	pda_type = /obj/item/modular_computer/pda
+
+
+/decl/hierarchy/outfit/job/security/cadet
+	name = "Job - Police Cadet"
+	head = /obj/item/clothing/head/soft/sec/police
+	uniform = /obj/item/clothing/under/security/pdcadet
 	l_pocket = /obj/item/flash
 	r_pocket = /obj/item/handcuffs
 	id_type = /obj/item/card/id/security
