@@ -42,7 +42,7 @@
 /area/fairpoint/chapel/office)
 "adF" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/surgeryobs)
 "adZ" = (
@@ -252,7 +252,7 @@
 	dir = 1
 	},
 /obj/structure/curtain{
-	color = "#4C0000";
+	color = "#4c0000";
 	name = "burgandy curtain"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -319,7 +319,7 @@
 /area/fairpoint/crew_quarters/bar)
 "awl" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/crew_quarters/medbreak)
 "axW" = (
@@ -344,7 +344,7 @@
 "ayG" = (
 /obj/structure/sign/warning/nosmoking_1,
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/sleeper)
 "ayM" = (
@@ -458,7 +458,7 @@
 /area/fairpoint/library)
 "aGs" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/morgue)
 "aGt" = (
@@ -843,7 +843,7 @@
 /area/fairpoint/panicroom)
 "bbD" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/surgery)
 "bcr" = (
@@ -1342,12 +1342,12 @@
 /area/fairpoint/street/north)
 "bCU" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "bDd" = (
 /obj/structure/window/reinforced/full{
-	color = "#CCCC7A"
+	color = "#cccc7a"
 	},
 /turf/simulated/floor,
 /area/fairpoint/crew_quarters/sleep/cryo)
@@ -1433,7 +1433,7 @@
 "bIP" = (
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/biostorage)
 "bIT" = (
@@ -1944,7 +1944,7 @@
 "ckN" = (
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/biostorage)
 "ckV" = (
@@ -2075,7 +2075,7 @@
 /area/fairpoint/engineering/break_room)
 "ctE" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/surgery2)
 "cuc" = (
@@ -2263,7 +2263,7 @@
 /area/fairpoint/engineering/sysadmin)
 "cEa" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/crew_quarters/medbreak)
 "cEB" = (
@@ -2691,7 +2691,7 @@
 /area/fairpoint/research)
 "cWy" = (
 /obj/structure/curtain{
-	color = "#72AFED";
+	color = "#72afed";
 	name = "blue curtain"
 	},
 /turf/simulated/floor/tiled/white,
@@ -2735,7 +2735,7 @@
 /area/fairpoint/medical/medbay)
 "cYF" = (
 /obj/structure/window/reinforced/full{
-	color = "#CCCC7A"
+	color = "#cccc7a"
 	},
 /obj/structure/grille,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -2936,7 +2936,7 @@
 "ddT" = (
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/chemistry)
 "deb" = (
@@ -2999,7 +2999,7 @@
 /area/fairpoint/street/east)
 "dis" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/exam_room)
 "diT" = (
@@ -4057,7 +4057,7 @@
 "ehr" = (
 /obj/structure/sign/warning,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "ehU" = (
@@ -4146,7 +4146,7 @@
 /area/fairpoint/law/judge)
 "emU" = (
 /obj/structure/curtain{
-	color = "#4C0000";
+	color = "#4c0000";
 	name = "burgandy curtain"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -4204,7 +4204,7 @@
 "eqC" = (
 /obj/structure/closet/medical_wall/filled,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "erg" = (
@@ -4213,7 +4213,7 @@
 /area/fairpoint/cityhall)
 "eri" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/patient_wing)
 "erj" = (
@@ -4349,7 +4349,7 @@
 "eyl" = (
 /obj/structure/sign/warning,
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/psych)
 "eyG" = (
@@ -4598,7 +4598,7 @@
 "eJK" = (
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/patient_a)
 "eKC" = (
@@ -4791,7 +4791,7 @@
 "fbZ" = (
 /obj/structure/sign/warning/nosmoking_1,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/sleeper)
 "fcp" = (
@@ -4812,7 +4812,7 @@
 /area/fairpoint/street/west)
 "feC" = (
 /obj/structure/curtain{
-	color = "#4C0000";
+	color = "#4c0000";
 	name = "burgandy curtain";
 	pixel_y = 30
 	},
@@ -4962,7 +4962,7 @@
 "flc" = (
 /obj/machinery/vending/wallmed1,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/exam_room)
 "flw" = (
@@ -5096,7 +5096,7 @@
 /area/fairpoint/law)
 "fqK" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/exam_room)
 "fqQ" = (
@@ -5313,7 +5313,7 @@
 	dir = 1
 	},
 /obj/structure/curtain{
-	color = "#4C0000";
+	color = "#4c0000";
 	name = "burgandy curtain"
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -5442,7 +5442,7 @@
 "fEt" = (
 /obj/structure/sign/greencross,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/sleeper)
 "fEB" = (
@@ -5612,7 +5612,7 @@
 /area/fairpoint/police/armoury)
 "fLA" = (
 /obj/structure/curtain{
-	color = "#4C0000";
+	color = "#4c0000";
 	name = "burgandy curtain"
 	},
 /turf/simulated/floor/wood/usedup,
@@ -6451,7 +6451,7 @@
 /area/fairpoint/medical/medbay)
 "gFN" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/cryo)
 "gFO" = (
@@ -6574,7 +6574,7 @@
 "gMj" = (
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/cryo)
 "gMM" = (
@@ -7190,7 +7190,7 @@
 /area/fairpoint/medical/cryo)
 "hpU" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/maintenance/hospital)
 "hqJ" = (
@@ -7206,7 +7206,7 @@
 /area/fairpoint/medical/medbay)
 "hrD" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/biostorage)
 "hsa" = (
@@ -7478,7 +7478,7 @@
 /area/fairpoint/street/east)
 "hHi" = (
 /obj/structure/curtain{
-	color = "#4C0000";
+	color = "#4c0000";
 	name = "burgandy curtain"
 	},
 /turf/simulated/floor/wood/walnut,
@@ -8004,7 +8004,7 @@
 /area/fairpoint/street)
 "ilH" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/sleeper)
 "ilQ" = (
@@ -8438,7 +8438,7 @@
 "iLD" = (
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/ward)
 "iLL" = (
@@ -8626,7 +8626,7 @@
 /area/fairpoint/medical/patient_wing)
 "iSE" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/patient_c)
 "iTm" = (
@@ -8683,7 +8683,7 @@
 "iWc" = (
 /obj/structure/sign/chemistry,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/chemistry)
 "iWp" = (
@@ -8705,7 +8705,7 @@
 /area/fairpoint/cityhall)
 "iXo" = (
 /obj/structure/window/reinforced/full{
-	color = "#CCCC7A"
+	color = "#cccc7a"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/crew_quarters/sleep/cryo)
@@ -9109,7 +9109,7 @@
 "jsW" = (
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "jsZ" = (
@@ -9203,7 +9203,7 @@
 /area/fairpoint/police/detectives_office)
 "jyb" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/psych)
 "jyi" = (
@@ -9536,7 +9536,7 @@
 /area/fairpoint/science/rd)
 "jQq" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/biostorage)
 "jQz" = (
@@ -9600,7 +9600,7 @@
 /area/fairpoint/street/north)
 "jUb" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/chemistry)
 "jUd" = (
@@ -9740,7 +9740,7 @@
 /area/fairpoint/research/lab)
 "kay" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/patient_b)
 "kaB" = (
@@ -9755,7 +9755,7 @@
 /area/fairpoint/street/east)
 "kbq" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/maintenance/hospital)
 "kbw" = (
@@ -9884,7 +9884,7 @@
 /area/fairpoint/law)
 "klm" = (
 /obj/structure/curtain{
-	color = "#4C0000";
+	color = "#4c0000";
 	name = "burgandy curtain"
 	},
 /obj/machinery/door/airlock,
@@ -10105,7 +10105,7 @@
 "ktW" = (
 /obj/structure/sign/warning/nosmoking_1,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/surgery2)
 "kuu" = (
@@ -10207,7 +10207,7 @@
 "kzI" = (
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/patient_wing)
 "kAw" = (
@@ -10329,7 +10329,7 @@
 "kJo" = (
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/biostorage)
 "kJB" = (
@@ -10567,7 +10567,7 @@
 "kSw" = (
 /obj/structure/sign/warning/fall,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "kSB" = (
@@ -11168,7 +11168,7 @@
 /area/fairpoint/cityhall)
 "lBO" = (
 /obj/structure/curtain{
-	color = "#72AFED";
+	color = "#72afed";
 	name = "blue curtain"
 	},
 /turf/simulated/floor/tiled/white,
@@ -11248,7 +11248,7 @@
 "lFO" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/structure/curtain{
-	color = "#72AFED";
+	color = "#72afed";
 	name = "blue curtain"
 	},
 /turf/simulated/floor/tiled/white,
@@ -11391,7 +11391,7 @@
 /area/fairpoint/medical/ward)
 "lPR" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/ward)
 "lQf" = (
@@ -11523,7 +11523,7 @@
 /area/fairpoint/street/north)
 "lXk" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/cmo)
 "lXC" = (
@@ -11810,7 +11810,7 @@
 /area/fairpoint/street/east)
 "mnn" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/surgeryobs)
 "mnt" = (
@@ -12213,7 +12213,7 @@
 /area/fairpoint/police/vacantoffice)
 "mHB" = (
 /obj/structure/curtain{
-	color = "#4C0000";
+	color = "#4c0000";
 	name = "burgandy curtain";
 	pixel_x = -30
 	},
@@ -12267,7 +12267,7 @@
 "mJP" = (
 /obj/structure/sign/warning/nosmoking_1,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "mKl" = (
@@ -12666,7 +12666,7 @@
 /area/fairpoint/police/detectives_office)
 "niX" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/morgue)
 "niY" = (
@@ -12888,7 +12888,7 @@
 /area/fairpoint/shipping/miningdock)
 "nyg" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/cityhall)
 "nyh" = (
@@ -13149,7 +13149,7 @@
 /area/fairpoint/maintenance/hospital)
 "nIQ" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/cryo)
 "nKe" = (
@@ -13252,7 +13252,7 @@
 /area/fairpoint/shipping/storage)
 "nQN" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/reception)
 "nQY" = (
@@ -13681,7 +13681,7 @@
 "oqp" = (
 /obj/structure/sign/warning/nosmoking_2,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/psych)
 "oqq" = (
@@ -14145,7 +14145,7 @@
 "oNG" = (
 /obj/structure/sign/warning/smoking,
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/crew_quarters/medbreak)
 "oNX" = (
@@ -14175,7 +14175,7 @@
 "oPN" = (
 /obj/structure/sign/warning/smoking,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/crew_quarters/medbreak)
 "oQa" = (
@@ -14271,7 +14271,7 @@
 /area/fairpoint/police)
 "oTt" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "oTx" = (
@@ -14370,7 +14370,7 @@
 /area/fairpoint/medical/biostorage)
 "oWH" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/sleeper)
 "oWN" = (
@@ -14419,7 +14419,7 @@
 /area/fairpoint/crew_quarters/bar)
 "oZb" = (
 /obj/structure/window/reinforced/full{
-	color = "#CCCC7A"
+	color = "#cccc7a"
 	},
 /obj/structure/grille,
 /turf/simulated/floor/wood/usedup,
@@ -14821,7 +14821,7 @@
 "ptk" = (
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/surgery)
 "ptp" = (
@@ -14850,7 +14850,7 @@
 "puq" = (
 /obj/structure/sign/watercloset,
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/cityhall)
 "pur" = (
@@ -14991,7 +14991,7 @@
 /area/fairpoint/police/range)
 "pCL" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/ward)
 "pCO" = (
@@ -15025,7 +15025,7 @@
 /area/fairpoint/police/prison/restroom)
 "pDr" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/chemistry)
 "pDu" = (
@@ -15299,7 +15299,7 @@
 "pQK" = (
 /obj/structure/sign/warning/moving_parts,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "pQM" = (
@@ -15588,7 +15588,7 @@
 "qfr" = (
 /obj/structure/sign/warning/nosmoking_1,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/surgery)
 "qfs" = (
@@ -15861,7 +15861,7 @@
 "qqg" = (
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/surgery2)
 "qqs" = (
@@ -16257,7 +16257,7 @@
 "qHq" = (
 /obj/structure/sign/warning/nosmoking_1,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/ward)
 "qHJ" = (
@@ -16486,7 +16486,7 @@
 /area/fairpoint/police/vacantoffice)
 "qQv" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/surgery)
 "qQP" = (
@@ -16632,7 +16632,7 @@
 /area/fairpoint/shipping/office)
 "raI" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/cmo)
 "raT" = (
@@ -16819,7 +16819,7 @@
 "rlj" = (
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/surgeryobs)
 "rls" = (
@@ -17101,7 +17101,7 @@
 "rxP" = (
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/psych)
 "rxV" = (
@@ -17251,7 +17251,7 @@
 /area/fairpoint/library)
 "rGi" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/patient_c)
 "rGl" = (
@@ -18116,7 +18116,7 @@
 "sCb" = (
 /obj/structure/window/reinforced/tinted,
 /obj/structure/curtain{
-	color = "#4C0000";
+	color = "#4c0000";
 	name = "burgandy curtain"
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -18577,7 +18577,7 @@
 /area/fairpoint/police/prison)
 "sVv" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/patient_wing)
 "sVw" = (
@@ -18632,7 +18632,7 @@
 "sYX" = (
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/surgery)
 "sZp" = (
@@ -18774,7 +18774,7 @@
 /area/fairpoint/cityhall)
 "tgn" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/street/north)
 "tgp" = (
@@ -18786,7 +18786,7 @@
 /area/fairpoint/medical/reception)
 "tgK" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/patient_b)
 "tib" = (
@@ -18968,7 +18968,7 @@
 /area/fairpoint/crew_quarters/kitchen)
 "tpU" = (
 /obj/structure/curtain{
-	color = "#4C0000";
+	color = "#4c0000";
 	name = "burgandy curtain"
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -19511,7 +19511,7 @@
 "tVd" = (
 /obj/structure/sign/warning/nosmoking_2,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "tVg" = (
@@ -19795,7 +19795,7 @@
 "uib" = (
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/psych)
 "uic" = (
@@ -20028,7 +20028,7 @@
 "uxA" = (
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/sleeper)
 "uxQ" = (
@@ -20465,7 +20465,7 @@
 /area/fairpoint/cityhall)
 "uWr" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/patient_a)
 "uWy" = (
@@ -20537,7 +20537,7 @@
 "vbp" = (
 /obj/structure/sign/greencross,
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/reception)
 "vbC" = (
@@ -20636,7 +20636,7 @@
 "vka" = (
 /obj/structure/sign/warning/smoking,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/cmo)
 "vkr" = (
@@ -20858,7 +20858,7 @@
 /area/fairpoint/medical/sleeper)
 "vwo" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/surgery2)
 "vwu" = (
@@ -21116,7 +21116,7 @@
 "vJX" = (
 /obj/structure/sign/greencross,
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/sleeper)
 "vKh" = (
@@ -21158,7 +21158,7 @@
 /area/fairpoint/law)
 "vMD" = (
 /obj/structure/window/reinforced/full{
-	color = "#CCCC7A"
+	color = "#cccc7a"
 	},
 /turf/simulated/floor/pool,
 /area/fairpoint/street/north)
@@ -22099,7 +22099,7 @@
 /area/fairpoint/library)
 "wIv" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/psych)
 "wIN" = (
@@ -22950,7 +22950,7 @@
 "xAK" = (
 /obj/structure/sign/city/rent,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/street/north)
 "xBy" = (
@@ -23124,7 +23124,7 @@
 "xJv" = (
 /obj/structure/window/reinforced/tinted,
 /obj/structure/curtain{
-	color = "#4C0000";
+	color = "#4c0000";
 	name = "burgandy curtain"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
