@@ -913,7 +913,6 @@
 /obj/structure/flora/pottedplant{
 	icon_state = "plant-06";
 	pixel_y = 10;
-	plane = -25;
 	tag = "icon-plant-06"
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -1330,7 +1329,6 @@
 /obj/structure/flora/pottedplant{
 	icon_state = "plant-06";
 	pixel_y = 10;
-	plane = -25;
 	tag = "icon-plant-06"
 	},
 /obj/structure/bed/chair/comfy/red,
@@ -2322,7 +2320,6 @@
 /area/fairpoint/street)
 "dgo" = (
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},
@@ -4355,7 +4352,6 @@
 /area/fairpoint/street)
 "fUV" = (
 /obj/machinery/status_display{
-	layer = 4;
 	pixel_y = 32
 	},
 /obj/machinery/cryopod{
@@ -5242,7 +5238,6 @@
 	},
 /obj/machinery/door/window/westleft{
 	dir = 2;
-	layer = 3.1;
 	name = "laser testing"
 	},
 /obj/structure/window/reinforced{
@@ -6168,7 +6163,6 @@
 /area/fairpoint/shipping/miningdock)
 "iFB" = (
 /obj/machinery/computer/cryopod{
-	layer = 3.3;
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled,
@@ -6912,7 +6906,6 @@
 /area/fairpoint/research/misc_lab)
 "jMi" = (
 /obj/machinery/status_display{
-	layer = 4;
 	pixel_y = 32
 	},
 /obj/machinery/computer/modular/preset/civilian,
@@ -7046,7 +7039,6 @@
 "jYF" = (
 /obj/machinery/cooker/cereal,
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},
@@ -7942,7 +7934,6 @@
 	},
 /obj/machinery/door/blast/shutters{
 	dir = 4;
-	layer = 3.1;
 	name = "Janitorial Shutters"
 	},
 /turf/simulated/floor/tiled,
@@ -8030,7 +8021,6 @@
 /area/fairpoint/street/east)
 "lhW" = (
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},
@@ -11009,7 +10999,6 @@
 /area/fairpoint/medical/surgery2)
 "prP" = (
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},
@@ -11101,7 +11090,6 @@
 /area/fairpoint/medical/sleeper)
 "pyp" = (
 /obj/machinery/status_display{
-	layer = 4;
 	pixel_y = 32
 	},
 /obj/machinery/computer/modular/preset/civilian,
@@ -12146,7 +12134,6 @@
 /area/fairpoint/medical/surgeryobs)
 "qRn" = (
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},
@@ -14840,7 +14827,6 @@
 "utz" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},

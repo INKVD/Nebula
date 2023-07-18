@@ -1893,7 +1893,6 @@
 /area/fairpoint/crew_quarters/fitness)
 "cie" = (
 /obj/machinery/computer/cryopod{
-	layer = 3.3;
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled,
@@ -1937,7 +1936,6 @@
 /area/fairpoint/street/north)
 "ckf" = (
 /obj/machinery/status_display{
-	layer = 4;
 	pixel_y = 32
 	},
 /obj/machinery/computer/modular/preset/civilian,
@@ -2788,7 +2786,6 @@
 	},
 /obj/machinery/door/window/westleft{
 	dir = 2;
-	layer = 3.1;
 	name = "laser testing"
 	},
 /obj/structure/window/reinforced{
@@ -3388,7 +3385,6 @@
 /obj/structure/flora/pottedplant{
 	icon_state = "plant-06";
 	pixel_y = 10;
-	plane = -25;
 	tag = "icon-plant-06"
 	},
 /obj/structure/bed/chair/comfy/red,
@@ -3443,7 +3439,6 @@
 /area/fairpoint/chapel/main)
 "dzW" = (
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},
@@ -4592,7 +4587,6 @@
 /area/fairpoint/street/north)
 "eJE" = (
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},
@@ -7933,7 +7927,6 @@
 "igN" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},
@@ -8125,7 +8118,6 @@
 "irW" = (
 /obj/machinery/cooker/cereal,
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},
@@ -8789,7 +8781,6 @@
 /area/fairpoint/police)
 "jcv" = (
 /obj/machinery/status_display{
-	layer = 4;
 	pixel_y = 32
 	},
 /obj/machinery/cryopod{
@@ -12121,7 +12112,6 @@
 /area/fairpoint/street)
 "mCa" = (
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},
@@ -13356,7 +13346,6 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},
@@ -14889,7 +14878,6 @@
 /obj/structure/flora/pottedplant{
 	icon_state = "plant-06";
 	pixel_y = 10;
-	plane = -25;
 	tag = "icon-plant-06"
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -14983,7 +14971,6 @@
 /area/fairpoint/shipping/storage)
 "pAY" = (
 /obj/machinery/newscaster{
-	layer = 3.3;
 	pixel_x = 30;
 	pixel_y = 30
 	},
@@ -16011,7 +15998,6 @@
 	},
 /obj/machinery/door/blast/shutters{
 	dir = 4;
-	layer = 3.1;
 	name = "Janitorial Shutters"
 	},
 /turf/simulated/floor/tiled,
@@ -16257,7 +16243,6 @@
 	density = 0;
 	dir = 2;
 	icon_state = "shutter0";
-	layer = 3.1;
 	name = "Hospital Break Room Shutters";
 	opacity = 0
 	},
@@ -16400,7 +16385,6 @@
 	c_tag = "SEC - Prison Living Quarters"
 	},
 /obj/machinery/computer/cryopod{
-	layer = 3.3;
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/dark,
@@ -18236,7 +18220,6 @@
 /area/fairpoint/street/outskirts)
 "sGk" = (
 /obj/machinery/status_display{
-	layer = 4;
 	pixel_y = 32
 	},
 /obj/machinery/computer/modular/preset/civilian,
