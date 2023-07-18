@@ -28,12 +28,12 @@
 /area/fairpoint/medical/medbay)
 "bl" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/ward)
 "bq" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/maintenance/hospital)
 "bB" = (
@@ -106,7 +106,7 @@
 "dI" = (
 /obj/machinery/vending/wallmed1,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/exam_room)
 "dN" = (
@@ -117,7 +117,7 @@
 /area/fairpoint/maintenance/arrivals)
 "ea" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "ee" = (
@@ -159,19 +159,19 @@
 "gb" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/structure/curtain{
-	color = "#72AFED";
+	color = "#72afed";
 	name = "blue curtain"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/ward)
 "go" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/turbolift/hospital_sewers)
 "gs" = (
 /obj/structure/curtain{
-	color = "#72AFED";
+	color = "#72afed";
 	name = "blue curtain"
 	},
 /turf/simulated/floor/tiled/white,
@@ -455,7 +455,7 @@
 /area/fairpoint/hallway/secondary/exit)
 "pY" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/exam_room)
 "qy" = (
@@ -473,7 +473,7 @@
 "qX" = (
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/ward)
 "rp" = (
@@ -593,7 +593,7 @@
 /area/fairpoint/medical/biostorage)
 "tY" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/morgue)
 "ul" = (
@@ -623,7 +623,7 @@
 /area/fairpoint/medical/biostorage)
 "vu" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/ward)
 "vC" = (
@@ -787,7 +787,7 @@
 /area/fairpoint/medical/biostorage)
 "Ca" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "Ci" = (
@@ -932,7 +932,7 @@
 "Hg" = (
 /obj/structure/sign/warning,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/turbolift/hospital_sewers)
 "Hj" = (
@@ -950,7 +950,7 @@
 /area/fairpoint/maintenance/hospital)
 "Ii" = (
 /obj/structure/curtain{
-	color = "#72AFED";
+	color = "#72afed";
 	name = "blue curtain"
 	},
 /turf/simulated/floor/tiled/white,
@@ -1034,7 +1034,7 @@
 "Ko" = (
 /obj/structure/sign/warning/nosmoking_1,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "Kt" = (
@@ -1061,7 +1061,7 @@
 /area/turbolift/metro_maintenance)
 "LK" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/maintenance/hospital)
 "LU" = (
@@ -1109,7 +1109,7 @@
 /area/fairpoint/maintenance/arrivals)
 "OC" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/exam_room)
 "OX" = (
@@ -1138,7 +1138,7 @@
 "PS" = (
 /obj/structure/sign/warning/nosmoking_1,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/ward)
 "Qv" = (
@@ -1171,7 +1171,7 @@
 "Rg" = (
 /obj/structure/sign/warning/moving_parts,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "Rk" = (
@@ -1195,7 +1195,7 @@
 "RA" = (
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/medbay)
 "RB" = (
@@ -1312,7 +1312,7 @@
 /area/turbolift/hospital_sewers)
 "Wi" = (
 /turf/simulated/wall/concrete{
-	color = "#FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/biostorage)
 "WH" = (
@@ -1346,7 +1346,7 @@
 /area/fairpoint/maintenance/arrivals)
 "Xn" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/biostorage)
 "Xo" = (
@@ -1374,7 +1374,7 @@
 /area/fairpoint/medical/medbay)
 "XK" = (
 /turf/simulated/wall/prepainted{
-	color = "FFFEFD"
+	color = "#fffefd"
 	},
 /area/fairpoint/medical/morgue)
 "XR" = (
