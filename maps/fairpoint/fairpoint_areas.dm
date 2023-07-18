@@ -629,6 +629,14 @@
 	lift_announce_str = "Now arriving at: Morgue, Recovery and Cold Storage, Basement."
 	base_turf = /turf/simulated/floor/plating
 
+/area/turbolift/mall_ground
+	name = "Mini-Mall - Ground Level"
+	lift_announce_str = "Now arriving at: Exit and Mall floor, Ground Floor."
+	base_turf = /turf/simulated/floor/plating
+
+/area/turbolift/mall_top
+	name = "Mini-Mall - Top Floor"
+	lift_announce_str = "Now arriving at: Rentable Lots, Floor Two."
 
 /////////////////
 //ELEVATORS END//

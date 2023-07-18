@@ -98,6 +98,9 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 6
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/range)
 "ajD" = (
@@ -114,6 +117,12 @@
 /obj/item/chems/glass/bucket,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/prison)
+"akc" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/cryo)
 "akj" = (
 /obj/structure/window/reinforced{
 	health = 1e+006
@@ -251,7 +260,6 @@
 "aua" = (
 /obj/structure/closet/secure_closet/detective,
 /obj/item/clothing/accessory/badge,
-/obj/item/clothing/accessory/badge,
 /obj/structure/window/reinforced{
 	dir = 8;
 	health = 1e+006
@@ -264,12 +272,20 @@
 /obj/item/clothing/suit/armor/pcarrier/detective,
 /obj/item/clothing/accessory/armor/plate/medium,
 /obj/item/clothing/head/helmet,
+/obj/item/clothing/under/security/pddetective,
+/obj/item/clothing/head/soft/sec/policedetective,
+/obj/item/clothing/head/soft/sec/police/detectiveballcap,
+/obj/item/clothing/head/soft/sec/policedetective,
 /turf/simulated/floor/carpet,
 /area/fairpoint/police/detectives_office)
 "auf" = (
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/ward)
+"aup" = (
+/obj/machinery/light,
+/turf/exterior/concrete/pavement/empty,
+/area/fairpoint/street/north)
 "ava" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -368,6 +384,9 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 1
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/meeting)
 "aAJ" = (
@@ -394,8 +413,7 @@
 /area/fairpoint/engineering/break_room)
 "aDM" = (
 /obj/machinery/door/window/brigdoor/southleft{
-	name = "Chief of Police";
-	req_access = list(58)
+	name = "Chief of Police"
 	},
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/police/cop)
@@ -420,11 +438,17 @@
 "aEJ" = (
 /obj/machinery/door/window/northright{
 	dir = 4;
-	name = "Library Desk Door";
-	req_access = list(37)
+	name = "Library Desk Door"
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/fairpoint/library)
+"aGa" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/light/street,
+/turf/exterior/concrete/pavement{
+	dir = 8
+	},
+/area/fairpoint/street/north)
 "aGb" = (
 /obj/structure/table/reinforced,
 /obj/structure/flora/pottedplant/large{
@@ -444,6 +468,9 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 8
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/meeting)
 "aGw" = (
@@ -460,9 +487,7 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/crew_quarters/kitchen)
 "aId" = (
-/obj/machinery/door/airlock/medical{
-	req_access = list(32,5)
-	},
+/obj/machinery/door/airlock/medical,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/fairpoint/street/east)
@@ -521,9 +546,7 @@
 /turf/exterior/dirt,
 /area/fairpoint/hydroponics/garden)
 "aKd" = (
-/obj/machinery/door/window/southleft{
-	req_access = list(63)
-	},
+/obj/machinery/door/window/southleft,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/law)
 "aKo" = (
@@ -543,6 +566,9 @@
 /obj/item/clothing/accessory/armor/plate/tactical,
 /obj/item/clothing/accessory/armor/tag,
 /obj/item/telebaton,
+/obj/item/clothing/under/warden/pdsergeant,
+/obj/item/clothing/head/soft/sec/police/sergeantballcap,
+/obj/item/clothing/head/soft/sec/policesergeant,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/warden)
 "aKK" = (
@@ -595,6 +621,7 @@
 /obj/machinery/camera/network/engineering{
 	dir = 5
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/engineering/storage)
 "aMl" = (
@@ -604,9 +631,9 @@
 "aMp" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/northleft{
-	name = "Research and Development Desk";
-	req_access = list(7)
+	name = "Research and Development Desk"
 	},
+/obj/item/bell,
 /turf/simulated/floor/tiled,
 /area/fairpoint/research/lab)
 "aMN" = (
@@ -647,8 +674,7 @@
 	dir = 5
 	},
 /obj/machinery/door/window/brigdoor/southleft{
-	name = "Cell 4";
-	req_access = list(2)
+	name = "Cell 4"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/brig)
@@ -664,6 +690,16 @@
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/crew_quarters/medbreak)
+"aQE" = (
+/obj/machinery/atm{
+	name = "ATM";
+	pixel_y = 32
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/exterior/concrete/pavement/empty,
+/area/fairpoint/street)
 "aQM" = (
 /obj/structure/table/reinforced,
 /obj/item/cane,
@@ -692,9 +728,21 @@
 "aSc" = (
 /turf/simulated/floor,
 /area/fairpoint/street/north)
+"aSi" = (
+/obj/effect/floor_decal/corner/paleblue,
+/obj/effect/floor_decal/corner/white{
+	tag = "icon-corner_white (EAST)";
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/biostorage)
 "aTh" = (
 /obj/structure/table/reinforced,
 /obj/item/scanner/autopsy,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/detectives_office)
 "aTu" = (
@@ -707,6 +755,17 @@
 "aTy" = (
 /turf/exterior/concrete/pavement/brick_paving,
 /area/fairpoint/street/north)
+"aUp" = (
+/obj/structure/table/reinforced,
+/obj/effect/floor_decal/corner/white{
+	tag = "icon-corner_white (EAST)";
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/biostorage)
 "aUU" = (
 /obj/structure/sign/watercloset,
 /turf/simulated/wall/concrete,
@@ -921,6 +980,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "bmr" = (
@@ -967,6 +1028,10 @@
 /obj/item/gun/energy/taser,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
+"bnQ" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/cryo)
 "bnW" = (
 /turf/exterior/water,
 /area/fairpoint/hydroponics/garden)
@@ -976,15 +1041,13 @@
 "bpl" = (
 /obj/machinery/door/window{
 	dir = 8;
-	name = "Hospital Ambulance Room";
-	req_access = list(5)
+	name = "Hospital Ambulance Room"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/sleeper)
 "bps" = (
 /obj/machinery/door/airlock{
-	name = "Chapel Office";
-	req_access = list(27)
+	name = "Chapel Office"
 	},
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
@@ -1062,10 +1125,26 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/law)
+"brQ" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 10
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/exam_room)
 "brS" = (
 /obj/machinery/chem_master,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/detectives_office)
+"bsf" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/brig)
 "bsz" = (
 /turf/exterior/concrete/pavement,
 /area/fairpoint/street)
@@ -1197,11 +1276,16 @@
 /area/fairpoint/medical/biostorage)
 "byI" = (
 /obj/machinery/door/airlock/command{
-	name = "City Hall Office";
-	req_access = list(57)
+	name = "City Hall Office"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/cityhall)
+"bzb" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/fairpoint/hydroponics/garden)
 "bzm" = (
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/wood/walnut,
@@ -1235,6 +1319,9 @@
 "bBA" = (
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (WEST)";
+	dir = 8
+	},
+/obj/machinery/light{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -1352,8 +1439,7 @@
 "bIT" = (
 /obj/machinery/door/window/eastright{
 	dir = 8;
-	name = "police office";
-	req_access = list(1)
+	name = "police office"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
@@ -1381,6 +1467,13 @@
 /obj/machinery/photocopier,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/law/judge)
+"bLv" = (
+/obj/machinery/floor_light/prebuilt,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/monofloor,
+/area/fairpoint/street)
 "bLZ" = (
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
@@ -1394,8 +1487,7 @@
 "bMG" = (
 /obj/structure/table/woodentable,
 /obj/machinery/door/window/southright{
-	name = "Mayor's Desk Door";
-	req_access = list(20)
+	name = "Mayor's Desk Door"
 	},
 /obj/item/paper_bin,
 /turf/simulated/floor/wood/ebony,
@@ -1536,6 +1628,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/research/misc_lab)
+"bTq" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/crew_quarters/medbreak)
 "bTB" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -1584,6 +1683,9 @@
 /area/fairpoint/medical/reception)
 "bWi" = (
 /obj/machinery/vending/hotfood,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street)
 "bWp" = (
@@ -1798,18 +1900,14 @@
 /area/fairpoint/crew_quarters/sleep/cryo)
 "cik" = (
 /obj/machinery/door/airlock/medical{
-	name = "Hospital Reception";
-	req_access = list(5);
-	color = "FFFEFD"
+	name = "Hospital Reception"
 	},
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
 	dir = 4
 	},
 /obj/machinery/door/airlock/medical{
-	name = "Hospital Reception";
-	req_access = list(5);
-	color = "FFFEFD"
+	name = "Hospital Reception"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/medical/medbay)
@@ -1860,8 +1958,7 @@
 	},
 /obj/machinery/door/window/brigdoor/southleft{
 	dir = 1;
-	name = "Laser Armor";
-	req_access = list(1)
+	name = "Laser Armor"
 	},
 /obj/structure/rack,
 /obj/item/clothing/head/helmet/ablative,
@@ -1935,6 +2032,12 @@
 /obj/machinery/mining/drill,
 /turf/simulated/floor/tiled,
 /area/fairpoint/shipping/office)
+"cqa" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/fairpoint/police)
 "cqE" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (NORTHWEST)";
@@ -1965,8 +2068,7 @@
 "cto" = (
 /obj/machinery/door/window/northright{
 	dir = 2;
-	name = "Library Desk Door";
-	req_access = list(37)
+	name = "Library Desk Door"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/street)
@@ -1983,6 +2085,19 @@
 /obj/effect/floor_decal/stoneborder,
 /turf/exterior/concrete,
 /area/fairpoint/street/north)
+"cuK" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/white{
+	tag = "icon-corner_white (NORTH)";
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/sleeper)
 "cuO" = (
 /obj/machinery/door/airlock/glass/engineering,
 /turf/simulated/floor/tiled/dark,
@@ -2124,6 +2239,9 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 4
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/meeting)
 "cDj" = (
@@ -2131,8 +2249,7 @@
 /area/fairpoint/street/north)
 "cDl" = (
 /obj/machinery/door/window/eastright{
-	name = "city hall security office";
-	req_access = list(19)
+	name = "city hall security office"
 	},
 /obj/machinery/door/window/westleft,
 /obj/structure/table/reinforced,
@@ -2188,8 +2305,7 @@
 /area/fairpoint/research/misc_lab)
 "cGg" = (
 /obj/machinery/door/airlock/security{
-	name = "Interrogation Room";
-	req_access = list(1)
+	name = "Interrogation Room"
 	},
 /obj/effect/floor_decal/corner/blue/diagonal,
 /turf/simulated/floor/tiled/techfloor,
@@ -2218,6 +2334,16 @@
 "cHc" = (
 /turf/simulated/floor/tiled/old_cargo,
 /area/fairpoint/shipping/storage)
+"cHm" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 5;
+	tag = "icon-corner_white (NORTHEAST)"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/engineering/storage)
 "cHL" = (
 /obj/structure/closet/secure_closet/personal/patient,
 /turf/simulated/floor/tiled/white,
@@ -2410,8 +2536,7 @@
 /area/fairpoint/maintenance/arrivals)
 "cOO" = (
 /obj/machinery/door/airlock/medical{
-	name = "Emergency Room";
-	req_access = list(5)
+	name = "Emergency Room"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/sleeper)
@@ -2454,11 +2579,18 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/door/window/eastright{
-	name = "Reception counter";
-	req_access = list(63)
+	name = "Reception counter"
 	},
 /obj/structure/window/reinforced,
+/obj/item/bell,
 /turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/lobby)
+"cRJ" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
 /area/fairpoint/police/lobby)
 "cRS" = (
 /obj/structure/bed/chair/padded/blue{
@@ -2581,6 +2713,11 @@
 	dir = 1
 	},
 /area/fairpoint/street)
+"cYn" = (
+/obj/structure/table/glass,
+/obj/item/bell,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/reception)
 "cYu" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHEAST)";
@@ -2591,6 +2728,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/street/east)
+"cYw" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 6
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "cYF" = (
 /obj/structure/window/reinforced/full{
 	color = "#CCCC7A"
@@ -2733,6 +2877,7 @@
 	dir = 4;
 	health = 1e+006
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "dcq" = (
@@ -2744,6 +2889,12 @@
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/r_wall,
 /area/fairpoint/police/cop)
+"dcG" = (
+/obj/machinery/light/street{
+	dir = 4
+	},
+/turf/exterior/wildgrass,
+/area/fairpoint/street)
 "dcM" = (
 /obj/effect/floor_decal/corner/paleblue/full{
 	dir = 1
@@ -2861,8 +3012,7 @@
 "djd" = (
 /obj/machinery/door/window/southright{
 	dir = 1;
-	name = "Virology Isolation Room Three";
-	req_access = list(39)
+	name = "Virology Isolation Room Three"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_c)
@@ -3008,8 +3158,7 @@
 	},
 /obj/machinery/door/window/brigdoor/southleft{
 	dir = 1;
-	name = "Bullet Armor";
-	req_access = list(1)
+	name = "Bullet Armor"
 	},
 /obj/structure/rack,
 /obj/item/clothing/suit/armor/bulletproof,
@@ -3143,6 +3292,9 @@
 	c_tag = "SEC - Solitary";
 	dir = 4
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
 "dvH" = (
@@ -3205,6 +3357,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "dxW" = (
@@ -3268,6 +3422,16 @@
 	},
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/street/north)
+"dyX" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/structure/flora/pottedplant/tall,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/lino,
+/area/fairpoint/police/detectives_office)
 "dzL" = (
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/crew_quarters/kitchen)
@@ -3297,6 +3461,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/panicroom)
+"dBr" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police)
 "dBx" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/old_cargo,
@@ -3329,6 +3502,22 @@
 /obj/structure/holostool,
 /turf/simulated/floor/carpet,
 /area/fairpoint/chapel/main)
+"dCP" = (
+/obj/structure/window/reinforced,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 10
+	},
+/obj/structure/closet/secure_closet/security,
+/obj/item/clothing/glasses/hud/security,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/clothing/accessory/badge/holo,
+/obj/item/clothing/accessory/storage/holster,
+/obj/item/gun/energy/taser,
+/obj/item/clothing/under/security/pdcadet,
+/obj/item/clothing/head/soft/sec/police,
+/obj/item/clothing/head/soft/sec/policeballcap,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/vacantoffice)
 "dCU" = (
 /obj/structure/closet/wardrobe/virology_white,
 /obj/effect/floor_decal/corner/green{
@@ -3393,8 +3582,7 @@
 "dFA" = (
 /obj/machinery/door/airlock/medical{
 	id_tag = "surgery_observation";
-	name = "Observation Room";
-	req_access = newlist()
+	name = "Observation Room"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/surgeryobs)
@@ -3507,6 +3695,14 @@
 	},
 /turf/simulated/floor/carpet,
 /area/fairpoint/police/detectives_office)
+"dPs" = (
+/obj/machinery/light/street{
+	dir = 1
+	},
+/turf/exterior/concrete/pavement{
+	dir = 8
+	},
+/area/fairpoint/street)
 "dQa" = (
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/spline/fancy,
@@ -3539,8 +3735,7 @@
 /obj/item/telebaton,
 /obj/item/telebaton,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Weapons locker";
-	req_access = list(2)
+	name = "Weapons locker"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/tactical)
@@ -3728,6 +3923,12 @@
 /obj/structure/disposalpipe/segment,
 /turf/exterior/concrete,
 /area/fairpoint/street)
+"dZB" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police)
 "dZX" = (
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/tiled/dark,
@@ -3744,6 +3945,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet/purple,
+/area/fairpoint/street)
+"eaw" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street)
 "ebs" = (
 /obj/machinery/light/small{
@@ -3875,6 +4082,15 @@
 "eiO" = (
 /turf/simulated/floor/reinforced,
 /area/fairpoint/police/cop)
+"ejl" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/reception)
 "ejo" = (
 /obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 8
@@ -4005,6 +4221,9 @@
 	color = "FFFEFD"
 	},
 /area/fairpoint/medical/patient_wing)
+"erj" = (
+/turf/simulated/wall/walnut,
+/area/turbolift/mall_top)
 "erm" = (
 /obj/structure/door/wood,
 /turf/simulated/floor/tiled/dark,
@@ -4022,7 +4241,7 @@
 /area/fairpoint/police/vacantoffice)
 "erR" = (
 /turf/unsimulated/mask,
-/area/fairpoint/street/outskirts)
+/area/turbolift/mall_top)
 "erV" = (
 /obj/structure/bookcase{
 	name = "bookcase (Fiction)"
@@ -4049,8 +4268,7 @@
 "esP" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -4201,6 +4419,12 @@
 /obj/item/clothing/accessory/badge,
 /turf/simulated/floor/carpet,
 /area/fairpoint/police/detectives_office)
+"eBu" = (
+/obj/structure/table/reinforced,
+/obj/effect/floor_decal/corner/green/diagonal,
+/obj/item/bell,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/shipping/office)
 "eBB" = (
 /obj/machinery/camera/autoname{
 	dir = 1
@@ -4210,8 +4434,7 @@
 /area/fairpoint/law)
 "eDI" = (
 /obj/machinery/door/airlock/security{
-	name = "Detective";
-	req_access = list(4)
+	name = "Detective"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/fairpoint/police/detectives_office)
@@ -4219,6 +4442,12 @@
 /obj/machinery/door/airlock/highsecurity,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/fairpoint/panicroom)
+"eEY" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/brig)
 "eFl" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark,
@@ -4238,6 +4467,12 @@
 "eGd" = (
 /turf/exterior/barren,
 /area/fairpoint/street/east)
+"eGl" = (
+/obj/machinery/light/street,
+/turf/exterior/concrete/pavement{
+	dir = 4
+	},
+/area/fairpoint/street/north)
 "eGn" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
@@ -4248,6 +4483,23 @@
 /obj/structure/fitness/weightlifter,
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/range)
+"eGv" = (
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/paleblue/full,
+/obj/structure/closet/secure_closet/security,
+/obj/item/clothing/glasses/hud/security,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/clothing/accessory/badge/holo,
+/obj/item/clothing/accessory/storage/holster,
+/obj/item/gun/energy/taser,
+/obj/item/clothing/under/security/pdcadet,
+/obj/item/clothing/head/soft/sec/police,
+/obj/item/clothing/head/soft/sec/policeballcap,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/vacantoffice)
 "eGD" = (
 /obj/effect/floor_decal/carpet/blue2{
 	dir = 1
@@ -4308,6 +4560,8 @@
 	dir = 9
 	},
 /obj/item/storage/laundry_basket,
+/obj/item/clothing/suit/storage/toggle/brown_jacket/police,
+/obj/item/clothing/suit/storage/toggle/brown_jacket/police,
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/vacantoffice)
 "eJh" = (
@@ -4583,6 +4837,12 @@
 	},
 /turf/exterior/concrete,
 /area/fairpoint/street/north)
+"ffg" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/exterior/concrete/pavement/brick_paving,
+/area/fairpoint/street)
 "ffm" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
@@ -4686,6 +4946,9 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/paleblue,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/sleeper)
 "fjZ" = (
@@ -4804,6 +5067,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/wall/concrete,
 /area/fairpoint/street/east)
+"fps" = (
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1;
+	tag = "icon-warning_dust (NORTH)"
+	},
+/obj/machinery/light/street,
+/turf/exterior/concrete/pavement/empty,
+/area/fairpoint/street/east)
 "fqc" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
@@ -4825,8 +5096,7 @@
 /area/fairpoint/police/vacantoffice)
 "fqH" = (
 /obj/machinery/door/airlock/command{
-	name = "Preparation Room";
-	req_access = list(63)
+	name = "Preparation Room"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/law)
@@ -4840,6 +5110,9 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/corner/red,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/meeting)
 "fqS" = (
@@ -4943,8 +5216,7 @@
 	dir = 8
 	},
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /obj/item/ammo_casing/rifle,
 /obj/item/ammo_casing/rifle,
@@ -4975,6 +5247,9 @@
 /obj/item/clothing/accessory/badge/holo,
 /obj/item/clothing/accessory/storage/holster,
 /obj/item/gun/energy/taser,
+/obj/item/clothing/under/security/pdcadet,
+/obj/item/clothing/head/soft/sec/police,
+/obj/item/clothing/head/soft/sec/policeballcap,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "fwn" = (
@@ -5204,6 +5479,18 @@
 /obj/structure/flora/pottedplant,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/reception)
+"fGP" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
+/obj/structure/reagent_dispensers/peppertank{
+	pixel_x = 32
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police)
 "fGX" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (SOUTHWEST)";
@@ -5224,9 +5511,7 @@
 /turf/simulated/floor/tiled,
 /area/fairpoint/shipping/office)
 "fIk" = (
-/obj/machinery/door/window/northleft{
-	req_access = list(63)
-	},
+/obj/machinery/door/window/northleft,
 /obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/lobby)
@@ -5252,8 +5537,7 @@
 "fIv" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/machinery/door/airlock/medical{
-	name = "Staff Room";
-	req_access = list(5)
+	name = "Staff Room"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/crew_quarters/medbreak)
@@ -5361,6 +5645,9 @@
 /obj/item/clothing/accessory/armor/plate/medium,
 /obj/item/clothing/accessory/armor/tag/hos,
 /obj/item/clothing/suit/armor/pcarrier/tactical,
+/obj/item/clothing/under/head_of_security/pdchief,
+/obj/item/clothing/head/soft/sec/police/chiefballcap,
+/obj/item/clothing/head/soft/sec/policechief,
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/police/cop)
 "fNW" = (
@@ -5722,6 +6009,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/law)
+"ggN" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police)
 "ggV" = (
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/tiled/dark,
@@ -5798,6 +6097,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/brig)
+"glh" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/fairpoint/police)
 "glj" = (
 /turf/simulated/wall/r_wall,
 /area/fairpoint/police/armoury)
@@ -5841,6 +6146,9 @@
 "gnk" = (
 /obj/structure/table/woodentable,
 /obj/item/paper_bin,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/carpet,
 /area/fairpoint/police/detectives_office)
 "gnq" = (
@@ -5859,6 +6167,9 @@
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Prison Courtyard East";
 	dir = 9
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/detectives_office)
@@ -5933,6 +6244,15 @@
 "gte" = (
 /turf/simulated/floor/tiled/old_tile,
 /area/fairpoint/street)
+"gtu" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "gtA" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -5957,6 +6277,14 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/maintenance/arrivals)
+"guT" = (
+/obj/machinery/light/street{
+	dir = 8
+	},
+/turf/exterior/concrete/pavement/corner{
+	dir = 8
+	},
+/area/fairpoint/street)
 "gvt" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -5973,6 +6301,10 @@
 /obj/structure/girder,
 /turf/simulated/floor,
 /area/fairpoint/maintenance/surface)
+"gvK" = (
+/obj/machinery/light,
+/turf/exterior/concrete/pavement/empty,
+/area/fairpoint/street)
 "gwC" = (
 /obj/machinery/fabricator/protolathe,
 /turf/simulated/floor/tiled/white,
@@ -5983,6 +6315,9 @@
 /area/fairpoint/maintenance/surface)
 "gxw" = (
 /obj/machinery/camera/autoname,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/exterior/concrete/pavement/brick_paving,
 /area/fairpoint/street)
 "gxx" = (
@@ -6028,9 +6363,7 @@
 /turf/simulated/floor/plating,
 /area/fairpoint/street/east)
 "gAP" = (
-/obj/machinery/door/window/southleft{
-	req_access = list(1)
-	},
+/obj/machinery/door/window/southleft,
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
 	},
@@ -6099,8 +6432,7 @@
 /area/fairpoint/street/north)
 "gEs" = (
 /obj/machinery/door/airlock/command{
-	name = "Prosecutor Office";
-	req_access = list(43)
+	name = "Prosecutor Office"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/law/lawoffice)
@@ -6236,6 +6568,15 @@
 /obj/effect/floor_decal/corner/pink/bordercorner,
 /turf/simulated/floor/wood/usedup,
 /area/fairpoint/street/east)
+"gLV" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/fairpoint/police/brig/processing)
 "gMj" = (
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/prepainted{
@@ -6269,6 +6610,9 @@
 /obj/item/clothing/accessory/armor/tag/abpos,
 /obj/item/clothing/accessory/armor/tag/abneg,
 /obj/item/clothing/accessory/armor/tag/abneg,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/vacantoffice)
 "gNt" = (
@@ -6277,8 +6621,7 @@
 /area/fairpoint/street/west)
 "gNx" = (
 /obj/machinery/door/airlock/command{
-	name = "Judge Office";
-	req_access = list(42)
+	name = "Judge Office"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/law/judge)
@@ -6311,6 +6654,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/law)
+"gOS" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/chapel/office)
 "gOY" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 10
@@ -6319,6 +6668,7 @@
 	c_tag = "SEC - Main Hallway West";
 	dir = 10
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
 "gPe" = (
@@ -6472,6 +6822,10 @@
 	},
 /turf/simulated/floor/lino,
 /area/fairpoint/police/detectives_office)
+"gXE" = (
+/obj/machinery/light/street,
+/turf/exterior/concrete/pavement/empty,
+/area/fairpoint/street/east)
 "gYY" = (
 /obj/structure/bed/sofa{
 	tag = "icon-sofamiddle (EAST)";
@@ -6583,6 +6937,7 @@
 /obj/machinery/camera/network/medbay{
 	dir = 1
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/surgery)
 "hdD" = (
@@ -6723,6 +7078,13 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/fairpoint/shipping/storage)
+"hkS" = (
+/obj/structure/closet/secure_closet/chemical,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/chemistry)
 "hll" = (
 /obj/structure/bed/sofa{
 	dir = 9
@@ -6747,8 +7109,7 @@
 /area/fairpoint/police)
 "hmC" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Secure Armoury Section";
-	req_access = list(3)
+	name = "Secure Armoury Section"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/tactical)
@@ -6760,6 +7121,9 @@
 /obj/structure/table/glass,
 /obj/structure/flora/pottedplant/large{
 	pixel_y = 15
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/lobby)
@@ -6808,13 +7172,9 @@
 /turf/simulated/floor/carpet,
 /area/fairpoint/police/detectives_office)
 "hoL" = (
-/obj/turbolift_map_holder/fairpoint{
-	dir = 4;
-	lift_size_x = 3;
-	lift_size_y = 3
-	},
+/obj/turbolift_map_holder/fairpoint/mall,
 /turf/simulated/floor/wood/usedup,
-/area/fairpoint/street/east)
+/area/turbolift/mall_ground)
 "hpj" = (
 /obj/structure/table/reinforced,
 /obj/item/modular_computer/laptop/preset/records,
@@ -6888,7 +7248,7 @@
 /obj/structure/bed/chair/wood{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/stone,
+/turf/simulated/floor/lino,
 /area/fairpoint/street/west)
 "htw" = (
 /obj/machinery/door/window/southright{
@@ -6897,8 +7257,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/eastright{
 	dir = 1;
-	name = "City Supervisor's Desk";
-	req_access = list(57)
+	name = "City Supervisor's Desk"
 	},
 /obj/machinery/door/blast/shutters{
 	density = 0;
@@ -6927,8 +7286,7 @@
 "hvp" = (
 /obj/machinery/door/window/northright{
 	dir = 2;
-	name = "Library Desk Door";
-	req_access = list(37)
+	name = "Library Desk Door"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/library)
@@ -6987,6 +7345,10 @@
 /obj/structure/extinguisher_cabinet,
 /turf/simulated/wall/concrete,
 /area/fairpoint/crew_quarters/mayor)
+"hxg" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/monotile,
+/area/fairpoint/cityhall)
 "hxi" = (
 /obj/machinery/vending/wallmed1,
 /turf/simulated/wall/r_wall,
@@ -7033,6 +7395,9 @@
 /obj/item/towel/random,
 /obj/item/towel/random,
 /obj/item/towel/random,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police)
 "hAO" = (
@@ -7079,9 +7444,7 @@
 /turf/simulated/wall/r_wall/hull,
 /area/fairpoint/street/north)
 "hDX" = (
-/obj/machinery/door/window/southright{
-	req_access = list(63)
-	},
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/law)
 "hDZ" = (
@@ -7303,6 +7666,10 @@
 	},
 /turf/exterior/concrete/reinforced/road,
 /area/fairpoint/street)
+"hQU" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police)
 "hRC" = (
 /obj/structure/window/reinforced{
 	health = 1e+006
@@ -7410,8 +7777,7 @@
 /area/fairpoint/law)
 "hXm" = (
 /obj/machinery/door/airlock{
-	name = "Custodial Closet";
-	req_access = list(26)
+	name = "Custodial Closet"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/janitor)
@@ -7466,6 +7832,10 @@
 /obj/item/sticky_pad/random,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/warden)
+"ici" = (
+/obj/machinery/light,
+/turf/simulated/floor/wood/yew,
+/area/fairpoint/cityhall)
 "ick" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 10
@@ -7551,6 +7921,9 @@
 "igr" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/evidence,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/detectives_office)
 "igB" = (
@@ -7566,6 +7939,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
+"igP" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/wood/yew,
+/area/fairpoint/cityhall)
 "ihp" = (
 /obj/effect/floor_decal/carpet/blue2{
 	dir = 4
@@ -7615,6 +7994,12 @@
 "ikI" = (
 /turf/simulated/floor/wood,
 /area/fairpoint/medical/psych)
+"ikW" = (
+/obj/machinery/light/street{
+	dir = 8
+	},
+/turf/exterior/wildgrass,
+/area/fairpoint/street/west)
 "iln" = (
 /obj/machinery/door/blast/regular{
 	dir = 8
@@ -7875,6 +8260,7 @@
 /obj/machinery/camera/network/medbay{
 	dir = 1
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/surgery2)
 "iDk" = (
@@ -7914,8 +8300,7 @@
 /obj/item/storage/box/ammo/stunshells,
 /obj/item/storage/box/ammo/stunshells,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /obj/item/ammo_magazine/shotholder/stun,
 /obj/item/ammo_magazine/shotholder/stun,
@@ -7982,6 +8367,12 @@
 /obj/structure/girder,
 /turf/simulated/floor/plating,
 /area/fairpoint/street/east)
+"iGX" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police)
 "iHc" = (
 /obj/structure/bed/chair/comfy/red,
 /obj/effect/floor_decal/corner/pink/diagonal,
@@ -8040,6 +8431,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "iKZ" = (
@@ -8067,6 +8460,15 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/street/north)
+"iMc" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/meeting)
 "iMm" = (
 /obj/machinery/smartfridge/chemistry,
 /turf/simulated/floor/tiled/white,
@@ -8161,6 +8563,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/hallway/secondary/exit)
+"iQx" = (
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	name = "Biohazard Shutter";
+	opacity = 0
+	},
+/obj/structure/table/reinforced,
+/obj/item/bell,
+/turf/simulated/floor/tiled,
+/area/fairpoint/research/robotics)
 "iQC" = (
 /obj/effect/floor_decal/corner/pink,
 /turf/simulated/floor/tiled/white,
@@ -8169,6 +8582,9 @@
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Interrogation Observation Room";
 	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/detectives_office)
@@ -8237,6 +8653,12 @@
 	tag = "icon-borderfloorcorner_white (EAST)"
 	},
 /turf/simulated/floor/tiled/freezer,
+/area/fairpoint/street/north)
+"iTP" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/north)
 "iUp" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -8348,8 +8770,7 @@
 "jbo" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -8433,8 +8854,7 @@
 /area/fairpoint/cityhall/meeting_room)
 "jee" = (
 /obj/machinery/door/airlock{
-	name = "Bar Backroom";
-	req_access = list(25)
+	name = "Bar Backroom"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/crew_quarters/kitchen)
@@ -8472,6 +8892,12 @@
 	},
 /turf/simulated/floor/lino,
 /area/fairpoint/police/detectives_office)
+"jfs" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/fairpoint/medical/sleeper)
 "jft" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
@@ -8506,6 +8932,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "jgg" = (
@@ -8659,6 +9087,16 @@
 /obj/machinery/vending/security,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/street)
+"jrw" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 9
+	},
+/obj/machinery/vending/security,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/fairpoint/police/vacantoffice)
 "jrQ" = (
 /turf/simulated/floor/carpet/blue2,
 /area/fairpoint/medical/medbay)
@@ -8697,6 +9135,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
+"jtF" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/engineering/foyer)
 "jtH" = (
 /obj/structure/noticeboard,
 /turf/simulated/wall/concrete,
@@ -8776,6 +9220,14 @@
 /obj/machinery/microwave,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/engineering/break_room)
+"jym" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "jyo" = (
 /obj/structure/bed/chair/armchair/yellow,
 /turf/simulated/floor/tiled/steel_grid,
@@ -8803,6 +9255,7 @@
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 10
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/reception)
 "jza" = (
@@ -8864,11 +9317,15 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/crew_quarters/sleep/cryo)
 "jBi" = (
-/obj/machinery/door/window/southright{
-	req_access = list(39)
-	},
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_a)
+"jBj" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/exterior/concrete/pavement/stairs,
+/area/fairpoint/street/north)
 "jBl" = (
 /obj/machinery/door/airlock/hatch/autoname/engineering,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -9031,6 +9488,15 @@
 /obj/structure/bed/padded,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_c)
+"jKD" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "jKT" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/monotile,
@@ -9066,9 +9532,9 @@
 /turf/simulated/floor/wood,
 /area/fairpoint/library)
 "jOr" = (
-/obj/item/clothing/suit/armor/pcarrier/medium,
-/turf/simulated/wall/concrete,
-/area/fairpoint/police/meeting)
+/obj/machinery/light/street,
+/turf/exterior/wildgrass,
+/area/fairpoint/street/west)
 "jQi" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -9315,6 +9781,10 @@
 /obj/structure/closet/secure_closet/personal/patient,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_c)
+"kdj" = (
+/obj/machinery/light,
+/turf/exterior/concrete,
+/area/fairpoint/hydroponics/garden)
 "kdJ" = (
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/white{
@@ -9353,6 +9823,12 @@
 /obj/structure/filingcabinet,
 /turf/simulated/floor/reinforced,
 /area/fairpoint/police/cop)
+"kfv" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/brig)
 "kgk" = (
 /turf/simulated/floor/tiled/white/monotile,
 /area/fairpoint/medical/biostorage)
@@ -9360,6 +9836,12 @@
 /obj/structure/bed/sofa,
 /turf/simulated/floor/wood/walnut,
 /area/fairpoint/street/north)
+"kgM" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/engineering/break_room)
 "khm" = (
 /turf/simulated/wall/walnut,
 /area/fairpoint/street/outskirts)
@@ -9396,6 +9878,9 @@
 /area/fairpoint/police/cop)
 "kkn" = (
 /obj/effect/floor_decal/corner/red/full{
+	dir = 8
+	},
+/obj/machinery/light{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
@@ -9442,6 +9927,14 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/fairpoint/medical/biostorage)
+"kmR" = (
+/obj/machinery/light/street{
+	dir = 8
+	},
+/turf/exterior/concrete/pavement{
+	dir = 8
+	},
+/area/fairpoint/street/east)
 "knp" = (
 /obj/effect/floor_decal/corner/pink/diagonal,
 /obj/structure/table/woodentable,
@@ -9494,6 +9987,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "kpA" = (
@@ -9532,12 +10027,14 @@
 /turf/simulated/wall/r_wall/hull,
 /area/fairpoint/street/north)
 "krC" = (
-/obj/machinery/door/airlock/medical{
-	req_access = list(32,5)
-	},
+/obj/machinery/door/airlock/medical,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/fairpoint/street/north)
+"krM" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/chapel/main)
 "krV" = (
 /obj/structure/closet/bombclosetsecurity,
 /turf/simulated/floor/tiled/techfloor,
@@ -9600,6 +10097,7 @@
 /obj/item/clothing/accessory/badge/holo,
 /obj/item/clothing/accessory/storage/holster,
 /obj/item/gun/energy/taser,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "ktA" = (
@@ -9619,9 +10117,6 @@
 	color = "FFFEFD"
 	},
 /area/fairpoint/medical/surgery2)
-"kue" = (
-/turf/simulated/floor/tiled/techmaint,
-/area/fairpoint/street/outskirts)
 "kuu" = (
 /turf/simulated/wall/iron,
 /turf/simulated/wall/iron,
@@ -9695,8 +10190,7 @@
 "kyK" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -9805,6 +10299,11 @@
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cmo)
+"kGl" = (
+/obj/structure/table/reinforced,
+/obj/item/bell,
+/turf/simulated/floor/wood,
+/area/fairpoint/street)
 "kGy" = (
 /obj/effect/floor_decal/stoneborder{
 	dir = 1
@@ -9820,8 +10319,7 @@
 	},
 /obj/machinery/door/window/eastright{
 	name = "city hall security office";
-	dir = 1;
-	req_access = list(19)
+	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/cityhall)
@@ -9884,6 +10382,15 @@
 /obj/effect/floor_decal/corner/paleblue,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
+"kKr" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police)
 "kKG" = (
 /turf/simulated/floor/carpet,
 /area/fairpoint/science/rd)
@@ -10015,6 +10522,7 @@
 	pixel_x = -26;
 	pixel_y = -4
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/surgeryobs)
 "kQk" = (
@@ -10095,8 +10603,11 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cmo)
 "kUV" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 5
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/reception)
@@ -10240,6 +10751,10 @@
 /obj/effect/floor_decal/corner/paleblue/border,
 /turf/simulated/floor/tiled,
 /area/fairpoint/crew_quarters/medbreak)
+"ldj" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/steel_grid,
+/area/fairpoint/hallway/secondary/exit)
 "leA" = (
 /obj/structure/morgue{
 	icon_state = "morgue1";
@@ -10602,6 +11117,9 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
+/obj/machinery/light/street{
+	dir = 4
+	},
 /turf/exterior/concrete,
 /area/fairpoint/street/west)
 "lxL" = (
@@ -10687,6 +11205,9 @@
 	health = 1e+006
 	},
 /obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -11050,6 +11571,10 @@
 "lZq" = (
 /turf/simulated/wall/r_wall,
 /area/fairpoint/police/main)
+"lZG" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/brig)
 "lZJ" = (
 /obj/structure/morgue,
 /turf/simulated/floor/tiled/freezer,
@@ -11129,6 +11654,10 @@
 /obj/structure/flora/tree/dead,
 /turf/exterior/wildgrass,
 /area/fairpoint/street/west)
+"meb" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/engineering/storage)
 "meu" = (
 /obj/structure/dogbed,
 /mob/living/simple_animal/cat/fluff/runtime,
@@ -11172,8 +11701,7 @@
 "mgk" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -11326,8 +11854,7 @@
 "mok" = (
 /obj/machinery/door/window{
 	name = "Seating";
-	icon_state = "right";
-	req_access = list(150)
+	icon_state = "right"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/law)
@@ -11434,9 +11961,7 @@
 "mtK" = (
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/red/diagonal,
-/obj/machinery/door/window/eastleft{
-	req_access = list(63)
-	},
+/obj/machinery/door/window/eastleft,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/lobby)
 "mtX" = (
@@ -11550,8 +12075,7 @@
 /obj/item/storage/box/ammo/beanbags,
 /obj/item/storage/box/ammo/beanbags,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
@@ -11632,6 +12156,9 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/crew_quarters/mayor)
+"mEd" = (
+/turf/simulated/floor/wood/usedup,
+/area/turbolift/mall_ground)
 "mEQ" = (
 /obj/machinery/door/airlock/glass/civilian,
 /turf/simulated/floor,
@@ -11661,10 +12188,17 @@
 /obj/item/storage/box/handcuffs,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/cityhall)
+"mFT" = (
+/obj/item/bodybag/cryobag{
+	pixel_x = 6
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white/monotile,
+/area/fairpoint/police/brig/processing)
 "mGt" = (
 /obj/machinery/door/airlock{
-	name = "Kitchen Cold Room";
-	req_access = list(28)
+	name = "Kitchen Cold Room"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/crew_quarters/kitchen)
@@ -11783,6 +12317,9 @@
 /obj/item/clothing/suit/armor/pcarrier/tactical,
 /obj/item/clothing/accessory/armor/plate/tactical,
 /obj/item/clothing/accessory/armor/tag,
+/obj/item/clothing/under/warden/pdsergeant,
+/obj/item/clothing/head/soft/sec/police/sergeantballcap,
+/obj/item/clothing/head/soft/sec/policesergeant,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/warden)
 "mOm" = (
@@ -11819,8 +12356,7 @@
 	},
 /obj/machinery/door/window/southright{
 	dir = 4;
-	name = "judge area";
-	req_access = list(63)
+	name = "judge area"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/law/judge)
@@ -11901,12 +12437,42 @@
 /obj/effect/floor_decal/corner/green/diagonal,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/shipping/office)
+"mWQ" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police)
 "mXe" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
+"mXB" = (
+/obj/structure/closet/secure_closet/security,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/paleblue/full{
+	dir = 8
+	},
+/obj/item/clothing/glasses/hud/security,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/clothing/accessory/badge/holo,
+/obj/item/clothing/accessory/storage/holster,
+/obj/item/gun/energy/taser,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/vacantoffice)
 "mYE" = (
 /obj/effect/floor_decal/corner/green/diagonal,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -11932,6 +12498,11 @@
 /obj/machinery/fabricator/industrial,
 /turf/simulated/floor/tiled,
 /area/fairpoint/shipping/office)
+"naq" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/bell,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/crew_quarters/kitchen)
 "naT" = (
 /obj/effect/floor_decal/spline/fancy,
 /obj/structure/flora/pottedplant/large{
@@ -12050,6 +12621,12 @@
 /obj/structure/table/woodentable/ebony,
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/crew_quarters/bar)
+"ngM" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/chapel/main)
 "ngS" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -12115,6 +12692,11 @@
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/law)
+"njB" = (
+/obj/effect/floor_decal/corner/red,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/meeting)
 "njF" = (
 /turf/simulated/wall/r_wall,
 /area/fairpoint/police/prison/dorm)
@@ -12147,6 +12729,18 @@
 "nlo" = (
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/ward)
+"nlI" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/brig)
+"nmu" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/fairpoint/police/range)
 "nmJ" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor/wood/walnut,
@@ -12171,6 +12765,11 @@
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/research/robotics)
+"noB" = (
+/obj/structure/table/reinforced,
+/obj/item/bell,
+/turf/simulated/floor/wood,
+/area/fairpoint/library)
 "npq" = (
 /obj/effect/floor_decal/floordetail/pryhole,
 /turf/simulated/floor/tiled/techmaint,
@@ -12323,6 +12922,12 @@
 "nzi" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/street/north)
+"nzO" = (
+/obj/machinery/light/street{
+	dir = 8
+	},
+/turf/exterior/concrete/pavement/empty,
+/area/fairpoint/street/west)
 "nzP" = (
 /turf/simulated/wall/concrete,
 /area/fairpoint/police/prison)
@@ -12353,6 +12958,12 @@
 /obj/structure/grille,
 /turf/simulated/floor/plating,
 /area/fairpoint/research/misc_lab)
+"nAh" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/fairpoint/police/brig)
 "nAM" = (
 /obj/machinery/light/street,
 /turf/exterior/concrete/pavement/empty,
@@ -12374,9 +12985,22 @@
 /turf/simulated/floor/tiled,
 /area/fairpoint/law/judge)
 "nBH" = (
-/obj/machinery/door/airlock/maintenance,
-/turf/simulated/floor,
-/area/fairpoint/maintenance/surface)
+/obj/structure/window/reinforced,
+/obj/effect/floor_decal/corner/paleblue/full{
+	tag = "icon-corner_white_full (EAST)";
+	dir = 4
+	},
+/obj/structure/closet/secure_closet/security,
+/obj/item/clothing/glasses/hud/security,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/clothing/accessory/badge/holo,
+/obj/item/clothing/accessory/storage/holster,
+/obj/item/gun/energy/taser,
+/obj/item/clothing/under/security/pdcadet,
+/obj/item/clothing/head/soft/sec/police,
+/obj/item/clothing/head/soft/sec/policeballcap,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/vacantoffice)
 "nBI" = (
 /obj/machinery/door/airlock/civilian,
 /turf/simulated/floor/tiled,
@@ -12397,6 +13021,12 @@
 /obj/machinery/door/airlock/command,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/cityhall)
+"nCE" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/chemistry)
 "nCM" = (
 /obj/machinery/vending/snack,
 /turf/simulated/floor/tiled/monotile,
@@ -12415,13 +13045,12 @@
 	pixel_y = 32
 	},
 /obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
 "nEe" = (
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1"
-	},
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/tiled,
 /area/fairpoint/janitor)
@@ -12439,8 +13068,7 @@
 "nEA" = (
 /obj/structure/table/woodentable,
 /obj/machinery/door/window/southright{
-	name = "Mayor's Desk Door";
-	req_access = list(20)
+	name = "Mayor's Desk Door"
 	},
 /obj/item/toy/desk/newtoncradle,
 /turf/simulated/floor/wood/ebony,
@@ -12490,8 +13118,7 @@
 /area/fairpoint/research/lab)
 "nHt" = (
 /obj/machinery/door/morgue{
-	name = "Private Study";
-	req_access = list(37)
+	name = "Private Study"
 	},
 /turf/simulated/floor/wood,
 /area/fairpoint/street)
@@ -12535,6 +13162,13 @@
 	color = "FFFEFD"
 	},
 /area/fairpoint/medical/cryo)
+"nKe" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/simulated/floor/lino,
+/area/fairpoint/police/detectives_office)
 "nKn" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -12668,6 +13302,9 @@
 /obj/structure/flora/pottedplant{
 	pixel_y = 10
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/west)
 "nUh" = (
@@ -12733,7 +13370,6 @@
 "nXK" = (
 /obj/structure/closet/secure_closet/detective,
 /obj/item/clothing/accessory/badge,
-/obj/item/clothing/accessory/badge,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
@@ -12745,6 +13381,10 @@
 /obj/item/clothing/suit/armor/pcarrier/detective,
 /obj/item/clothing/accessory/armor/plate/medium,
 /obj/item/clothing/head/helmet,
+/obj/item/clothing/under/security/pddetective,
+/obj/item/clothing/head/soft/sec/policedetective,
+/obj/item/clothing/head/soft/sec/police/detectiveballcap,
+/obj/item/clothing/head/soft/sec/policedetective,
 /turf/simulated/floor/carpet,
 /area/fairpoint/police/detectives_office)
 "nXQ" = (
@@ -12755,6 +13395,12 @@
 /obj/effect/floor_decal/industrial/traffic,
 /turf/exterior/concrete/reinforced/road,
 /area/fairpoint/street/east)
+"nZq" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/carpet,
+/area/fairpoint/chapel/office)
 "nZr" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/crew_quarters/bar)
@@ -12848,8 +13494,7 @@
 /area/fairpoint/cityhall/meeting_room)
 "oeD" = (
 /obj/machinery/door/airlock/medical{
-	name = "Secondary Storage";
-	req_access = list(5)
+	name = "Secondary Storage"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/sleeper)
@@ -12955,11 +13600,21 @@
 "oka" = (
 /obj/machinery/door/airlock/command{
 	id_tag = "HoSdoor";
-	name = "Chief of Police";
-	req_access = list(58)
+	name = "Chief of Police"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/cop)
+"okm" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/white{
+	tag = "icon-corner_white (NORTH)";
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/biostorage)
 "okp" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 1
@@ -13105,8 +13760,7 @@
 "otv" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/northleft{
-	name = "Research and Development Desk";
-	req_access = list(7)
+	name = "Research and Development Desk"
 	},
 /obj/machinery/network/pager/science,
 /turf/simulated/floor/tiled,
@@ -13154,9 +13808,7 @@
 /turf/exterior/concrete,
 /area/fairpoint/street/north)
 "ovV" = (
-/obj/machinery/door/airlock/hatch{
-	req_access = list(53)
-	},
+/obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/greengrid,
 /area/fairpoint/maintenance/telecomms)
 "owa" = (
@@ -13187,8 +13839,7 @@
 "oxo" = (
 /obj/machinery/door/airlock/command{
 	id_tag = "captaindoor";
-	name = "Mayor's Car Park";
-	req_access = list(20)
+	name = "Mayor's Car Park"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/fairpoint/cityhall)
@@ -13227,6 +13878,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cryo)
 "ozC" = (
@@ -13244,6 +13898,14 @@
 /obj/item/mop,
 /turf/simulated/floor/tiled,
 /area/fairpoint/janitor)
+"oAU" = (
+/obj/structure/closet/secure_closet/paramedic,
+/obj/item/defibrillator/compact/loaded,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/biostorage)
 "oAY" = (
 /obj/structure/window/reinforced/full{
 	color = "red"
@@ -13335,6 +13997,7 @@
 	dir = 8
 	},
 /obj/machinery/disposal,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/reception)
 "oHE" = (
@@ -13370,6 +14033,23 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/carpet,
 /area/fairpoint/chapel/main)
+"oIC" = (
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/paleblue/full,
+/obj/structure/closet/secure_closet/security,
+/obj/item/clothing/glasses/hud/security,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/clothing/accessory/badge/holo,
+/obj/item/clothing/accessory/storage/holster,
+/obj/item/gun/energy/taser,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/vacantoffice)
 "oIF" = (
 /obj/machinery/telecomms/server/presets/common,
 /turf/simulated/floor/tiled/techfloor,
@@ -13388,10 +14068,19 @@
 	},
 /turf/simulated/floor/carpet/blue2,
 /area/fairpoint/medical/psych)
-"oJl" = (
-/obj/machinery/door/airlock/engineering{
-	req_access = list(1,32)
+"oJg" = (
+/obj/machinery/camera/network/security{
+	c_tag = "SEC - Detectives' Office";
+	dir = 10
 	},
+/obj/structure/noticeboard{
+	pixel_y = -32
+	},
+/obj/machinery/light,
+/turf/simulated/floor/lino,
+/area/fairpoint/police/detectives_office)
+"oJl" = (
+/obj/machinery/door/airlock/engineering,
 /turf/simulated/floor/plating,
 /area/fairpoint/police)
 "oKx" = (
@@ -13449,6 +14138,16 @@
 "oMt" = (
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/wood,
+/area/fairpoint/street)
+"oNa" = (
+/obj/structure/sign/directions/evac{
+	dir = 8;
+	pixel_y = 25
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street)
 "oNx" = (
 /obj/structure/table/reinforced,
@@ -13669,6 +14368,17 @@
 /obj/machinery/camera/network/security,
 /turf/simulated/floor/tiled/monotile,
 /area/fairpoint/police/main)
+"oWr" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/firstaid/toxin,
+/obj/item/storage/firstaid/toxin,
+/obj/item/storage/firstaid/toxin,
+/obj/item/storage/firstaid/toxin,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/biostorage)
 "oWH" = (
 /turf/simulated/wall/prepainted{
 	color = "FFFEFD"
@@ -13680,6 +14390,22 @@
 "oXD" = (
 /turf/unsimulated/mask,
 /area/turbolift/metro_station)
+"oXI" = (
+/obj/structure/closet{
+	name = "Evidence Closet"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/fairpoint/police/detectives_office)
+"oXW" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/bed/sofa{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/police/lobby)
 "oYh" = (
 /obj/machinery/door/airlock/glass/security,
 /turf/simulated/floor/tiled/dark,
@@ -13815,7 +14541,7 @@
 /area/fairpoint/law)
 "pee" = (
 /obj/structure/table/woodentable,
-/turf/simulated/floor/tiled/stone,
+/turf/simulated/floor/lino,
 /area/fairpoint/street/west)
 "pel" = (
 /obj/structure/railing/mapped{
@@ -13831,6 +14557,21 @@
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/tiled/monotile,
 /area/fairpoint/cityhall)
+"peY" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police)
+"pfg" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/fairpoint/police/brig/processing)
 "pfh" = (
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/white{
@@ -13909,6 +14650,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "pjr" = (
@@ -14003,6 +14746,13 @@
 /obj/structure/dogbed,
 /turf/simulated/floor/wood/maple,
 /area/fairpoint/library)
+"poj" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 10
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "pon" = (
 /obj/machinery/vending/coffee{
 	dir = 1
@@ -14114,6 +14864,12 @@
 	color = "#FFFEFD"
 	},
 /area/fairpoint/cityhall)
+"pur" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/fairpoint/police/range)
 "pus" = (
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/street/east)
@@ -14158,8 +14914,7 @@
 "pxp" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/southright{
-	name = "Chemistry Desk";
-	req_access = list(33)
+	name = "Chemistry Desk"
 	},
 /obj/machinery/door/window/northright{
 	name = "Chemistry Desk"
@@ -14206,6 +14961,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/janitor)
+"pAf" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police)
 "pAE" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/structure/sign/cargo,
@@ -14299,6 +15063,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/detectives_office)
+"pEx" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/exterior/concrete/pavement{
+	dir = 4
+	},
+/area/fairpoint/street/west)
 "pEz" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHEAST)";
@@ -14546,9 +15318,6 @@
 "pQM" = (
 /turf/simulated/floor/tiled/dark/monotile,
 /area/fairpoint/engineering/sysadmin)
-"pRo" = (
-/turf/simulated/wall/iron,
-/area/fairpoint/street/outskirts)
 "pRP" = (
 /obj/structure/table/reinforced,
 /obj/structure/flora/pottedplant/large{
@@ -14617,7 +15386,6 @@
 	dir = 8
 	},
 /obj/machinery/door/window/southright{
-	req_access = list(63);
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
@@ -14638,8 +15406,7 @@
 /area/fairpoint/street/north)
 "pVO" = (
 /obj/machinery/door/window/southright{
-	name = "private area access";
-	req_access = list(20)
+	name = "private area access"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/cityhall)
@@ -14697,6 +15464,7 @@
 /obj/effect/floor_decal/carpet{
 	dir = 10
 	},
+/obj/machinery/light,
 /turf/simulated/floor/carpet,
 /area/fairpoint/law)
 "pYp" = (
@@ -14881,6 +15649,16 @@
 /obj/item/book/manual/barman_recipes,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/crew_quarters/kitchen)
+"qgS" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped,
+/obj/machinery/light/street{
+	dir = 4
+	},
+/turf/exterior/concrete,
+/area/fairpoint/street/west)
 "qhj" = (
 /obj/structure/morgue,
 /obj/structure/window/reinforced{
@@ -14899,6 +15677,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/turret_protected/ai_server_room)
+"qhJ" = (
+/obj/machinery/light/street,
+/turf/exterior/concrete/pavement{
+	dir = 8
+	},
+/area/fairpoint/street)
 "qid" = (
 /obj/structure/sign/neon/meetingroom,
 /turf/simulated/wall/concrete,
@@ -14985,6 +15769,7 @@
 /obj/effect/floor_decal/carpet{
 	dir = 6
 	},
+/obj/machinery/light,
 /turf/simulated/floor/carpet,
 /area/fairpoint/law)
 "qmT" = (
@@ -15002,9 +15787,7 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/street/east)
 "qno" = (
-/obj/turbolift_map_holder/fairpoint/metro{
-	dir = 4
-	},
+/obj/turbolift_map_holder/fairpoint/metro,
 /turf/simulated/floor/plating,
 /area/turbolift/metro_maintenance)
 "qnq" = (
@@ -15052,6 +15835,14 @@
 /obj/structure/closet/wardrobe/suit,
 /turf/simulated/floor/tiled/freezer,
 /area/fairpoint/cityhall)
+"qpn" = (
+/obj/machinery/light/street{
+	dir = 4
+	},
+/turf/exterior/concrete/pavement/corner{
+	dir = 1
+	},
+/area/fairpoint/street/east)
 "qpL" = (
 /obj/structure/bed/chair/office/light,
 /obj/effect/floor_decal/carpet/blue2{
@@ -15106,6 +15897,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "qqL" = (
@@ -15193,10 +15986,21 @@
 /obj/item/storage/med_pouch/burn,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/sleeper)
+"qud" = (
+/obj/item/bodybag/cryobag,
+/obj/structure/table/reinforced,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/biostorage)
 "quq" = (
 /obj/machinery/door/window/westright{
-	name = "Janitoral Desk";
-	req_access = list(26)
+	name = "Janitoral Desk"
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/eastleft{
@@ -15264,8 +16068,7 @@
 /obj/item/storage/box/teargas,
 /obj/item/storage/box/teargas,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Weapons locker";
-	req_access = list(2)
+	name = "Weapons locker"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/tactical)
@@ -15318,10 +16121,11 @@
 /obj/structure/table/woodentable/ebony,
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/crew_quarters/bar)
+"qxV" = (
+/turf/simulated/floor/wood/walnut,
+/area/turbolift/mall_top)
 "qxX" = (
-/obj/machinery/door/window/southright{
-	req_access = list(1)
-	},
+/obj/machinery/door/window/southright,
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
 	},
@@ -15403,6 +16207,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "qDt" = (
@@ -15469,6 +16275,12 @@
 	color = "FFFEFD"
 	},
 /area/fairpoint/medical/ward)
+"qHJ" = (
+/obj/machinery/light,
+/turf/exterior/concrete/pavement{
+	dir = 1
+	},
+/area/fairpoint/hydroponics/garden)
 "qHS" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/tiled,
@@ -15480,8 +16292,7 @@
 "qIC" = (
 /obj/machinery/holosign/surgery,
 /obj/machinery/door/airlock/medical{
-	name = "Operating Theatre 2";
-	req_access = list(45)
+	name = "Operating Theatre 2"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/surgery2)
@@ -15504,6 +16315,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/prison/restroom)
+"qIY" = (
+/obj/machinery/light/street{
+	dir = 4
+	},
+/turf/exterior/concrete/pavement/corner{
+	dir = 1
+	},
+/area/fairpoint/street/north)
 "qJc" = (
 /obj/structure/window/reinforced,
 /obj/structure/table/woodentable,
@@ -15516,8 +16335,7 @@
 /area/fairpoint/crew_quarters/medbreak)
 "qJi" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Surplus Junior Equipment Storage";
-	req_access = list(3)
+	name = "Surplus Junior Equipment Storage"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
@@ -15587,6 +16405,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/prison/dorm)
+"qMr" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/engineering/storage)
 "qMw" = (
 /obj/machinery/washing_machine,
 /turf/simulated/floor/tiled,
@@ -15806,6 +16630,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/law/judge)
+"ral" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/exterior/concrete/pavement/empty,
+/area/fairpoint/street)
 "rat" = (
 /obj/structure/closet/secure_closet{
 	req_access = list(4,42,43)
@@ -15838,6 +16668,9 @@
 /area/fairpoint/police)
 "rbi" = (
 /obj/machinery/floor_light/prebuilt,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/monofloor,
 /area/fairpoint/street)
 "rbC" = (
@@ -15879,6 +16712,14 @@
 /obj/structure/closet/wardrobe/red,
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/vacantoffice)
+"rdd" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/exterior/concrete/pavement/corner{
+	dir = 8
+	},
+/area/fairpoint/street)
 "rdn" = (
 /obj/effect/floor_decal/corner/purple{
 	dir = 9
@@ -15988,9 +16829,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/prison)
 "rli" = (
-/obj/machinery/door/airlock/maintenance{
-	req_access = list(12)
-	},
+/obj/machinery/door/airlock/maintenance,
 /turf/simulated/floor,
 /area/fairpoint/street/east)
 "rlj" = (
@@ -16029,10 +16868,19 @@
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/vacantoffice)
+"rnh" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/chapel/office)
 "rnp" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
 	dir = 4
+	},
+/obj/machinery/light/street{
+	dir = 8
 	},
 /turf/exterior/concrete,
 /area/fairpoint/street)
@@ -16041,6 +16889,15 @@
 /obj/machinery/disposal,
 /turf/simulated/floor/plating,
 /area/fairpoint/street/east)
+"rnz" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "rnB" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
@@ -16187,9 +17044,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/chapel/office)
 "ruq" = (
-/obj/machinery/door/airlock/maintenance{
-	req_access = list(12)
-	},
+/obj/machinery/door/airlock/maintenance,
 /turf/simulated/floor,
 /area/fairpoint/maintenance/surface)
 "ruE" = (
@@ -16298,13 +17153,15 @@
 /area/fairpoint/street/north)
 "rzh" = (
 /obj/machinery/door/morgue{
-	name = "Private Study";
-	req_access = list(37)
+	name = "Private Study"
 	},
 /turf/simulated/floor/wood,
 /area/fairpoint/library)
 "rAb" = (
 /obj/structure/table/woodentable,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/lino,
 /area/fairpoint/police/detectives_office)
 "rBr" = (
@@ -16330,6 +17187,9 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/sleeper)
@@ -16421,6 +17281,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/turbolift/metro_maintenance)
+"rHv" = (
+/obj/effect/floor_decal/corner/paleblue,
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "rIc" = (
 /obj/machinery/light/street{
 	dir = 8
@@ -16447,6 +17313,9 @@
 /area/fairpoint/medical/biostorage)
 "rJy" = (
 /obj/machinery/vending/coffee,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street)
 "rJE" = (
@@ -16465,9 +17334,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/street/north)
 "rKy" = (
-/obj/machinery/door/airlock/security{
-	req_access = list(1)
-	},
+/obj/machinery/door/airlock/security,
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/detectives_office)
 "rKA" = (
@@ -16487,6 +17354,15 @@
 "rLJ" = (
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/cityhall/meeting_room)
+"rNb" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/meeting)
 "rNJ" = (
 /mob/living/simple_animal/mouse/white,
 /turf/exterior/wildgrass,
@@ -16525,6 +17401,24 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
+"rPM" = (
+/obj/structure/table/reinforced,
+/obj/item/cane,
+/obj/item/cane,
+/obj/item/cane,
+/obj/item/cane,
+/obj/item/cane,
+/obj/item/cane,
+/obj/item/storage/box/masks,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/biostorage)
 "rQa" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/techfloor,
@@ -16588,6 +17482,12 @@
 /obj/effect/floor_decal/corner/green/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/shipping/office)
+"rTH" = (
+/obj/machinery/light/street,
+/turf/exterior/concrete/pavement{
+	dir = 8
+	},
+/area/fairpoint/street/east)
 "rTI" = (
 /obj/item/stack/flag/green,
 /obj/structure/table/reinforced,
@@ -16617,12 +17517,13 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "rVg" = (
 /obj/machinery/door/airlock/command{
-	name = "Defense Office";
-	req_access = list(38)
+	name = "Defense Office"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/law/lawoffice)
@@ -16645,6 +17546,7 @@
 	name = "HoP Office Privacy Shutters";
 	opacity = 0
 	},
+/obj/item/bell,
 /turf/simulated/floor/wood/walnut,
 /area/fairpoint/cityhall/hop)
 "rVw" = (
@@ -16671,11 +17573,15 @@
 /obj/item/storage/box/ammo/shotgunammo,
 /obj/item/storage/box/ammo/shotgunammo,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
+"rWx" = (
+/obj/structure/table/reinforced,
+/obj/item/bell,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/engineering/foyer)
 "rWA" = (
 /obj/effect/floor_decal/corner/grey/border{
 	dir = 1
@@ -16715,6 +17621,12 @@
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/fairpoint/police/lobby)
+"rXp" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/engineering/storage)
 "rXD" = (
 /obj/structure/table/woodentable,
 /obj/structure/window/reinforced{
@@ -16724,6 +17636,10 @@
 /obj/item/clothing/gloves/forensic,
 /turf/simulated/floor/carpet,
 /area/fairpoint/police/detectives_office)
+"rXU" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled,
+/area/fairpoint/police/vacantoffice)
 "rYd" = (
 /obj/structure/bed/chair/armchair/red{
 	dir = 8
@@ -16822,8 +17738,7 @@
 /area/fairpoint/law)
 "sfz" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Secure Armoury Section";
-	req_access = list(3)
+	name = "Secure Armoury Section"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
@@ -16867,6 +17782,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/fairpoint/research/misc_lab)
+"sjZ" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/meeting)
 "skQ" = (
 /obj/structure/anomaly_container,
 /turf/simulated/floor/tiled,
@@ -16967,8 +17891,7 @@
 /area/fairpoint/cityhall)
 "spO" = (
 /obj/machinery/door/airlock/command{
-	name = "Bathroom Maint";
-	req_access = list(20)
+	name = "Bathroom Maint"
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/fairpoint/cityhall)
@@ -17023,6 +17946,17 @@
 /obj/effect/decal/cleanable/blood/oil/streak,
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/east)
+"ssE" = (
+/obj/effect/floor_decal/corner/paleblue,
+/obj/effect/floor_decal/corner/white{
+	tag = "icon-corner_white (EAST)";
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/sleeper)
 "ssV" = (
 /obj/structure/bed/chair/office/comfy/beige{
 	dir = 4
@@ -17035,8 +17969,7 @@
 	dir = 8
 	},
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /obj/item/ammo_magazine/smg,
 /obj/item/ammo_magazine/smg,
@@ -17136,8 +18069,7 @@
 "szd" = (
 /obj/machinery/door/window/southright{
 	dir = 1;
-	name = "Virology Isolation Room Three";
-	req_access = list(39)
+	name = "Virology Isolation Room Three"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_wing)
@@ -17319,6 +18251,12 @@
 	},
 /turf/simulated/floor/carpet,
 /area/fairpoint/cityhall/meeting_room)
+"sHh" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/exterior/concrete,
+/area/fairpoint/street/north)
 "sHp" = (
 /turf/simulated/wall/concrete,
 /area/fairpoint/shipping/office)
@@ -17370,6 +18308,9 @@
 /obj/item/clothing/accessory/badge/holo,
 /obj/item/clothing/accessory/storage/holster,
 /obj/item/gun/energy/taser,
+/obj/item/clothing/under/security/pdcadet,
+/obj/item/clothing/head/soft/sec/police,
+/obj/item/clothing/head/soft/sec/policeballcap,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "sIX" = (
@@ -17404,8 +18345,7 @@
 	},
 /obj/machinery/door/window/southright{
 	name = "judge area";
-	dir = 8;
-	req_access = list(63)
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/law/judge)
@@ -17429,8 +18369,19 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/structure/table/reinforced,
 /obj/item/sticky_pad/random,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/lobby)
+"sLI" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/exterior/concrete/pavement/stairs{
+	dir = 1
+	},
+/area/fairpoint/street/north)
 "sMc" = (
 /obj/structure/window/reinforced,
 /obj/structure/table/woodentable,
@@ -17468,6 +18419,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "sNj" = (
@@ -17545,6 +18498,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/brig)
+"sSr" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/chapel/main)
 "sSx" = (
 /turf/exterior/concrete/pavement/corner_invert{
 	dir = 1
@@ -17596,8 +18555,7 @@
 /area/fairpoint/police/brig/interrogation)
 "sUF" = (
 /obj/machinery/door/airlock/security{
-	name = "Interrogation Observation";
-	req_access = list(63)
+	name = "Interrogation Observation"
 	},
 /obj/effect/floor_decal/corner/blue/diagonal,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -17642,12 +18600,10 @@
 "sVw" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/eastleft{
-	name = "Warden's Desk";
-	req_access = list(1)
+	name = "Warden's Desk"
 	},
 /obj/machinery/door/window/westright{
-	name = "Warden's Desk";
-	req_access = list(1)
+	name = "Warden's Desk"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/warden)
@@ -17684,6 +18640,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/fairpoint/crew_quarters/bar)
+"sYH" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/chapel/office)
 "sYX" = (
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/concrete{
@@ -17717,6 +18679,21 @@
 "sZQ" = (
 /turf/simulated/floor/tiled,
 /area/fairpoint/research/robotics)
+"sZT" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/engineering/foyer)
+"sZY" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/fairpoint/police/vacantoffice)
 "taE" = (
 /obj/machinery/camera/network/research{
 	dir = 8;
@@ -17876,8 +18853,7 @@
 	},
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/rack,
 /obj/item/gun/projectile/shotgun/pump,
@@ -18136,6 +19112,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_a)
+"twT" = (
+/obj/machinery/light/street{
+	dir = 4
+	},
+/turf/exterior/concrete/pavement{
+	dir = 4
+	},
+/area/fairpoint/street/east)
 "txT" = (
 /obj/machinery/vending/fitness{
 	dir = 8
@@ -18162,6 +19146,10 @@
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled,
 /area/fairpoint/research/lab)
+"tAy" = (
+/obj/structure/girder,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/brig)
 "tAC" = (
 /obj/machinery/light/neon,
 /turf/exterior/concrete/pavement/corner_invert{
@@ -18416,7 +19404,6 @@
 	dir = 8
 	},
 /obj/machinery/door/window/southright{
-	req_access = list(63);
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
@@ -18446,8 +19433,7 @@
 /area/fairpoint/medical/surgeryobs)
 "tOD" = (
 /obj/machinery/door/airlock/command{
-	name = "City Hall Office";
-	req_access = list(57)
+	name = "City Hall Office"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/cityhall/hop)
@@ -18627,6 +19613,14 @@
 	},
 /turf/exterior/concrete,
 /area/fairpoint/street/north)
+"tZb" = (
+/obj/machinery/light/street{
+	dir = 4
+	},
+/turf/exterior/concrete/pavement/corner_invert{
+	dir = 1
+	},
+/area/fairpoint/street/north)
 "tZp" = (
 /obj/structure/closet/crate/bin{
 	anchored = 1
@@ -18653,8 +19647,7 @@
 /area/fairpoint/police/detectives_office)
 "uaa" = (
 /obj/machinery/door/airlock/command{
-	name = "CMO's Office";
-	req_access = list(40)
+	name = "CMO's Office"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cmo)
@@ -18688,6 +19681,10 @@
 /obj/structure/bookcase/manuals,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/prison)
+"ucP" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/chapel/office)
 "ucV" = (
 /obj/item/stool,
 /obj/structure/window/reinforced/tinted,
@@ -18730,6 +19727,15 @@
 /obj/structure/sign/poster,
 /turf/simulated/wall/concrete,
 /area/fairpoint/street/north)
+"ufo" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/fairpoint/medical/reception)
 "ufw" = (
 /obj/effect/floor_decal/corner/pink/border{
 	tag = "icon-bordercolor (WEST)";
@@ -18760,6 +19766,15 @@
 /obj/item/storage/box/donut,
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/vacantoffice)
+"ugi" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/medbay)
 "ugk" = (
 /obj/machinery/computer/design_console,
 /turf/simulated/floor/greengrid,
@@ -18806,8 +19821,7 @@
 /area/fairpoint/police)
 "uiy" = (
 /obj/machinery/door/airlock/medical{
-	name = "Secondary Storage";
-	req_access = list(5)
+	name = "Secondary Storage"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/medical/biostorage)
@@ -18826,8 +19840,7 @@
 	opacity = 0
 	},
 /obj/machinery/door/window/brigdoor/southleft{
-	name = "Cell 3";
-	req_access = list(2)
+	name = "Cell 3"
 	},
 /obj/effect/floor_decal/corner/red{
 	dir = 5
@@ -18970,7 +19983,7 @@
 /obj/structure/bed/chair/wood{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/stone,
+/turf/simulated/floor/lino,
 /area/fairpoint/street/west)
 "uso" = (
 /obj/structure/closet/crate/trashcart,
@@ -19070,6 +20083,11 @@
 /obj/machinery/door/airlock/hatch/maintenance,
 /turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/maintenance/hospital)
+"uzj" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/police/lobby)
 "uzy" = (
 /obj/structure/table/reinforced,
 /obj/structure/flora/pottedplant/large{
@@ -19179,6 +20197,9 @@
 /area/fairpoint/hallway/secondary/exit)
 "uDY" = (
 /obj/machinery/hologram/holopad,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/wood/walnut,
 /area/fairpoint/cityhall/hop)
 "uEu" = (
@@ -19239,6 +20260,9 @@
 /obj/machinery/artifact_scanpad,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/research/lab)
+"uIU" = (
+/turf/simulated/wall/wood,
+/area/turbolift/mall_ground)
 "uJr" = (
 /obj/machinery/door/airlock/glass,
 /turf/exterior/concrete/pavement/empty,
@@ -19363,12 +20387,9 @@
 /turf/simulated/floor/tiled,
 /area/fairpoint/medical/biostorage)
 "uQe" = (
-/obj/machinery/door/airlock/command{
-	name = "Server Room";
-	req_access = list(30)
-	},
-/turf/simulated/floor/bluegrid,
-/area/fairpoint/research/server)
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/police/detectives_office)
 "uQB" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -19581,6 +20602,12 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/monotile,
 /area/fairpoint/police)
+"vgE" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police)
 "vhp" = (
 /obj/effect/floor_decal/corner/red,
 /turf/simulated/floor/tiled/dark,
@@ -19690,6 +20717,12 @@
 /obj/item/storage/firstaid,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/biostorage)
+"vnG" = (
+/obj/machinery/light/street{
+	dir = 8
+	},
+/turf/exterior/concrete/pavement/empty,
+/area/fairpoint/street/east)
 "voi" = (
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
@@ -19787,8 +20820,7 @@
 "vsq" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/machinery/door/airlock/medical{
-	name = "Morgue";
-	req_access = list(6,5)
+	name = "Morgue"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/crew_quarters/medbreak)
@@ -19915,6 +20947,12 @@
 /obj/structure/table/gamblingtable,
 /turf/simulated/floor/carpet,
 /area/fairpoint/crew_quarters/bar)
+"vzv" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/chapel/main)
 "vzN" = (
 /obj/structure/bedsheetbin,
 /obj/structure/table/reinforced,
@@ -19978,6 +21016,20 @@
 /obj/structure/table/woodentable,
 /turf/simulated/floor/tiled,
 /area/fairpoint/law/judge)
+"vDM" = (
+/obj/machinery/light/street{
+	dir = 8
+	},
+/turf/exterior/wildgrass,
+/area/fairpoint/street)
+"vEw" = (
+/obj/machinery/light/street{
+	dir = 4
+	},
+/turf/exterior/concrete/pavement{
+	dir = 1
+	},
+/area/fairpoint/street/east)
 "vEx" = (
 /turf/exterior/concrete/pavement{
 	dir = 4
@@ -20213,6 +21265,12 @@
 /obj/structure/ladder,
 /turf/simulated/floor/tiled,
 /area/fairpoint/cityhall)
+"vTD" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/fairpoint/police/brig)
 "vTR" = (
 /obj/machinery/recharger,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -20323,6 +21381,15 @@
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/meeting)
+"vZC" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/brig)
 "vZP" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (SOUTHWEST)";
@@ -20442,9 +21509,7 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
 "whj" = (
-/obj/machinery/door/window/southright{
-	req_access = list(63)
-	},
+/obj/machinery/door/window/southright,
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (SOUTHWEST)";
 	dir = 10
@@ -20466,8 +21531,7 @@
 /area/fairpoint/police/lobby)
 "wia" = (
 /obj/machinery/door/airlock/medical{
-	name = "Emergency Room";
-	req_access = list(5)
+	name = "Emergency Room"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/medical/sleeper)
@@ -20482,9 +21546,7 @@
 /area/fairpoint/library)
 "wiX" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/westleft{
-	req_access = list(39)
-	},
+/obj/machinery/door/window/westleft,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_a)
 "wjK" = (
@@ -20498,6 +21560,9 @@
 /obj/item/clothing/accessory/storage/holster,
 /obj/item/gun/energy/taser,
 /obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -20600,6 +21665,12 @@
 "wox" = (
 /turf/simulated/floor/tiled,
 /area/fairpoint/research/lab)
+"wpq" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/exterior/concrete/reinforced/road,
+/area/fairpoint/street/north)
 "wpA" = (
 /obj/machinery/light/street,
 /turf/exterior/concrete/pavement/corner,
@@ -20650,6 +21721,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/chapel/office)
+"wsl" = (
+/obj/machinery/light/street,
+/turf/exterior/concrete/pavement/corner{
+	dir = 4
+	},
+/area/fairpoint/street)
 "wsJ" = (
 /obj/structure/window/reinforced{
 	dir = 8;
@@ -20843,8 +21920,7 @@
 /area/fairpoint/street/north)
 "wCP" = (
 /obj/machinery/door/airlock/medical{
-	name = "Emergency Room";
-	req_access = list(5)
+	name = "Emergency Room"
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/tiled/white,
@@ -20950,11 +22026,17 @@
 /obj/item/storage/box/ammo/shotgunshells,
 /obj/item/storage/box/ammo/shotgunshells,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
+"wGs" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police)
 "wGA" = (
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/corner/blue{
@@ -21058,6 +22140,12 @@
 "wJH" = (
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/engineering/storage)
+"wKa" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/brig/processing)
 "wKz" = (
 /obj/machinery/vending/cola,
 /turf/simulated/floor/tiled/dark,
@@ -21074,6 +22162,14 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/fairpoint/medical/biostorage)
+"wKZ" = (
+/obj/machinery/light/street{
+	dir = 1
+	},
+/turf/exterior/concrete/pavement/corner{
+	dir = 1
+	},
+/area/fairpoint/street)
 "wLa" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/girder,
@@ -21241,6 +22337,9 @@
 /area/fairpoint/law)
 "wUq" = (
 /obj/machinery/mech_recharger,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/fairpoint/police)
 "wUr" = (
@@ -21264,12 +22363,29 @@
 	dir = 1
 	},
 /area/fairpoint/hydroponics/garden)
+"wVN" = (
+/obj/structure/bed/chair/wheelchair{
+	tag = "icon-wheelchair (WEST)";
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/medical/biostorage)
 "wWc" = (
 /obj/structure/bed/chair/office/light{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
+"wWg" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/bed/sofa{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white,
+/area/fairpoint/police/lobby)
 "wWv" = (
 /obj/effect/floor_decal/carpet/purple{
 	dir = 8
@@ -21431,6 +22547,9 @@
 "xey" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/glasses/welding,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
 "xeL" = (
@@ -21592,6 +22711,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/fairpoint/library)
+"xmy" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/exterior/dirt,
+/area/fairpoint/street/west)
 "xmB" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -21605,8 +22730,7 @@
 /area/fairpoint/panicroom)
 "xmK" = (
 /obj/machinery/door/airlock{
-	name = "Chapel Office";
-	req_access = list(27)
+	name = "Chapel Office"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/chapel/office)
@@ -21632,8 +22756,7 @@
 	},
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/closet/wardrobe/tactical,
 /turf/simulated/floor/tiled/techfloor,
@@ -21896,6 +23019,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/fairpoint/maintenance/surface)
 "xDi" = (
+/obj/machinery/light/street{
+	dir = 1
+	},
 /turf/exterior/concrete/pavement/corner{
 	dir = 1
 	},
@@ -21913,6 +23039,9 @@
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
 	dir = 8
+	},
+/obj/machinery/light/street{
+	dir = 4
 	},
 /turf/exterior/concrete,
 /area/fairpoint/street)
@@ -22006,9 +23135,7 @@
 /turf/exterior/concrete/pavement/pave_tiling,
 /area/fairpoint/street)
 "xJp" = (
-/obj/turbolift_map_holder/fairpoint/sec{
-	dir = 2
-	},
+/obj/turbolift_map_holder/fairpoint/sec,
 /turf/simulated/floor/plating,
 /area/turbolift/pd_ground)
 "xJv" = (
@@ -22081,6 +23208,9 @@
 /obj/item/clothing/accessory/badge/holo,
 /obj/item/clothing/accessory/storage/holster,
 /obj/item/gun/energy/taser,
+/obj/item/clothing/under/security/pdcadet,
+/obj/item/clothing/head/soft/sec/police,
+/obj/item/clothing/head/soft/sec/policeballcap,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "xMI" = (
@@ -22195,7 +23325,7 @@
 /turf/simulated/floor/tiled,
 /area/fairpoint/law/lawoffice)
 "xSS" = (
-/turf/simulated/floor/tiled/stone,
+/turf/simulated/floor/lino,
 /area/fairpoint/street/west)
 "xTi" = (
 /obj/structure/noticeboard{
@@ -22317,6 +23447,9 @@
 /obj/machinery/door_timer/cell_1{
 	pixel_y = 32
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/brig)
 "xXw" = (
@@ -22389,6 +23522,15 @@
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/shipping/office)
+"ydd" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/fairpoint/police/brig)
 "ydD" = (
 /obj/structure/curtain/open/shower/security,
 /obj/structure/hygiene/shower,
@@ -33876,9 +35018,9 @@ bCU
 bCU
 bCU
 bCU
-pRo
-kue
-kue
+dpT
+bIo
+bIo
 bIo
 bIo
 aLC
@@ -34035,9 +35177,9 @@ oTt
 oTt
 oTt
 oTt
-pRo
-pRo
-kue
+dpT
+dpT
+bIo
 bIo
 bIo
 bIo
@@ -34195,8 +35337,8 @@ oTt
 oTt
 oTt
 oTt
-pRo
-pRo
+dpT
+dpT
 dpT
 bIo
 bIo
@@ -38633,7 +39775,7 @@ nlo
 nlo
 lBO
 ale
-spP
+jym
 oTt
 lUA
 lUA
@@ -39269,7 +40411,7 @@ nlo
 nlo
 lFO
 tAK
-wsV
+rHv
 oTt
 lUA
 lUA
@@ -55565,7 +56707,7 @@ ign
 eJq
 eJq
 eJq
-eJq
+ikW
 hqJ
 hqJ
 eJq
@@ -56976,7 +58118,7 @@ itW
 doX
 doX
 doX
-nBH
+ruq
 doX
 doX
 qsa
@@ -57380,7 +58522,7 @@ tTh
 tTh
 tTh
 vQd
-vQd
+kdj
 eLO
 oUw
 lns
@@ -57395,9 +58537,9 @@ lMe
 lMe
 lMe
 lMe
-tYm
+qHJ
 xGT
-hgG
+bzb
 hgG
 hgG
 hgG
@@ -57791,7 +58933,7 @@ ign
 eJq
 eJq
 eJq
-eJq
+jOr
 hqJ
 hqJ
 eJq
@@ -58761,10 +59903,10 @@ eJq
 eJq
 eJq
 eJq
-xSS
+eJq
 usk
 usk
-xSS
+eJq
 eJq
 eJq
 eJq
@@ -58831,15 +59973,15 @@ jHo
 eJq
 eJq
 tEU
-vdC
+sYH
 rtB
 rtB
 tEU
-vdC
+sYH
 pNB
 cMw
 hTN
-eZs
+xmy
 rhj
 eZs
 qNI
@@ -58904,7 +60046,7 @@ ign
 eJq
 eJq
 eJq
-eJq
+jOr
 hqJ
 hqJ
 pVH
@@ -58935,7 +60077,7 @@ eJq
 eJq
 eJq
 eJq
-eJq
+jOr
 eZs
 eJq
 eJq
@@ -59011,7 +60153,7 @@ hTN
 fdG
 fdG
 fdG
-lKd
+qgS
 rhj
 rhj
 lxI
@@ -59079,10 +60221,10 @@ eJq
 eJq
 eJq
 eJq
-xSS
+eJq
 hsX
 hsX
-xSS
+eJq
 eJq
 eJq
 eJq
@@ -59091,15 +60233,15 @@ eJq
 eJq
 mdP
 eJq
-xSS
+eJq
 usk
 usk
-xSS
 hqJ
-xSS
+hqJ
+hqJ
 usk
 usk
-xSS
+eJq
 eJq
 eJq
 eJq
@@ -59150,7 +60292,7 @@ eJq
 tEU
 tEU
 vdC
-vdC
+rnh
 vdC
 vdC
 vdC
@@ -59159,12 +60301,12 @@ cMw
 cMw
 cMw
 cMw
+vzv
 cMw
 cMw
 cMw
 cMw
-cMw
-cMw
+vzv
 cMw
 hTN
 rps
@@ -59409,15 +60551,15 @@ eJq
 eJq
 eJq
 eJq
-xSS
+eJq
 hsX
 hsX
-xSS
 hqJ
-xSS
+hqJ
+hqJ
 hsX
 hsX
-xSS
+eJq
 eJq
 eJq
 eJq
@@ -59630,9 +60772,9 @@ kRV
 fCu
 kRV
 vdC
-vdC
+ucP
 uTF
-cMw
+ngM
 niY
 hDs
 niY
@@ -59784,7 +60926,7 @@ eJq
 eJq
 eJq
 tEU
-kRV
+nZq
 lPh
 btn
 kRV
@@ -59801,9 +60943,9 @@ niY
 niY
 niY
 niY
-cMw
+krM
 mYS
-cMw
+ngM
 cMw
 dXB
 rps
@@ -59866,7 +61008,7 @@ glu
 glu
 uWy
 eJq
-eJq
+ikW
 eJq
 eJq
 eJq
@@ -59877,7 +61019,7 @@ eJq
 eJq
 eJq
 eJq
-eJq
+jOr
 hqJ
 hqJ
 eJq
@@ -60176,7 +61318,7 @@ ign
 eJq
 eJq
 eJq
-eJq
+jOr
 hqJ
 hqJ
 eJq
@@ -60188,14 +61330,14 @@ eJq
 eJq
 eJq
 eJq
-xSS
+eJq
 usk
 usk
-xSS
-xSS
+eJq
+eJq
 usk
 usk
-xSS
+eJq
 hqJ
 hqJ
 hqJ
@@ -60422,7 +61564,7 @@ eJq
 tEU
 tEU
 vdC
-vdC
+gOS
 vdC
 vdC
 vdC
@@ -60433,7 +61575,7 @@ dzT
 dzT
 dzT
 cMw
-cMw
+sSr
 dzT
 dzT
 dzT
@@ -60506,14 +61648,14 @@ eJq
 eJq
 eJq
 mdP
-xSS
+eJq
 hsX
 hsX
-xSS
-xSS
+eJq
+eJq
 hsX
 hsX
-xSS
+eJq
 eJq
 eJq
 eJq
@@ -60561,7 +61703,7 @@ qBc
 bZC
 gSq
 gSq
-gSq
+ldj
 qBc
 nTD
 rps
@@ -60751,7 +61893,7 @@ vOS
 vOS
 vOS
 vOS
-vOS
+pEx
 vOS
 sSx
 rhj
@@ -60778,7 +61920,7 @@ eXf
 szv
 szv
 szv
-szv
+ylY
 rit
 rit
 psm
@@ -60840,15 +61982,15 @@ eJq
 mdP
 eJq
 eJq
-xSS
+eJq
 usk
 usk
-xSS
 hqJ
 hqJ
+hqJ
 usk
 usk
-xSS
+eJq
 eJq
 eJq
 eJq
@@ -61081,7 +62223,7 @@ rps
 rps
 rps
 rps
-rps
+nzO
 eJq
 eJq
 eJq
@@ -61130,7 +62272,7 @@ ign
 eJq
 eJq
 eJq
-eJq
+jOr
 hqJ
 hqJ
 eJq
@@ -61158,15 +62300,15 @@ eJq
 eJq
 eJq
 eJq
-xSS
+eJq
 hsX
 hsX
-xSS
 hqJ
 hqJ
+hqJ
 hsX
 hsX
-xSS
+eJq
 mdP
 eJq
 eJq
@@ -61573,7 +62715,7 @@ eXf
 szv
 szv
 szv
-szv
+ylY
 rit
 rit
 psm
@@ -61637,14 +62779,14 @@ yaH
 yaH
 yaH
 yaH
-yaH
+ftw
 yaH
 oft
 yaH
 yaH
 yaH
 yaH
-yaH
+ftw
 yaH
 yaH
 yaH
@@ -61699,12 +62841,12 @@ bFB
 wac
 hUe
 hUe
-hUe
+qhJ
 pkB
 aDQ
 aDQ
 oBa
-hUe
+dPs
 hUe
 hUe
 wQi
@@ -62014,7 +63156,7 @@ kWF
 yaH
 yaH
 yaH
-ftw
+yaH
 yaH
 yaH
 bFB
@@ -62026,7 +63168,7 @@ bFB
 yaH
 yaH
 yaH
-ftw
+yaH
 yaH
 yaH
 yaH
@@ -62052,7 +63194,7 @@ rit
 tTD
 vqj
 vqj
-vqj
+ing
 gxM
 oVb
 oVb
@@ -62062,7 +63204,7 @@ oVb
 oVb
 oVb
 oVb
-gde
+qIY
 vqj
 vqj
 vqj
@@ -63001,7 +64143,7 @@ itW
 cDU
 itW
 eXf
-iqF
+kXY
 rit
 eXe
 jXv
@@ -63042,7 +64184,7 @@ bgW
 bgW
 ktA
 ktA
-bgW
+aGa
 cSj
 sug
 sug
@@ -63075,7 +64217,7 @@ lRt
 pDu
 xyI
 xyI
-pkB
+wpA
 aDQ
 aDQ
 aDQ
@@ -63165,23 +64307,23 @@ rit
 szv
 xlY
 xlY
-bon
+jBj
 oVb
 oVb
+wpq
 oVb
 oVb
+wpq
 oVb
 oVb
+wpq
 oVb
 oVb
-oVb
-oVb
-oVb
-gcQ
+sLI
 xlY
+sHh
 xlY
-xlY
-xlY
+sHh
 xlY
 xlY
 xlY
@@ -63497,13 +64639,13 @@ iVr
 iVr
 pfQ
 lqs
-xoA
+vgE
 xoA
 dvG
 jKr
 dkI
 ipS
-dkI
+pur
 ipS
 xwl
 cKg
@@ -63743,7 +64885,7 @@ elf
 elf
 elf
 elf
-yaH
+ral
 hsn
 hsn
 yaH
@@ -63815,13 +64957,13 @@ iVr
 iVr
 oTh
 lqs
-xoA
+iGX
 xoA
 xoA
 jne
 dkI
 dkI
-dkI
+nmu
 dkI
 pSz
 czi
@@ -63941,7 +65083,7 @@ ixy
 nbh
 nbh
 tlz
-wJH
+qMr
 bwt
 wrD
 cNo
@@ -63972,11 +65114,11 @@ qXV
 wUq
 qXV
 qXV
-pfQ
+cqa
 lqs
 xoA
 aYY
-xoA
+hQU
 jne
 nDn
 ksc
@@ -64096,7 +65238,7 @@ ctt
 nbh
 nbh
 nbh
-nbh
+kgM
 nbh
 nbh
 tlz
@@ -64139,10 +65281,10 @@ xoA
 nsD
 dkI
 dkI
-dkI
+pur
 dkI
 dXK
-xiR
+oXI
 voP
 voP
 xiR
@@ -64150,12 +65292,12 @@ xwl
 eBk
 hxu
 hxu
-psM
+oJg
 dXK
 szv
 aTy
 aTy
-szv
+ylY
 psm
 oVb
 oVb
@@ -64253,18 +65395,18 @@ yaH
 kWF
 vNp
 lgN
-lgN
+rWx
 vVM
 dHx
 cuO
 vNp
 tlz
 wJH
-knY
+cHm
 wJH
 wJH
 wJH
-wJH
+rXp
 tlz
 beB
 "}
@@ -64277,9 +65419,9 @@ kXY
 rit
 szv
 szv
-szv
+aup
 lqs
-xoA
+iGX
 xoA
 xoA
 xoA
@@ -64414,7 +65556,7 @@ vNp
 aya
 aya
 aya
-aya
+sZT
 aya
 vNp
 tlz
@@ -64423,7 +65565,7 @@ knY
 wJH
 wJH
 wJH
-wJH
+meb
 tlz
 beB
 "}
@@ -64605,7 +65747,7 @@ uic
 xoA
 xoA
 jtC
-xoA
+dZB
 xoA
 xoA
 xoA
@@ -64764,7 +65906,7 @@ rYu
 rYu
 rYu
 rYu
-jOr
+vVB
 hHy
 kHJ
 hHy
@@ -64889,7 +66031,7 @@ yaH
 kWF
 vNp
 aya
-aya
+jtF
 aya
 aya
 aya
@@ -64919,7 +66061,7 @@ cCR
 pdd
 pdd
 rpR
-pdd
+iMc
 pdd
 pdd
 fqQ
@@ -64940,7 +66082,7 @@ jne
 aRb
 unk
 jLK
-rbg
+wGs
 dXK
 hnf
 hnf
@@ -65015,7 +66157,7 @@ dbj
 dbj
 elf
 elf
-yaH
+ral
 hsn
 hsn
 yaH
@@ -65142,7 +66284,7 @@ oWN
 eKC
 oft
 fZi
-bsz
+fnT
 aDQ
 aDQ
 aDQ
@@ -65207,9 +66349,9 @@ yaH
 kWF
 kWF
 kWF
-yaH
+eaw
 bFB
-yaH
+eaw
 kWF
 kWF
 kWF
@@ -65251,7 +66393,7 @@ qQf
 iVv
 rRD
 nyH
-nyH
+sZY
 sNj
 nyH
 swh
@@ -65260,10 +66402,10 @@ unk
 jLK
 gOY
 lzn
-enp
+dyX
 lHD
 lHD
-lHD
+nKe
 dXK
 szv
 aTy
@@ -65326,7 +66468,7 @@ kWF
 kWF
 kWF
 kWF
-kWF
+dcG
 kWF
 kWF
 kWF
@@ -65399,21 +66541,21 @@ tdw
 wzf
 bAi
 wzf
-vhp
+njB
 qid
-erI
+jrw
 sNj
 nyH
 nyH
-nyH
+sZY
 sNj
-nyH
+sZY
 nyH
 toe
 toe
 sNj
 toe
-toe
+rXU
 iVv
 unk
 jLK
@@ -65455,7 +66597,7 @@ oWN
 ulu
 gtc
 gtc
-gtc
+hxg
 oWN
 yaH
 oft
@@ -65551,7 +66693,7 @@ szv
 ncP
 kaB
 rYu
-uhr
+rNb
 cgt
 vxi
 tdw
@@ -65608,7 +66750,7 @@ efg
 oWN
 fTw
 spl
-spl
+igP
 kLy
 nCM
 aIq
@@ -65623,7 +66765,7 @@ bsz
 aDQ
 aDQ
 aDQ
-cWX
+vNY
 qEE
 qEE
 qEE
@@ -65654,8 +66796,8 @@ qEE
 qEE
 hsn
 hsn
-qEE
 xnP
+qEE
 qEE
 qEE
 tqB
@@ -65674,11 +66816,11 @@ qEE
 qEE
 qEE
 voB
-qEE
+xnP
 tqB
 aDQ
 aDQ
-cWX
+vNY
 qEE
 qEE
 qEE
@@ -65723,7 +66865,7 @@ fvT
 qci
 pCP
 qci
-mGN
+eGv
 pQh
 toe
 toe
@@ -65731,7 +66873,7 @@ toe
 toe
 toe
 toe
-toe
+rXU
 gZf
 unk
 jLK
@@ -65882,7 +67024,7 @@ sIO
 pCP
 pCP
 pCP
-bns
+dCP
 nai
 pCP
 pCP
@@ -65904,7 +67046,7 @@ dXK
 szv
 aTy
 aTy
-szv
+ylY
 psm
 oVb
 oVb
@@ -66041,7 +67183,7 @@ sIO
 pCP
 pCP
 pCP
-bns
+dCP
 hYw
 pCP
 pCP
@@ -66053,12 +67195,12 @@ fqS
 dZX
 unk
 jLK
-rbg
+wGs
 dXK
 igr
 tTN
 tTN
-tTN
+uQe
 dXK
 szv
 aTy
@@ -66191,7 +67333,7 @@ aAs
 ksL
 ksL
 ksL
-ksL
+sjZ
 ksL
 ksL
 aGt
@@ -66200,7 +67342,7 @@ xMm
 xJF
 pCP
 lpz
-ksO
+nBH
 agx
 pCP
 pCP
@@ -66249,10 +67391,10 @@ vJs
 sIs
 udw
 spl
-spl
+ici
 oWN
 oWN
-yaH
+ral
 oft
 fZi
 bsz
@@ -66418,7 +67560,7 @@ bsz
 aDQ
 aDQ
 aDQ
-oBa
+guT
 hUe
 hUe
 hUe
@@ -66478,12 +67620,12 @@ hUe
 hUe
 hUe
 hUe
-hUe
-wpA
+jHn
+pkB
 aDQ
 aDQ
 aDQ
-oBa
+guT
 hUe
 eho
 dNB
@@ -66573,7 +67715,7 @@ jWJ
 oft
 oft
 fZi
-bsz
+fnT
 aDQ
 aDQ
 ffX
@@ -66691,7 +67833,7 @@ unk
 jLK
 rbg
 lqs
-gTa
+glh
 quz
 sJY
 gTa
@@ -66757,13 +67899,13 @@ kWF
 kWF
 kWF
 kWF
+vDM
 kWF
 kWF
 kWF
 kWF
 kWF
-kWF
-kWF
+vDM
 yaH
 oft
 oft
@@ -66833,7 +67975,7 @@ hZR
 hZR
 xJp
 qQV
-kqI
+ggN
 xoA
 mXe
 hwc
@@ -66846,9 +67988,9 @@ hwc
 hwc
 hwc
 hwc
-unk
+pAf
 jLK
-rbg
+wGs
 lqs
 ncP
 tjb
@@ -66885,10 +68027,10 @@ vJs
 eki
 qfH
 spl
-spl
+ici
 oWN
 fwX
-yaH
+ral
 oft
 fZi
 bsz
@@ -66927,25 +68069,25 @@ yaH
 oft
 oft
 oft
-yaH
+gvK
 pDr
 vMg
 kSj
 cnK
-cnK
+hkS
 gxP
 jUb
 kdJ
 vnj
-jUU
+aUp
 fCj
 xQs
 pfh
-kIh
+oWr
 wzH
 wzH
 bpW
-bpW
+oAU
 hrD
 tUu
 hUT
@@ -66998,18 +68140,18 @@ sqN
 jcL
 jcL
 xoA
+dBr
 jcL
 jcL
 jcL
 jcL
-jcL
-jcL
+dBr
 gAP
 unk
 jLK
 rbg
 lqs
-gTa
+glh
 dch
 sJY
 gTa
@@ -67017,7 +68159,7 @@ ncP
 szv
 aTy
 aTy
-szv
+ylY
 psm
 oVb
 oVb
@@ -67076,10 +68218,10 @@ kWF
 kWF
 kWF
 elf
-rbi
+bLv
 iRJ
 iRJ
-rbi
+bLv
 gQj
 bWi
 yaH
@@ -67104,9 +68246,9 @@ duA
 duA
 duA
 duA
-duA
+aSi
 hrD
-ahT
+cuK
 ahT
 ahT
 ahT
@@ -67315,7 +68457,7 @@ xoA
 cPe
 ahZ
 oqG
-oqG
+peY
 xoA
 oqG
 oqG
@@ -67469,7 +68611,7 @@ hZR
 hZR
 jzJ
 qQV
-kqI
+ggN
 xoA
 mXe
 xII
@@ -67581,9 +68723,9 @@ toy
 toy
 toy
 toy
-toy
+okm
 kJo
-jmm
+ssE
 jmm
 jmm
 jmm
@@ -67633,13 +68775,13 @@ oqG
 oSq
 xII
 uIp
-fwr
+gLV
 uIp
 xII
 cIf
 xoA
 xoA
-xoA
+dZB
 jvy
 unk
 jLK
@@ -67722,32 +68864,32 @@ kWF
 yaH
 oft
 oft
-yaH
+gvK
 pDr
 vMg
 ddb
 oNX
 oNX
-oNX
+nCE
 ddT
 bxO
 bxO
-eBf
+qud
 wdf
 cex
 oIx
-aQM
+rPM
 frA
 edj
 wMp
-wMp
+wVN
 hrD
 uRY
 bpl
 fWi
 fWi
 vJX
-oBa
+rdd
 bAP
 bAP
 wpA
@@ -67800,7 +68942,7 @@ xII
 pbt
 xII
 xII
-unk
+pAf
 jLK
 rbg
 rXg
@@ -67945,7 +69087,7 @@ rcJ
 sCH
 cKY
 yeO
-cKY
+ydd
 xrr
 liG
 cKY
@@ -67957,7 +69099,7 @@ pKF
 xII
 hUS
 cvw
-cvw
+wKa
 xII
 unk
 jLK
@@ -68043,7 +69185,7 @@ oft
 yaH
 nQN
 lqD
-mCA
+ufo
 bWb
 cMp
 mCA
@@ -68109,10 +69251,10 @@ xrr
 opa
 opa
 xII
+pfg
 uIp
 uIp
-uIp
-daN
+mFT
 xII
 jnl
 cvw
@@ -68224,7 +69366,7 @@ sPG
 jJw
 qkH
 ayG
-yaH
+ral
 hsn
 hsn
 bsz
@@ -68279,17 +69421,17 @@ xII
 tWz
 unk
 jLK
-rbg
+wGs
 ltB
-lki
+cRJ
 mqP
 gIo
-lki
+uzj
 ylO
-szv
+iTP
 aTy
 aTy
-szv
+ylY
 psm
 oVb
 oVb
@@ -68363,18 +69505,18 @@ nQN
 fGo
 rwN
 iwy
-wUy
+cYn
 mTy
 oTt
 cAV
 plm
-plm
+cYw
 nIQ
 hqL
 vFD
 vFD
 uxA
-dqa
+jfs
 dqa
 dqa
 dqa
@@ -68426,16 +69568,16 @@ xXi
 xrr
 opa
 opa
-tBB
+bsf
 tBB
 jLK
 pUk
 pUk
+mWQ
 pUk
 pUk
 pUk
-pUk
-pUk
+mWQ
 pHe
 jLK
 jLK
@@ -68517,15 +69659,15 @@ kWF
 yaH
 oft
 oft
-yaH
+gvK
 vbp
-kUV
+ejl
 jwB
 hLE
 hLE
 jyO
 tVd
-nLU
+jKD
 ale
 ieA
 nIQ
@@ -68604,7 +69746,7 @@ lki
 qrx
 whz
 ylO
-szv
+iTP
 aTy
 aTy
 szv
@@ -68644,7 +69786,7 @@ bsz
 aDQ
 aDQ
 aDQ
-cWX
+wKZ
 qEE
 qEE
 qEE
@@ -68744,24 +69886,24 @@ xrr
 xrr
 opa
 vmn
-vmn
+vZC
 vmn
 jcm
 mxl
 ryf
-wMC
+fGP
 ryf
 ryf
 ryf
-ryf
+kKr
 mxl
 eHI
 sby
 ylO
 lki
 hmU
-lki
-lki
+wWg
+oXW
 sxZ
 szv
 aTy
@@ -68832,7 +69974,7 @@ lyz
 lyz
 lyz
 elf
-pSp
+oNa
 oft
 fZi
 wTY
@@ -68849,7 +69991,7 @@ ieA
 wPz
 vFD
 vFD
-vFD
+bnQ
 oWH
 oWH
 oeD
@@ -68994,7 +70136,7 @@ uZk
 yaH
 oft
 fZi
-yaH
+gvK
 vbp
 kUV
 hLE
@@ -69002,7 +70144,7 @@ wUy
 dwu
 oHh
 eqC
-nLU
+jKD
 ale
 ieA
 wPz
@@ -69059,7 +70201,7 @@ rcJ
 rcJ
 rcJ
 bGR
-xrr
+vTD
 opa
 ggV
 egx
@@ -69208,7 +70350,7 @@ tby
 vqj
 vqj
 vqj
-mFA
+tZb
 ncP
 kaB
 lqs
@@ -69233,7 +70375,7 @@ opa
 opa
 opa
 opa
-opa
+eEY
 cmR
 jAw
 hdD
@@ -69315,7 +70457,7 @@ fZi
 yaH
 gFN
 wpH
-vFD
+akc
 wpH
 ygi
 rjc
@@ -69373,7 +70515,7 @@ fxX
 lqs
 ncP
 hxi
-opa
+nlI
 opa
 opa
 opa
@@ -69402,7 +70544,7 @@ qsa
 szv
 aTy
 aTy
-szv
+ylY
 psm
 oVb
 oVb
@@ -69435,7 +70577,7 @@ oMt
 yaH
 oft
 fZi
-bsz
+fnT
 aDQ
 aDQ
 aDQ
@@ -69547,7 +70689,7 @@ ePM
 aLE
 rQa
 oQv
-xrr
+vTD
 xrr
 xrr
 xrr
@@ -69640,7 +70782,7 @@ vFD
 vFD
 ale
 ale
-ieA
+poj
 nIQ
 hpS
 mId
@@ -69717,7 +70859,7 @@ opa
 lqs
 ncP
 qsa
-szv
+iTP
 aTy
 aTy
 szv
@@ -69785,7 +70927,7 @@ tFU
 pXI
 hpB
 lyz
-oft
+ffg
 oft
 oft
 fZi
@@ -69853,25 +70995,25 @@ rcJ
 rcJ
 rcJ
 dtP
-opa
+nlI
 xrr
 xrr
 yeO
 qvd
 xcf
 rcJ
-opa
-opa
-opa
-opa
-opa
+hdD
+tAy
+tAy
+tAy
+hdD
 xrr
 xrr
 opa
 opa
-opa
+kfv
 xrr
-opa
+kfv
 opa
 lqs
 ncP
@@ -70019,11 +71161,11 @@ ujJ
 jft
 opa
 rcJ
+hdD
 opa
 opa
 opa
-opa
-xrr
+low
 xrr
 xrr
 opa
@@ -70115,15 +71257,15 @@ lUQ
 vbj
 lLp
 ptk
-nLU
+jKD
 kKq
+gtu
 plm
 plm
 plm
 plm
 plm
-plm
-plm
+gtu
 vEH
 ieA
 oTt
@@ -70178,19 +71320,19 @@ rcJ
 rvJ
 lrp
 rcJ
+hdD
 opa
 opa
 opa
-opa
-opa
+tAy
 xrr
 xrr
 opa
 rsF
-qfs
+mXB
 pCP
 qci
-mGN
+oIC
 rsF
 ncP
 wyh
@@ -70316,7 +71458,7 @@ xCY
 xCY
 itW
 itW
-szv
+ylY
 pxx
 oVb
 oVb
@@ -70332,17 +71474,17 @@ dwC
 yeO
 opa
 xrr
-opa
+lZG
 rcJ
 yeO
 yeO
 rcJ
-opa
-opa
-opa
-opa
-opa
-xrr
+hdD
+tAy
+yeO
+yeO
+hdD
+vTD
 xrr
 opa
 rsF
@@ -70353,7 +71495,7 @@ bns
 rsF
 ncP
 qsa
-szv
+iTP
 aTy
 aTy
 szv
@@ -70489,18 +71631,18 @@ rcJ
 yeO
 yeO
 rcJ
-opa
+nlI
 xrr
 xrr
 yeO
 fLM
 fIu
 rcJ
+hdD
 opa
 opa
 opa
-opa
-opa
+tAy
 xrr
 xrr
 opa
@@ -70539,7 +71681,7 @@ elf
 elf
 elf
 pjB
-pfA
+kGl
 bhO
 coK
 coK
@@ -70655,11 +71797,11 @@ aOF
 jft
 opa
 rcJ
+hdD
 opa
 opa
 opa
-opa
-xrr
+low
 xrr
 xrr
 opa
@@ -70814,11 +71956,11 @@ rcJ
 tml
 cSR
 rcJ
+hdD
 opa
 opa
 opa
-opa
-opa
+hdD
 xrr
 xrr
 opa
@@ -70973,12 +72115,12 @@ rcJ
 rcJ
 rcJ
 rcJ
-opa
-opa
-opa
-opa
-opa
-xrr
+hdD
+hdD
+hdD
+hdD
+hdD
+vTD
 xrr
 opa
 rsF
@@ -70989,7 +72131,7 @@ bns
 rsF
 ncP
 qsa
-szv
+iTP
 aTy
 aTy
 szv
@@ -71069,7 +72211,7 @@ fHm
 eVT
 kPh
 adF
-pjG
+ugi
 wsV
 oTt
 lLd
@@ -71125,7 +72267,7 @@ rcJ
 rcJ
 rcJ
 eRW
-opa
+nlI
 xrr
 xrr
 xrr
@@ -71287,14 +72429,14 @@ rcJ
 upg
 xrr
 xrr
+nAh
 xrr
 xrr
 xrr
+nAh
 xrr
 xrr
-xrr
-xrr
-xrr
+nAh
 xrr
 xrr
 xrr
@@ -71398,7 +72540,7 @@ flc
 doI
 osL
 osL
-osL
+bTq
 wTX
 qJf
 qJf
@@ -71552,7 +72694,7 @@ ale
 cWy
 mCE
 gxx
-dsn
+brQ
 fqK
 aPR
 osL
@@ -71625,7 +72767,7 @@ ncP
 ncP
 ncP
 qsa
-szv
+iTP
 aTy
 aTy
 szv
@@ -71694,7 +72836,7 @@ lyz
 lyz
 lyz
 lyz
-lxR
+aQE
 oft
 fZi
 yaH
@@ -71752,7 +72894,7 @@ pxx
 oVb
 oVb
 oVb
-gde
+qIY
 vqj
 vqj
 vqj
@@ -71787,7 +72929,7 @@ vqj
 vqj
 pVS
 pVS
-vqj
+eGl
 gxM
 oVb
 oVb
@@ -71820,11 +72962,11 @@ qEE
 qEE
 jsZ
 adv
-tqB
+wsl
 aDQ
 aDQ
 aDQ
-cWX
+wKZ
 qEE
 qEE
 qEE
@@ -71866,7 +73008,7 @@ iCN
 vwo
 pjG
 ale
-ieA
+poj
 fqK
 fqK
 fqK
@@ -72182,13 +73324,13 @@ xFx
 mWp
 szK
 ktW
-aac
+rnz
 ale
 ieA
 cWy
 mCE
 gxx
-dsn
+brQ
 fqK
 oeX
 osL
@@ -72668,7 +73810,7 @@ vXN
 yaH
 yaH
 yaH
-yaH
+eaw
 yaH
 yaH
 yaH
@@ -72707,6 +73849,7 @@ jXv
 jXv
 jXv
 jXv
+kEl
 jXv
 jXv
 jXv
@@ -72715,6 +73858,7 @@ jXv
 jXv
 jXv
 jXv
+kEl
 jXv
 jXv
 jXv
@@ -72723,9 +73867,7 @@ jXv
 jXv
 jXv
 jXv
-jXv
-jXv
-jXv
+kEl
 jXv
 jXv
 jXv
@@ -72771,13 +73913,13 @@ hUe
 hUe
 hUe
 hUe
-hUe
+jHn
 qbo
 qbo
 tre
 tre
 tre
-tre
+kmR
 kuR
 wQP
 wQP
@@ -74049,14 +75191,14 @@ wNm
 wNm
 mON
 mON
-mON
+gXE
 fWH
 wQP
 wQP
 wQP
 wQP
 wQP
-mmQ
+vEw
 tPS
 deb
 nZz
@@ -74390,7 +75532,7 @@ oGQ
 kxL
 tpw
 dWE
-dWE
+naq
 dWE
 dWE
 oGQ
@@ -74720,9 +75862,9 @@ wNm
 qeb
 mON
 oxn
-neb
-neb
-neb
+mEd
+mEd
+mEd
 hoL
 dWk
 neb
@@ -74879,10 +76021,10 @@ wNm
 qeb
 mON
 oxn
-neb
-neb
-neb
-neb
+mEd
+mEd
+mEd
+mEd
 dWk
 neb
 mgJ
@@ -75038,10 +76180,10 @@ wNm
 qeb
 mON
 oxn
-neb
-neb
-neb
-neb
+mEd
+mEd
+mEd
+mEd
 dWk
 neb
 kbf
@@ -75197,10 +76339,10 @@ wNm
 qeb
 mON
 oxn
-neb
-neb
-neb
-neb
+mEd
+mEd
+mEd
+mEd
 dWk
 neb
 neb
@@ -75310,7 +76452,7 @@ szg
 szg
 szg
 idI
-ihw
+noB
 joh
 jdH
 jdH
@@ -75356,10 +76498,10 @@ wNm
 qeb
 mON
 oxn
-oxn
-neb
-neb
-oxn
+uIU
+mEd
+mEd
+uIU
 dWk
 neb
 trt
@@ -76434,14 +77576,14 @@ wNm
 wNm
 mON
 mON
-mON
+gXE
 fsi
 wQP
 wQP
 wQP
 wQP
 wQP
-mmQ
+vEw
 mON
 mva
 rYq
@@ -77701,7 +78843,7 @@ hAO
 hAO
 wlR
 nGF
-mON
+gXE
 wNm
 wNm
 mON
@@ -77999,7 +79141,7 @@ syd
 oyq
 lvm
 taE
-uQe
+kQp
 olu
 olu
 oCX
@@ -78024,7 +79166,7 @@ wNm
 wNm
 mON
 mON
-mON
+gXE
 fsi
 wQP
 wQP
@@ -79131,7 +80273,7 @@ sZQ
 nuT
 sZQ
 aol
-vPP
+iQx
 mON
 wNm
 wNm
@@ -79144,7 +80286,7 @@ wQP
 wQP
 wQP
 wQP
-xDi
+qpn
 wzT
 oyq
 oyq
@@ -79167,7 +80309,7 @@ oyq
 oyq
 oyq
 oyq
-wzT
+twT
 bun
 bun
 wzT
@@ -79294,7 +80436,7 @@ vPP
 wzT
 bun
 bun
-wzT
+twT
 wzT
 wzT
 fWH
@@ -79927,7 +81069,7 @@ gFO
 gFO
 gFO
 gFO
-tre
+rTH
 wNm
 wNm
 tre
@@ -79991,10 +81133,10 @@ tre
 tre
 tre
 tre
-tre
+kmR
 wNm
 wNm
-tre
+kmR
 tre
 tre
 tre
@@ -80443,7 +81585,7 @@ mON
 acC
 acC
 mON
-mON
+gXE
 fWH
 uqB
 wQP
@@ -81043,6 +82185,7 @@ oyq
 hiC
 wNm
 wNm
+vnG
 mON
 mON
 mON
@@ -81058,8 +82201,7 @@ mON
 mON
 mON
 mON
-mON
-mON
+vnG
 wNm
 wNm
 mON
@@ -81075,7 +82217,7 @@ mON
 mON
 mON
 mON
-mON
+gXE
 acC
 acC
 mON
@@ -82665,7 +83807,7 @@ mON
 sHp
 sHp
 gPe
-gPe
+eBu
 xBy
 mLJ
 mHX
@@ -85333,7 +86475,7 @@ gAD
 gAD
 khT
 oyq
-hiC
+fps
 mJD
 hGz
 pem
@@ -102235,7 +103377,7 @@ kUl
 uaa
 ale
 ale
-spP
+jym
 oTt
 gKY
 gKY
@@ -102871,7 +104013,7 @@ dyM
 lXk
 vqg
 ale
-wsV
+rHv
 oTt
 gKY
 gKY
@@ -107157,10 +108299,10 @@ bcr
 bcr
 xrH
 khm
-khm
-sGf
-sGf
-khm
+erj
+qxV
+qxV
+erj
 khm
 khm
 sGf

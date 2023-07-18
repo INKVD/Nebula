@@ -74,7 +74,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/turbolift/pd_top)
+/area/fairpoint/police)
 "aX" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/filingcabinet/filingcabinet,
@@ -100,8 +100,7 @@
 /area/fairpoint/police)
 "bg" = (
 /obj/machinery/door/airlock/security{
-	name = "Detective";
-	req_access = list(4)
+	name = "Detective"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/fairpoint/police/detectives_office)
@@ -257,6 +256,8 @@
 	dir = 9
 	},
 /obj/item/storage/laundry_basket,
+/obj/item/clothing/suit/storage/toggle/brown_jacket/police,
+/obj/item/clothing/suit/storage/toggle/brown_jacket/police,
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/vacantoffice)
 "cy" = (
@@ -414,6 +415,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "ef" = (
@@ -523,8 +526,7 @@
 "eK" = (
 /obj/machinery/door/airlock/command{
 	id_tag = "captaindoor";
-	name = "Mayor's Car Park";
-	req_access = list(20)
+	name = "Mayor's Car Park"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/fairpoint/cityhall)
@@ -608,8 +610,7 @@
 /obj/item/storage/box/ammo/beanbags,
 /obj/item/storage/box/ammo/beanbags,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
@@ -715,8 +716,7 @@
 /area/fairpoint/police/main)
 "gu" = (
 /obj/machinery/door/window/brigdoor/southleft{
-	name = "Chief of Police";
-	req_access = list(58)
+	name = "Chief of Police"
 	},
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/police/cop)
@@ -917,7 +917,7 @@
 /turf/simulated/wall/prepainted{
 	color = "FFFEFD"
 	},
-/area/turbolift/hospital_top)
+/area/fairpoint/medical/medbay)
 "hW" = (
 /turf/simulated/wall/r_wall,
 /area/fairpoint/police/vacantoffice)
@@ -1072,8 +1072,7 @@
 "jh" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -1101,8 +1100,7 @@
 /area/fairpoint/police)
 "js" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Secure Armoury Section";
-	req_access = list(3)
+	name = "Secure Armoury Section"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
@@ -1141,8 +1139,7 @@
 /area/fairpoint/police/vacantoffice)
 "jG" = (
 /obj/machinery/door/window/southright{
-	name = "private area access";
-	req_access = list(20)
+	name = "private area access"
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/cityhall)
@@ -1273,7 +1270,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/turbolift/pd_top)
+/area/fairpoint/police)
 "kN" = (
 /turf/simulated/wall/r_wall,
 /area/fairpoint/maintenance/telecomms)
@@ -1379,9 +1376,7 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cmo)
 "lx" = (
-/obj/machinery/door/airlock/hatch{
-	req_access = list(53)
-	},
+/obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/greengrid,
 /area/fairpoint/maintenance/telecomms)
 "lB" = (
@@ -1396,8 +1391,7 @@
 	},
 /obj/machinery/door/window/brigdoor/southleft{
 	dir = 1;
-	name = "Laser Armor";
-	req_access = list(1)
+	name = "Laser Armor"
 	},
 /obj/structure/rack,
 /obj/item/clothing/head/helmet/ablative,
@@ -1652,9 +1646,7 @@
 /area/fairpoint/police/detectives_office)
 "nD" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/westleft{
-	req_access = list(39)
-	},
+/obj/machinery/door/window/westleft,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_a)
 "nE" = (
@@ -1676,6 +1668,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "nG" = (
@@ -1716,7 +1710,7 @@
 "oj" = (
 /obj/structure/sign/warning/fall,
 /turf/simulated/wall/elevator,
-/area/turbolift/pd_top)
+/area/fairpoint/police)
 "ok" = (
 /obj/structure/table/woodentable/maple,
 /turf/simulated/floor/wood/bamboo,
@@ -1779,9 +1773,7 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
 "oI" = (
-/obj/machinery/door/airlock/security{
-	req_access = list(1)
-	},
+/obj/machinery/door/airlock/security,
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/detectives_office)
 "oK" = (
@@ -1942,6 +1934,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "qi" = (
@@ -1973,8 +1967,7 @@
 /area/fairpoint/police/detectives_office)
 "qv" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Secure Armoury Section";
-	req_access = list(3)
+	name = "Secure Armoury Section"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/tactical)
@@ -2014,12 +2007,10 @@
 "qH" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/eastleft{
-	name = "Warden's Desk";
-	req_access = list(1)
+	name = "Warden's Desk"
 	},
 /obj/machinery/door/window/westright{
-	name = "Warden's Desk";
-	req_access = list(1)
+	name = "Warden's Desk"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/warden)
@@ -2103,8 +2094,7 @@
 /obj/item/storage/box/ammo/shotgunammo,
 /obj/item/storage/box/ammo/shotgunammo,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
@@ -2129,8 +2119,7 @@
 	dir = 8
 	},
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /obj/item/ammo_casing/rifle,
 /obj/item/ammo_casing/rifle,
@@ -2224,8 +2213,7 @@
 /obj/item/storage/box/teargas,
 /obj/item/storage/box/teargas,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Weapons locker";
-	req_access = list(2)
+	name = "Weapons locker"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/tactical)
@@ -2241,8 +2229,7 @@
 /obj/item/storage/box/ammo/shotgunshells,
 /obj/item/storage/box/ammo/shotgunshells,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
@@ -2270,6 +2257,7 @@
 "sL" = (
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/industrial/warning/dust,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
 "sM" = (
@@ -2331,6 +2319,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "tB" = (
@@ -2450,7 +2440,6 @@
 "uE" = (
 /obj/structure/closet/secure_closet/detective,
 /obj/item/clothing/accessory/badge,
-/obj/item/clothing/accessory/badge,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
@@ -2462,6 +2451,10 @@
 /obj/item/clothing/suit/armor/pcarrier/detective,
 /obj/item/clothing/accessory/armor/plate/medium,
 /obj/item/clothing/head/helmet,
+/obj/item/clothing/under/security/pddetective,
+/obj/item/clothing/head/soft/sec/policedetective,
+/obj/item/clothing/head/soft/sec/police/detectiveballcap,
+/obj/item/clothing/head/soft/sec/policedetective,
 /turf/simulated/floor/carpet,
 /area/fairpoint/police/detectives_office)
 "uF" = (
@@ -2625,8 +2618,7 @@
 	},
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/closet/wardrobe/tactical,
 /turf/simulated/floor/tiled/techfloor,
@@ -2663,7 +2655,7 @@
 "wr" = (
 /obj/structure/sign/warning,
 /turf/simulated/wall/elevator,
-/area/turbolift/pd_top)
+/area/fairpoint/police)
 "wv" = (
 /obj/machinery/computer/modular/preset/engineering,
 /turf/simulated/floor/tiled/steel_grid,
@@ -2877,8 +2869,7 @@
 /area/fairpoint/police/vacantoffice)
 "xL" = (
 /obj/machinery/door/airlock/security{
-	name = "Interrogation Observation";
-	req_access = list(63)
+	name = "Interrogation Observation"
 	},
 /obj/effect/floor_decal/corner/blue/diagonal,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -3063,7 +3054,6 @@
 "zL" = (
 /obj/structure/closet/secure_closet/detective,
 /obj/item/clothing/accessory/badge,
-/obj/item/clothing/accessory/badge,
 /obj/structure/window/reinforced{
 	dir = 8;
 	health = 1e+006
@@ -3076,6 +3066,10 @@
 /obj/item/clothing/suit/armor/pcarrier/detective,
 /obj/item/clothing/accessory/armor/plate/medium,
 /obj/item/clothing/head/helmet,
+/obj/item/clothing/under/security/pddetective,
+/obj/item/clothing/head/soft/sec/policedetective,
+/obj/item/clothing/head/soft/sec/police/detectiveballcap,
+/obj/item/clothing/head/soft/sec/policedetective,
 /turf/simulated/floor/carpet,
 /area/fairpoint/police/detectives_office)
 "zM" = (
@@ -3279,8 +3273,7 @@
 "BD" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -3303,8 +3296,7 @@
 /area/fairpoint/medical/biostorage)
 "BH" = (
 /obj/machinery/door/airlock/security{
-	name = "Interrogation Room";
-	req_access = list(1)
+	name = "Interrogation Room"
 	},
 /obj/effect/floor_decal/corner/blue/diagonal,
 /turf/simulated/floor/tiled/techfloor,
@@ -3520,6 +3512,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning/dust,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
 "DC" = (
@@ -3664,8 +3657,7 @@
 "EF" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -3774,8 +3766,7 @@
 	},
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/rack,
 /obj/item/gun/projectile/shotgun/pump,
@@ -3949,8 +3940,7 @@
 /obj/item/storage/box/ammo/stunshells,
 /obj/item/storage/box/ammo/stunshells,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /obj/item/ammo_magazine/shotholder/stun,
 /obj/item/ammo_magazine/shotholder/stun,
@@ -4284,8 +4274,7 @@
 	dir = 8
 	},
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Ammo";
-	req_access = list(2)
+	name = "Ammo"
 	},
 /obj/item/ammo_magazine/smg,
 /obj/item/ammo_magazine/smg,
@@ -4321,6 +4310,9 @@
 /obj/item/clothing/accessory/armor/plate/medium,
 /obj/item/clothing/accessory/armor/tag/hos,
 /obj/item/clothing/suit/armor/pcarrier/tactical,
+/obj/item/clothing/under/head_of_security/pdchief,
+/obj/item/clothing/head/soft/sec/police/chiefballcap,
+/obj/item/clothing/head/soft/sec/policechief,
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/police/cop)
 "JO" = (
@@ -4343,6 +4335,9 @@
 /obj/item/clothing/accessory/armor/plate/tactical,
 /obj/item/clothing/accessory/armor/tag,
 /obj/item/telebaton,
+/obj/item/clothing/under/warden/pdsergeant,
+/obj/item/clothing/head/soft/sec/police/sergeantballcap,
+/obj/item/clothing/head/soft/sec/policesergeant,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/warden)
 "JS" = (
@@ -4371,9 +4366,6 @@
 	},
 /turf/simulated/floor/lino,
 /area/fairpoint/police/detectives_office)
-"JY" = (
-/turf/simulated/floor/tiled/white,
-/area/turbolift/hospital_top)
 "Ka" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 1
@@ -4609,7 +4601,7 @@
 /area/fairpoint/police/prison/dorm)
 "Mo" = (
 /turf/unsimulated/mask,
-/area/fairpoint/street/outskirts)
+/area/turbolift/mall_top)
 "Mr" = (
 /obj/structure/bed/chair/office/light{
 	tag = "icon-officechair_white (WEST)";
@@ -4953,6 +4945,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "PD" = (
@@ -4977,7 +4971,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
-/area/turbolift/pd_top)
+/area/fairpoint/police)
 "PL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
 	dir = 9
@@ -5018,8 +5012,7 @@
 "Qg" = (
 /obj/machinery/door/window/southright{
 	dir = 1;
-	name = "Virology Isolation Room Three";
-	req_access = list(39)
+	name = "Virology Isolation Room Three"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_wing)
@@ -5183,6 +5176,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "RC" = (
@@ -5295,8 +5290,7 @@
 /area/fairpoint/crew_quarters/bar)
 "SP" = (
 /obj/machinery/door/airlock/command{
-	name = "CMO's Office";
-	req_access = list(40)
+	name = "CMO's Office"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cmo)
@@ -5334,6 +5328,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "SY" = (
@@ -5355,8 +5351,7 @@
 "Tk" = (
 /obj/machinery/door/airlock/command{
 	id_tag = "HoSdoor";
-	name = "Chief of Police";
-	req_access = list(58)
+	name = "Chief of Police"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/cop)
@@ -5422,8 +5417,8 @@
 /turf/simulated/floor/carpet/blue2,
 /area/fairpoint/medical/medbay)
 "TQ" = (
-/turf/simulated/floor/tiled/dark,
-/area/turbolift/pd_top)
+/turf/simulated/floor/wood/walnut,
+/area/turbolift/mall_top)
 "TR" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
@@ -5443,6 +5438,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "TU" = (
@@ -5499,8 +5496,8 @@
 /turf/simulated/floor/carpet/blue,
 /area/fairpoint/police/detectives_office)
 "Ud" = (
-/turf/simulated/wall/elevator,
-/area/turbolift/pd_top)
+/turf/simulated/wall/walnut,
+/area/turbolift/mall_top)
 "Uf" = (
 /obj/effect/floor_decal/carpet/blue2,
 /obj/effect/floor_decal/carpet/blue2{
@@ -5536,8 +5533,7 @@
 	},
 /obj/machinery/door/window/brigdoor/southleft{
 	dir = 1;
-	name = "Bullet Armor";
-	req_access = list(1)
+	name = "Bullet Armor"
 	},
 /obj/structure/rack,
 /obj/item/clothing/suit/armor/bulletproof,
@@ -5610,6 +5606,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "UB" = (
@@ -5646,8 +5644,7 @@
 "UR" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	dir = 2;
-	req_access = list(2)
+	dir = 2
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -5702,11 +5699,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/armoury)
-"Vy" = (
-/turf/simulated/wall/prepainted{
-	color = "FFFEFD"
-	},
-/area/turbolift/hospital_top)
 "VE" = (
 /obj/structure/curtain{
 	color = "#72AFED";
@@ -5842,9 +5834,7 @@
 /turf/simulated/floor/tiled,
 /area/fairpoint/medical/psych)
 "WO" = (
-/obj/machinery/door/window/southright{
-	req_access = list(39)
-	},
+/obj/machinery/door/window/southright,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_a)
 "WR" = (
@@ -5978,8 +5968,7 @@
 "Yj" = (
 /obj/machinery/door/window/southright{
 	dir = 1;
-	name = "Virology Isolation Room Three";
-	req_access = list(39)
+	name = "Virology Isolation Room Three"
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_c)
@@ -6122,8 +6111,7 @@
 /obj/item/telebaton,
 /obj/item/telebaton,
 /obj/machinery/door/window/brigdoor/northleft{
-	name = "Weapons locker";
-	req_access = list(2)
+	name = "Weapons locker"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/tactical)
@@ -6204,6 +6192,8 @@
 /obj/item/clothing/accessory/armor/plate,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/suit/armor/pcarrier,
+/obj/item/clothing/under/security/pdofficer,
+/obj/item/clothing/head/soft/sec/policesenior,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/vacantoffice)
 "ZZ" = (
@@ -18474,11 +18464,11 @@ cy
 cy
 cy
 Oo
-Ud
-Ud
-Ud
-Ud
-Ud
+sg
+sg
+sg
+sg
+sg
 oj
 PK
 yH
@@ -18638,7 +18628,7 @@ CM
 CM
 CM
 CM
-Ud
+sg
 kL
 yH
 Zl
@@ -18797,7 +18787,7 @@ CM
 CM
 CM
 CM
-TQ
+yH
 aG
 yH
 Zl
@@ -18956,7 +18946,7 @@ CM
 CM
 CM
 CM
-TQ
+yH
 aG
 yH
 hz
@@ -19115,7 +19105,7 @@ CM
 CM
 CM
 CM
-TQ
+yH
 aG
 yH
 fL
@@ -19274,7 +19264,7 @@ CM
 CM
 CM
 CM
-Ud
+sg
 kL
 yH
 Zl
@@ -19428,11 +19418,11 @@ JT
 JT
 JT
 sg
-Ud
-Ud
-Ud
-Ud
-Ud
+sg
+sg
+sg
+sg
+sg
 wr
 PK
 ot
@@ -22083,11 +22073,11 @@ ji
 ny
 mA
 hT
-Vy
-Vy
-Vy
-Vy
-Vy
+Gb
+Gb
+Gb
+Gb
+Gb
 ct
 Iu
 Iu
@@ -22241,7 +22231,7 @@ SP
 ny
 ny
 Dz
-Vy
+Gb
 Pw
 Pw
 Pw
@@ -22400,7 +22390,7 @@ qQ
 fd
 ny
 QJ
-JY
+ny
 Pw
 Pw
 Pw
@@ -22559,7 +22549,7 @@ SF
 qA
 ny
 QJ
-JY
+ny
 Pw
 Pw
 Pw
@@ -22718,7 +22708,7 @@ SF
 qA
 ny
 QJ
-JY
+ny
 Pw
 Pw
 Pw
@@ -22877,7 +22867,7 @@ qQ
 gH
 ny
 sL
-Vy
+Gb
 Pw
 Pw
 Pw
@@ -27162,10 +27152,10 @@ UB
 UB
 UG
 ET
-ET
-De
-De
-ET
+Ud
+TQ
+TQ
+Ud
 ET
 ET
 De
